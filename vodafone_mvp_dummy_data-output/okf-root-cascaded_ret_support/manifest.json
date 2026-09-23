@@ -1,0 +1,12 @@
+{
+  "okf_version": "0.2",
+  "generated_at": "2026-09-23T08:12:10+00:00",
+  "bundle_count": 1,
+  "bundles": [
+    {
+      "name": "vodafone_mvp_dummy_data-output",
+      "concept_count": 48,
+      "description": "This directory contains technical documentation covering carrier aggregation, energy efficiency enhancements, and cascaded RET support features."
+    }
+  ]
+}

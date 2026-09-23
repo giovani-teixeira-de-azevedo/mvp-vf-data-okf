@@ -1,0 +1,140 @@
+{
+  "okf_version": "0.2",
+  "generated_at": "2026-09-23T10:08:40+00:00",
+  "concept_count": 8,
+  "concepts": [
+    {
+      "id": "activation-procedure",
+      "path": "activation-procedure.md",
+      "type": "procedure",
+      "title": "ACTIVATION PROCEDURE",
+      "description": "Activation procedure, preconditions, rollout strategy, and verification commands for Cascaded RET Support.",
+      "tags": [
+        "cascaded-ret",
+        "activation",
+        "rancli",
+        "aisg",
+        "ret-device"
+      ],
+      "resource": "data/vodafone-mvp/raw/Cascaded RET Support.pdf#activation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "deactivation-procedure",
+      "path": "deactivation-procedure.md",
+      "type": "procedure",
+      "title": "Deactivation Procedure",
+      "description": "Outlines the operational impact, considerations, and step-by-step CLI commands for deactivating the Cascaded RET Support feature.",
+      "tags": [
+        "cascaded-ret",
+        "deactivation",
+        "rancli",
+        "ret-device"
+      ],
+      "resource": "data/vodafone-mvp/raw/Cascaded RET Support.pdf#deactivation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "feature-depedencies",
+      "path": "feature-depedencies.md",
+      "type": "concept",
+      "title": "Feature Dependencies",
+      "description": "Outlines feature, hardware, and network dependencies alongside operational limitations for Cascaded RET Support.",
+      "tags": [
+        "ret",
+        "cascaded-ret",
+        "dependencies",
+        "hardware",
+        "limitations",
+        "aisg"
+      ],
+      "resource": "data/vodafone-mvp/raw/Cascaded RET Support.pdf#feature-depedencies",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "feature-operation",
+      "path": "feature-operation.md",
+      "type": "concept",
+      "title": "FEATURE OPERATION",
+      "description": "Outlines the operational procedures for Cascaded RET Support, including AISG bus scanning, device discovery, calibration, electrical tilt adjustment, and continuous supervision.",
+      "tags": [
+        "aisg",
+        "ret",
+        "ald",
+        "gnodeb",
+        "retdevice",
+        "electrical-tilt"
+      ],
+      "resource": "data/vodafone-mvp/raw/Cascaded RET Support.pdf#feature-operation",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "feature-overview",
+      "path": "feature-overview.md",
+      "type": "concept",
+      "title": "Feature Overview",
+      "description": "Provides an overview of the Cascaded RET Support feature, detailing AISG daisy-chaining, transport variants, device discovery, and management capability.",
+      "tags": [
+        "RET",
+        "AISG",
+        "ALD",
+        "Remote Electrical Tilt",
+        "Cascaded RET",
+        "O&M"
+      ],
+      "resource": "data/vodafone-mvp/raw/Cascaded RET Support.pdf#feature-overview",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "network-impact",
+      "path": "network-impact.md",
+      "type": "concept",
+      "title": "Network Impact",
+      "description": "Details the network impact of Cascaded RET Support across coverage and capacity, end-user plane, O&M load, and site operations.",
+      "tags": [
+        "ret",
+        "cascaded-ret",
+        "network-impact",
+        "coverage",
+        "sinr",
+        "aisg",
+        "o-and-m"
+      ],
+      "resource": "data/vodafone-mvp/raw/Cascaded RET Support.pdf#network-impact",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "parameters",
+      "path": "parameters.md",
+      "type": "reference-table",
+      "title": "Parameters",
+      "description": "Defines the configuration parameters governing AISG bus scanning behavior and per-device tilt control for Cascaded RET Support.",
+      "tags": [
+        "parameters",
+        "cascaded-ret",
+        "aisg",
+        "tilt-control",
+        "ald"
+      ],
+      "resource": "data/vodafone-mvp/raw/Cascaded RET Support.pdf#parameters",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "performance-management",
+      "path": "performance-management.md",
+      "type": "concept",
+      "title": "PERFORMANCE MANAGEMENT",
+      "description": "Performance management, Key Performance Indicators (KPIs), formulas, and counters for monitoring device health and AISG bus status in Cascaded RET Support.",
+      "tags": [
+        "aisg",
+        "ald",
+        "ret",
+        "performance-management",
+        "kpi",
+        "counters"
+      ],
+      "resource": "data/vodafone-mvp/raw/Cascaded RET Support.pdf#performance-management",
+      "trust_tier": "unverified"
+    }
+  ]
+}
