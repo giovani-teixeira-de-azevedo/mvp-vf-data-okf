@@ -1,0 +1,136 @@
+{
+  "okf_version": "0.2",
+  "generated_at": "2026-09-22T15:05:13+00:00",
+  "concept_count": 8,
+  "concepts": [
+    {
+      "id": "activation-procedure",
+      "path": "activation-procedure.md",
+      "type": "procedure",
+      "title": "ACTIVATION PROCEDURE",
+      "description": "Details the traffic impact, preconditions, rollout recommendations, and CLI commands for activating Dynamic Component Carrier Management.",
+      "tags": [
+        "activation",
+        "procedure",
+        "dynamic-cc-management",
+        "rancli",
+        "configuration"
+      ],
+      "resource": "data/vodafone-mvp/raw/Dynamic Component Carrier Management.pdf#activation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "deactivation-procedure",
+      "path": "deactivation-procedure.md",
+      "type": "procedure",
+      "title": "Deactivation Procedure",
+      "description": "Outlines the CLI execution steps, state verification, and traffic impact for deactivating Dynamic Component Carrier Management.",
+      "tags": [
+        "dynamic-cc-management",
+        "deactivation",
+        "rancli",
+        "scell"
+      ],
+      "resource": "data/vodafone-mvp/raw/Dynamic Component Carrier Management.pdf#deactivation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "feature-depedencies",
+      "path": "feature-depedencies.md",
+      "type": "concept",
+      "title": "Feature Dependencies",
+      "description": "Outlines feature, hardware, and network dependencies as well as operational limitations for Dynamic Component Carrier Management.",
+      "tags": [
+        "dynamic-cc-mgmt",
+        "dependencies",
+        "hardware-dependencies",
+        "network-dependencies",
+        "limitations",
+        "carrier-aggregation"
+      ],
+      "resource": "data/vodafone-mvp/raw/Dynamic Component Carrier Management.pdf#feature-depedencies",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "feature-operation",
+      "path": "feature-operation.md",
+      "type": "concept",
+      "title": "FEATURE OPERATION",
+      "description": "Describes the operational sequence, candidate scoring formula, and periodic re-evaluation rules for SCell selection and swapping in Dynamic Component Carrier Management.",
+      "tags": [
+        "carrier-management",
+        "scell",
+        "rrc-reconfiguration",
+        "scoring",
+        "load-balancing"
+      ],
+      "resource": "data/vodafone-mvp/raw/Dynamic Component Carrier Management.pdf#feature-operation",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "feature-overview",
+      "path": "feature-overview.md",
+      "type": "concept",
+      "title": "FEATURE OVERVIEW",
+      "description": "Overview of Dynamic Component Carrier Management, providing automated, load-driven selection, scoring, and redistribution of component carriers for CA-capable UEs.",
+      "tags": [
+        "dynamic-component-carrier-management",
+        "carrier-aggregation",
+        "scell",
+        "load-balancing",
+        "prb-utilization"
+      ],
+      "resource": "data/vodafone-mvp/raw/Dynamic Component Carrier Management.pdf#feature-overview",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "network-impact",
+      "path": "network-impact.md",
+      "type": "concept",
+      "title": "Network Impact",
+      "description": "Overview of the network-level impact of Dynamic Component Carrier Management on capacity, load balance, signaling, end-user experience, and KPIs.",
+      "tags": [
+        "dynamic-component-carrier-management",
+        "network-impact",
+        "capacity",
+        "load-balance",
+        "rrc-reconfiguration",
+        "scell-swap",
+        "kpi"
+      ],
+      "resource": "data/vodafone-mvp/raw/Dynamic Component Carrier Management.pdf#network-impact",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "parameters",
+      "path": "parameters.md",
+      "type": "reference-table",
+      "title": "Parameters",
+      "description": "Configuration parameters and weight rules for Dynamic Component Carrier Management on NrFunction=1.",
+      "tags": [
+        "parameters",
+        "nrfunction",
+        "dynamic-component-carrier-management",
+        "configuration"
+      ],
+      "resource": "data/vodafone-mvp/raw/Dynamic Component Carrier Management.pdf#parameters",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "performance-management",
+      "path": "performance-management.md",
+      "type": "concept",
+      "title": "PERFORMANCE MANAGEMENT",
+      "description": "Defines performance monitoring guidelines, KPIs, and counters for Dynamic Component Carrier Management.",
+      "tags": [
+        "performance-management",
+        "kpis",
+        "counters",
+        "carrier-load",
+        "rebalancing"
+      ],
+      "resource": "data/vodafone-mvp/raw/Dynamic Component Carrier Management.pdf#performance-management",
+      "trust_tier": "unverified"
+    }
+  ]
+}

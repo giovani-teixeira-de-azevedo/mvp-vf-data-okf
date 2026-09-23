@@ -1,0 +1,654 @@
+{
+  "okf_version": "0.2",
+  "generated_at": "2026-09-22T15:07:11+00:00",
+  "concept_count": 40,
+  "concepts": [
+    {
+      "id": "carrier_aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/activation-procedure",
+      "path": "carrier_aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/activation-procedure.md",
+      "type": "procedure",
+      "title": "ACTIVATION PROCEDURE",
+      "description": "Activation procedure, preconditions, traffic impact, rollout strategy, and execution steps for Closed-Loop Power Control High-Band.",
+      "tags": [
+        "activation",
+        "procedure",
+        "rancli",
+        "power-control",
+        "fr2"
+      ],
+      "resource": "data/vodafone-mvp/raw/Closed-Loop Power Control High-Band.pdf#activation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "carrier_aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/deactivation-procedure",
+      "path": "carrier_aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/deactivation-procedure.md",
+      "type": "procedure",
+      "title": "Deactivation Procedure",
+      "description": "Details the step-by-step procedure, traffic impact, and CLI commands for deactivating Closed-Loop Power Control High-Band.",
+      "tags": [
+        "rancli",
+        "closed-loop-pc",
+        "deactivation",
+        "power-control"
+      ],
+      "resource": "data/vodafone-mvp/raw/Closed-Loop Power Control High-Band.pdf#deactivation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "carrier_aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/feature-depedencies",
+      "path": "carrier_aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/feature-depedencies.md",
+      "type": "concept",
+      "title": "FEATURE DEPEDENCIES",
+      "description": "Outlines feature, hardware, and network dependencies along with operational limitations for Closed-Loop Power Control High-Band.",
+      "tags": [
+        "closed-loop-power-control",
+        "high-band",
+        "dependencies",
+        "fr2",
+        "hardware-dependencies",
+        "limitations"
+      ],
+      "resource": "data/vodafone-mvp/raw/Closed-Loop Power Control High-Band.pdf#feature-depedencies",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "carrier_aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/feature-operation",
+      "path": "carrier_aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/feature-operation.md",
+      "type": "concept",
+      "title": "FEATURE OPERATION",
+      "description": "Describes the operation of Closed-Loop Power Control High-Band including SINR estimation, TPC command calculation, sequence flows, and blockage recovery.",
+      "tags": [
+        "closed-loop-power-control",
+        "FR2",
+        "TPC",
+        "SINR",
+        "blockage-recovery"
+      ],
+      "resource": "data/vodafone-mvp/raw/Closed-Loop Power Control High-Band.pdf#feature-operation",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "carrier_aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/feature-overview",
+      "path": "carrier_aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/feature-overview.md",
+      "type": "concept",
+      "title": "Feature Overview",
+      "description": "Overview of Closed-Loop Power Control High-Band for NR high-band (FR2) carriers operating as PCells or SCells.",
+      "tags": [
+        "power-control",
+        "fr2",
+        "mmwave",
+        "tpc",
+        "pusch",
+        "srs",
+        "gnodeb"
+      ],
+      "resource": "data/vodafone-mvp/raw/Closed-Loop Power Control High-Band.pdf#feature-overview",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "carrier_aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/network-impact",
+      "path": "carrier_aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/network-impact.md",
+      "type": "concept",
+      "title": "NETWORK IMPACT",
+      "description": "Details the network impacts on uplink interference, throughput, UE battery consumption, signaling, and KPIs.",
+      "tags": [
+        "network-impact",
+        "uplink-interference",
+        "throughput",
+        "ue-battery",
+        "signaling",
+        "kpis"
+      ],
+      "resource": "data/vodafone-mvp/raw/Closed-Loop Power Control High-Band.pdf#network-impact",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "carrier_aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/parameters",
+      "path": "carrier_aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/parameters.md",
+      "type": "reference-table",
+      "title": "Parameters",
+      "description": "Configuration parameters for Closed-Loop Power Control High-Band set per NR sector carrier.",
+      "tags": [
+        "parameters",
+        "closed-loop-pc",
+        "nr-sector-carrier",
+        "sinr",
+        "power-control"
+      ],
+      "resource": "data/vodafone-mvp/raw/Closed-Loop Power Control High-Band.pdf#parameters",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "carrier_aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/performance-management",
+      "path": "carrier_aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/performance-management.md",
+      "type": "concept",
+      "title": "PERFORMANCE MANAGEMENT",
+      "description": "Details performance management evaluation, KPIs, and counters for Closed-Loop Power Control High-Band.",
+      "tags": [
+        "performance-management",
+        "kpi",
+        "counters",
+        "power-control",
+        "high-band",
+        "fr2"
+      ],
+      "resource": "data/vodafone-mvp/raw/Closed-Loop Power Control High-Band.pdf#performance-management",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "carrier_aggregation/okf-carrier_aggregation-data_aware_carrier_management/activation-procedure",
+      "path": "carrier_aggregation/okf-carrier_aggregation-data_aware_carrier_management/activation-procedure.md",
+      "type": "procedure",
+      "title": "Activation Procedure",
+      "description": "Details the activation procedure, preconditions, traffic impact, and CLI commands for Data-Aware Carrier Management.",
+      "tags": [
+        "activation",
+        "data-aware-carrier-management",
+        "rancli",
+        "procedure"
+      ],
+      "resource": "data/vodafone-mvp/raw/Data-Aware Carrier Management.pdf#activation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "carrier_aggregation/okf-carrier_aggregation-data_aware_carrier_management/deactivation-procedure",
+      "path": "carrier_aggregation/okf-carrier_aggregation-data_aware_carrier_management/deactivation-procedure.md",
+      "type": "procedure",
+      "title": "DEACTIVATION PROCEDURE",
+      "description": "Outlines the traffic impact and steps for node deactivation and reverting to static CA behavior.",
+      "tags": [
+        "deactivation",
+        "rancli",
+        "carrier-aggregation",
+        "nr-function",
+        "feature-control"
+      ],
+      "resource": "data/vodafone-mvp/raw/Data-Aware Carrier Management.pdf#deactivation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "carrier_aggregation/okf-carrier_aggregation-data_aware_carrier_management/feature-depedencies",
+      "path": "carrier_aggregation/okf-carrier_aggregation-data_aware_carrier_management/feature-depedencies.md",
+      "type": "concept",
+      "title": "Feature Dependencies",
+      "description": "Outlines software, hardware, network dependencies, interworking relationships, and limitations for Data-Aware Carrier Management.",
+      "tags": [
+        "carrier-aggregation",
+        "dependencies",
+        "hardware-requirements",
+        "limitations",
+        "licensing"
+      ],
+      "resource": "data/vodafone-mvp/raw/Data-Aware Carrier Management.pdf#feature-depedencies",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "carrier_aggregation/okf-carrier_aggregation-data_aware_carrier_management/feature-operation",
+      "path": "carrier_aggregation/okf-carrier_aggregation-data_aware_carrier_management/feature-operation.md",
+      "type": "concept",
+      "title": "Feature Operation",
+      "description": "Describes the operational mechanism of Data-Aware Carrier Management, including demand estimation sampling, threshold-driven class transitions, and SCell lifecycle signaling.",
+      "tags": [
+        "data-aware-carrier-management",
+        "demand-estimator",
+        "scell-activation",
+        "scell-deactivation",
+        "rrc-reconfiguration",
+        "carrier-aggregation"
+      ],
+      "resource": "data/vodafone-mvp/raw/Data-Aware Carrier Management.pdf#feature-operation",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "carrier_aggregation/okf-carrier_aggregation-data_aware_carrier_management/feature-overview",
+      "path": "carrier_aggregation/okf-carrier_aggregation-data_aware_carrier_management/feature-overview.md",
+      "type": "concept",
+      "title": "FEATURE OVERVIEW",
+      "description": "Overview of Data-Aware Carrier Management, a gNodeB feature that dynamically configures and activates NR carrier aggregation SCells based on per-UE data demand classification.",
+      "tags": [
+        "carrier-aggregation",
+        "scell",
+        "nr",
+        "gnodeb",
+        "demand-estimator",
+        "data-aware-carrier-management"
+      ],
+      "resource": "data/vodafone-mvp/raw/Data-Aware Carrier Management.pdf#feature-overview",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "carrier_aggregation/okf-carrier_aggregation-data_aware_carrier_management/network-impact",
+      "path": "carrier_aggregation/okf-carrier_aggregation-data_aware_carrier_management/network-impact.md",
+      "type": "concept",
+      "title": "NETWORK IMPACT",
+      "description": "Network impact details covering signaling, user throughput, UE battery, PDCCH/CSI capacity, and KPIs.",
+      "tags": [
+        "network-impact",
+        "signaling",
+        "user-throughput",
+        "ue-battery",
+        "pdcch-csi-capacity",
+        "kpis"
+      ],
+      "resource": "data/vodafone-mvp/raw/Data-Aware Carrier Management.pdf#network-impact",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "carrier_aggregation/okf-carrier_aggregation-data_aware_carrier_management/parameters",
+      "path": "carrier_aggregation/okf-carrier_aggregation-data_aware_carrier_management/parameters.md",
+      "type": "reference-table",
+      "title": "Parameters",
+      "description": "Configuration parameters for Data-Aware Carrier Management including ranges, datatypes, and default values.",
+      "tags": [
+        "parameters",
+        "configuration",
+        "nrfunction",
+        "carrier-management",
+        "burst-thresholds"
+      ],
+      "resource": "data/vodafone-mvp/raw/Data-Aware Carrier Management.pdf#parameters",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "carrier_aggregation/okf-carrier_aggregation-data_aware_carrier_management/performance-management",
+      "path": "carrier_aggregation/okf-carrier_aggregation-data_aware_carrier_management/performance-management.md",
+      "type": "concept",
+      "title": "Performance Management",
+      "description": "Guidance, Key Performance Indicators (KPIs), and counters for verifying the efficiency and safety of Data-Aware Carrier Management.",
+      "tags": [
+        "performance-management",
+        "kpis",
+        "counters",
+        "scell",
+        "carrier-aggregation"
+      ],
+      "resource": "data/vodafone-mvp/raw/Data-Aware Carrier Management.pdf#performance-management",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "carrier_aggregation/okf-carrier_aggregation-dynamic_component_carrier_management/activation-procedure",
+      "path": "carrier_aggregation/okf-carrier_aggregation-dynamic_component_carrier_management/activation-procedure.md",
+      "type": "procedure",
+      "title": "ACTIVATION PROCEDURE",
+      "description": "Details the traffic impact, preconditions, rollout recommendations, and CLI commands for activating Dynamic Component Carrier Management.",
+      "tags": [
+        "activation",
+        "procedure",
+        "dynamic-cc-management",
+        "rancli",
+        "configuration"
+      ],
+      "resource": "data/vodafone-mvp/raw/Dynamic Component Carrier Management.pdf#activation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "carrier_aggregation/okf-carrier_aggregation-dynamic_component_carrier_management/deactivation-procedure",
+      "path": "carrier_aggregation/okf-carrier_aggregation-dynamic_component_carrier_management/deactivation-procedure.md",
+      "type": "procedure",
+      "title": "Deactivation Procedure",
+      "description": "Outlines the CLI execution steps, state verification, and traffic impact for deactivating Dynamic Component Carrier Management.",
+      "tags": [
+        "dynamic-cc-management",
+        "deactivation",
+        "rancli",
+        "scell"
+      ],
+      "resource": "data/vodafone-mvp/raw/Dynamic Component Carrier Management.pdf#deactivation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "carrier_aggregation/okf-carrier_aggregation-dynamic_component_carrier_management/feature-depedencies",
+      "path": "carrier_aggregation/okf-carrier_aggregation-dynamic_component_carrier_management/feature-depedencies.md",
+      "type": "concept",
+      "title": "Feature Dependencies",
+      "description": "Outlines feature, hardware, and network dependencies as well as operational limitations for Dynamic Component Carrier Management.",
+      "tags": [
+        "dynamic-cc-mgmt",
+        "dependencies",
+        "hardware-dependencies",
+        "network-dependencies",
+        "limitations",
+        "carrier-aggregation"
+      ],
+      "resource": "data/vodafone-mvp/raw/Dynamic Component Carrier Management.pdf#feature-depedencies",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "carrier_aggregation/okf-carrier_aggregation-dynamic_component_carrier_management/feature-operation",
+      "path": "carrier_aggregation/okf-carrier_aggregation-dynamic_component_carrier_management/feature-operation.md",
+      "type": "concept",
+      "title": "FEATURE OPERATION",
+      "description": "Describes the operational sequence, candidate scoring formula, and periodic re-evaluation rules for SCell selection and swapping in Dynamic Component Carrier Management.",
+      "tags": [
+        "carrier-management",
+        "scell",
+        "rrc-reconfiguration",
+        "scoring",
+        "load-balancing"
+      ],
+      "resource": "data/vodafone-mvp/raw/Dynamic Component Carrier Management.pdf#feature-operation",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "carrier_aggregation/okf-carrier_aggregation-dynamic_component_carrier_management/feature-overview",
+      "path": "carrier_aggregation/okf-carrier_aggregation-dynamic_component_carrier_management/feature-overview.md",
+      "type": "concept",
+      "title": "FEATURE OVERVIEW",
+      "description": "Overview of Dynamic Component Carrier Management, providing automated, load-driven selection, scoring, and redistribution of component carriers for CA-capable UEs.",
+      "tags": [
+        "dynamic-component-carrier-management",
+        "carrier-aggregation",
+        "scell",
+        "load-balancing",
+        "prb-utilization"
+      ],
+      "resource": "data/vodafone-mvp/raw/Dynamic Component Carrier Management.pdf#feature-overview",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "carrier_aggregation/okf-carrier_aggregation-dynamic_component_carrier_management/network-impact",
+      "path": "carrier_aggregation/okf-carrier_aggregation-dynamic_component_carrier_management/network-impact.md",
+      "type": "concept",
+      "title": "Network Impact",
+      "description": "Details network impacts across capacity, load balance, signaling, end users, and KPIs.",
+      "tags": [
+        "network-impact",
+        "capacity",
+        "load-balance",
+        "signaling",
+        "end-users",
+        "kpis"
+      ],
+      "resource": "data/vodafone-mvp/raw/Dynamic Component Carrier Management.pdf#network-impact",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "carrier_aggregation/okf-carrier_aggregation-dynamic_component_carrier_management/parameters",
+      "path": "carrier_aggregation/okf-carrier_aggregation-dynamic_component_carrier_management/parameters.md",
+      "type": "reference-table",
+      "title": "Parameters",
+      "description": "Configuration parameters and weight rules for Dynamic Component Carrier Management on NrFunction=1.",
+      "tags": [
+        "parameters",
+        "nrfunction",
+        "dynamic-component-carrier-management",
+        "configuration"
+      ],
+      "resource": "data/vodafone-mvp/raw/Dynamic Component Carrier Management.pdf#parameters",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "carrier_aggregation/okf-carrier_aggregation-dynamic_component_carrier_management/performance-management",
+      "path": "carrier_aggregation/okf-carrier_aggregation-dynamic_component_carrier_management/performance-management.md",
+      "type": "concept",
+      "title": "PERFORMANCE MANAGEMENT",
+      "description": "Defines performance monitoring guidelines, KPIs, and counters for Dynamic Component Carrier Management.",
+      "tags": [
+        "performance-management",
+        "kpis",
+        "counters",
+        "carrier-load",
+        "rebalancing"
+      ],
+      "resource": "data/vodafone-mvp/raw/Dynamic Component Carrier Management.pdf#performance-management",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "energy_efficiency/okf-energy_efficiency-automated_energy_saver/activation-procedure",
+      "path": "energy_efficiency/okf-energy_efficiency-automated_energy_saver/activation-procedure.md",
+      "type": "procedure",
+      "title": "ACTIVATION PROCEDURE",
+      "description": "Provides the activation procedure, preconditions, recommended rollout strategy, and rancli commands for Automated Energy Saver.",
+      "tags": [
+        "activation",
+        "automated-energy-saver",
+        "rancli",
+        "monitor-mode",
+        "auto-mode"
+      ],
+      "resource": "data/vodafone-mvp/raw/Automated Energy Saver.pdf#activation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "energy_efficiency/okf-energy_efficiency-automated_energy_saver/deactivation-procedure",
+      "path": "energy_efficiency/okf-energy_efficiency-automated_energy_saver/deactivation-procedure.md",
+      "type": "procedure",
+      "title": "Deactivation Procedure",
+      "description": "Step-by-step CLI procedure for deactivating the Automated Energy Saver feature and restoring subordinate feature configurations.",
+      "tags": [
+        "deactivation",
+        "automated-energy-saver",
+        "rancli",
+        "node-management"
+      ],
+      "resource": "data/vodafone-mvp/raw/Automated Energy Saver.pdf#deactivation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "energy_efficiency/okf-energy_efficiency-automated_energy_saver/feature-depedencies",
+      "path": "energy_efficiency/okf-energy_efficiency-automated_energy_saver/feature-depedencies.md",
+      "type": "concept",
+      "title": "Feature Dependencies",
+      "description": "Details the feature, hardware, and network dependencies along with operational limitations for Automated Energy Saver.",
+      "tags": [
+        "automated-energy-saver",
+        "dependencies",
+        "hardware-dependencies",
+        "network-dependencies",
+        "limitations",
+        "licensing"
+      ],
+      "resource": "data/vodafone-mvp/raw/Automated Energy Saver.pdf#feature-depedencies",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "energy_efficiency/okf-energy_efficiency-automated_energy_saver/feature-operation",
+      "path": "energy_efficiency/okf-energy_efficiency-automated_energy_saver/feature-operation.md",
+      "type": "concept",
+      "title": "FEATURE OPERATION",
+      "description": "Explains the operational cycle, load forecasting, savings level policies, and subordinate feature sequencing for Automated Energy Saver.",
+      "tags": [
+        "energy-saver",
+        "feature-operation",
+        "load-forecasting",
+        "savings-level"
+      ],
+      "resource": "data/vodafone-mvp/raw/Automated Energy Saver.pdf#feature-operation",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "energy_efficiency/okf-energy_efficiency-automated_energy_saver/feature-overview",
+      "path": "energy_efficiency/okf-energy_efficiency-automated_energy_saver/feature-overview.md",
+      "type": "concept",
+      "title": "FEATURE OVERVIEW",
+      "description": "Overview of Automated Energy Saver, a node-level orchestration layer that uses continuous traffic prediction to sequence gNodeB energy-saving functions.",
+      "tags": [
+        "automated-energy-saver",
+        "gnodeb",
+        "traffic-prediction",
+        "energy-saving",
+        "orchestration"
+      ],
+      "resource": "data/vodafone-mvp/raw/Automated Energy Saver.pdf#feature-overview",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "energy_efficiency/okf-energy_efficiency-automated_energy_saver/network-impact",
+      "path": "energy_efficiency/okf-energy_efficiency-automated_energy_saver/network-impact.md",
+      "type": "concept",
+      "title": "Network Impact",
+      "description": "Details the network impact of Automated Energy Saver across energy savings, end-user experience, O&M, and KPIs.",
+      "tags": [
+        "energy-saving",
+        "network-impact",
+        "o-and-m",
+        "kpis",
+        "end-user-experience"
+      ],
+      "resource": "data/vodafone-mvp/raw/Automated Energy Saver.pdf#network-impact",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "energy_efficiency/okf-energy_efficiency-automated_energy_saver/parameters",
+      "path": "energy_efficiency/okf-energy_efficiency-automated_energy_saver/parameters.md",
+      "type": "reference-table",
+      "title": "PARAMETERS",
+      "description": "Defines the configuration parameters for the Automated Energy Saver feature, including control mode, policy settings, protected daily windows, and cell opt-out attributes.",
+      "tags": [
+        "parameters",
+        "configuration",
+        "automated-energy-saver",
+        "node-control"
+      ],
+      "resource": "data/vodafone-mvp/raw/Automated Energy Saver.pdf#parameters",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "energy_efficiency/okf-energy_efficiency-automated_energy_saver/performance-management",
+      "path": "energy_efficiency/okf-energy_efficiency-automated_energy_saver/performance-management.md",
+      "type": "concept",
+      "title": "Performance Management",
+      "description": "Performance management framework, baseline requirements, KPIs, and PM counters for the Automated Energy Saver feature.",
+      "tags": [
+        "performance-management",
+        "kpis",
+        "counters",
+        "automated-energy-saver"
+      ],
+      "resource": "data/vodafone-mvp/raw/Automated Energy Saver.pdf#performance-management",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "energy_efficiency/okf-energy_efficiency-cqi_based_ue_energy_efficiency_enhancement/activation-procedure",
+      "path": "energy_efficiency/okf-energy_efficiency-cqi_based_ue_energy_efficiency_enhancement/activation-procedure.md",
+      "type": "procedure",
+      "title": "ACTIVATION PROCEDURE",
+      "description": "Step-by-step activation procedure and CLI commands for CQI-Based UE Energy Efficiency Enhancement.",
+      "tags": [
+        "activation",
+        "rancli",
+        "cqiEnergyEffMode",
+        "energy-efficiency",
+        "procedure"
+      ],
+      "resource": "data/vodafone-mvp/raw/CQI-Based UE Energy Efficiency Enhancement.pdf#activation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "energy_efficiency/okf-energy_efficiency-cqi_based_ue_energy_efficiency_enhancement/deactivation-procedure",
+      "path": "energy_efficiency/okf-energy_efficiency-cqi_based_ue_energy_efficiency_enhancement/deactivation-procedure.md",
+      "type": "procedure",
+      "title": "DEACTIVATION PROCEDURE",
+      "description": "Step-by-step procedure and CLI commands for deactivating the CQI-Based UE Energy Efficiency Enhancement feature.",
+      "tags": [
+        "cqi",
+        "ue-energy-efficiency",
+        "deactivation",
+        "rancli",
+        "procedure"
+      ],
+      "resource": "data/vodafone-mvp/raw/CQI-Based UE Energy Efficiency Enhancement.pdf#deactivation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "energy_efficiency/okf-energy_efficiency-cqi_based_ue_energy_efficiency_enhancement/feature-depedencies",
+      "path": "energy_efficiency/okf-energy_efficiency-cqi_based_ue_energy_efficiency_enhancement/feature-depedencies.md",
+      "type": "concept",
+      "title": "Feature Dependencies",
+      "description": "Outlines feature, hardware, and network dependencies along with operational limitations for CQI-Based UE Energy Efficiency Enhancement.",
+      "tags": [
+        "dependencies",
+        "limitations",
+        "drx",
+        "hardware",
+        "license"
+      ],
+      "resource": "data/vodafone-mvp/raw/CQI-Based UE Energy Efficiency Enhancement.pdf#feature-depedencies",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "energy_efficiency/okf-energy_efficiency-cqi_based_ue_energy_efficiency_enhancement/feature-operation",
+      "path": "energy_efficiency/okf-energy_efficiency-cqi_based_ue_energy_efficiency_enhancement/feature-operation.md",
+      "type": "concept",
+      "title": "Feature Operation",
+      "description": "Details the operational mechanisms, UE classification, scheduler optimizations, link adaptation, and sequence interactions for CQI-Based UE Energy Efficiency Enhancement.",
+      "tags": [
+        "cqi",
+        "energy-efficiency",
+        "race-to-sleep",
+        "relaxed-class",
+        "scheduler",
+        "link-adaptation",
+        "c-drx"
+      ],
+      "resource": "data/vodafone-mvp/raw/CQI-Based UE Energy Efficiency Enhancement.pdf#feature-operation",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "energy_efficiency/okf-energy_efficiency-cqi_based_ue_energy_efficiency_enhancement/feature-overview",
+      "path": "energy_efficiency/okf-energy_efficiency-cqi_based_ue_energy_efficiency_enhancement/feature-overview.md",
+      "type": "concept",
+      "title": "Feature Overview",
+      "description": "Overview of the CQI-Based UE Energy Efficiency Enhancement feature, detailing scheduling compaction, CSI reporting relaxation, and UE energy savings.",
+      "tags": [
+        "cqi",
+        "energy-efficiency",
+        "scheduling",
+        "drx",
+        "csi-reportconfig",
+        "link-adaptation",
+        "race-to-sleep"
+      ],
+      "resource": "data/vodafone-mvp/raw/CQI-Based UE Energy Efficiency Enhancement.pdf#feature-overview",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "energy_efficiency/okf-energy_efficiency-cqi_based_ue_energy_efficiency_enhancement/network-impact",
+      "path": "energy_efficiency/okf-energy_efficiency-cqi_based_ue_energy_efficiency_enhancement/network-impact.md",
+      "type": "concept",
+      "title": "NETWORK IMPACT",
+      "description": "Details the impact of the CQI-Based UE Energy Efficiency Enhancement feature on end users, capacity, signaling, and KPIs.",
+      "tags": [
+        "network-impact",
+        "cqi",
+        "energy-efficiency",
+        "kpis",
+        "prb-utilization",
+        "rrc-signaling"
+      ],
+      "resource": "data/vodafone-mvp/raw/CQI-Based UE Energy Efficiency Enhancement.pdf#network-impact",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "energy_efficiency/okf-energy_efficiency-cqi_based_ue_energy_efficiency_enhancement/parameters",
+      "path": "energy_efficiency/okf-energy_efficiency-cqi_based_ue_energy_efficiency_enhancement/parameters.md",
+      "type": "concept",
+      "title": "PARAMETERS",
+      "description": "Defines configuration parameters, default values, datatypes, and deployment guidelines for the CQI-Based UE Energy Efficiency Enhancement feature.",
+      "tags": [
+        "parameters",
+        "cqi",
+        "energy-efficiency",
+        "configuration"
+      ],
+      "resource": "data/vodafone-mvp/raw/CQI-Based UE Energy Efficiency Enhancement.pdf#parameters",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "energy_efficiency/okf-energy_efficiency-cqi_based_ue_energy_efficiency_enhancement/performance-management",
+      "path": "energy_efficiency/okf-energy_efficiency-cqi_based_ue_energy_efficiency_enhancement/performance-management.md",
+      "type": "concept",
+      "title": "PERFORMANCE MANAGEMENT",
+      "description": "Covers proxy-based performance monitoring, key performance indicators, formulas, and cell-level counters for CQI-Based UE Energy Efficiency Enhancement.",
+      "tags": [
+        "performance-management",
+        "kpi",
+        "counters",
+        "cqi",
+        "ue-energy-efficiency"
+      ],
+      "resource": "data/vodafone-mvp/raw/CQI-Based UE Energy Efficiency Enhancement.pdf#performance-management",
+      "trust_tier": "unverified"
+    }
+  ]
+}
