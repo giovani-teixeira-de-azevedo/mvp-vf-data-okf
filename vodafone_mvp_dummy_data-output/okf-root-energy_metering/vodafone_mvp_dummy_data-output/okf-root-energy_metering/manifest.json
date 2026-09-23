@@ -1,0 +1,132 @@
+{
+  "okf_version": "0.2",
+  "generated_at": "2026-09-23T10:26:36+00:00",
+  "concept_count": 8,
+  "concepts": [
+    {
+      "id": "activation-procedure",
+      "path": "activation-procedure.md",
+      "type": "procedure",
+      "title": "ACTIVATION PROCEDURE",
+      "description": "Step-by-step procedure for activating the Energy Metering feature, including license verification, activation commands, metering method checks, and post-activation validation.",
+      "tags": [
+        "energy-metering",
+        "activation",
+        "procedure",
+        "rancli"
+      ],
+      "resource": "data/vodafone-mvp/raw/Energy Metering.pdf#activation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "deactivation-procedure",
+      "path": "deactivation-procedure.md",
+      "type": "concept",
+      "title": "DEACTIVATION PROCEDURE",
+      "description": "Outlines the operational considerations, impact, and CLI commands for deactivating the Energy Metering feature.",
+      "tags": [
+        "energy-metering",
+        "deactivation",
+        "rancli",
+        "vodafone"
+      ],
+      "resource": "data/vodafone-mvp/raw/Energy Metering.pdf#deactivation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "feature-depedencies",
+      "path": "feature-depedencies.md",
+      "type": "concept",
+      "title": "Feature Dependencies",
+      "description": "Outlines feature, hardware, and network dependencies as well as limitations for Energy Metering.",
+      "tags": [
+        "energy-metering",
+        "dependencies",
+        "hardware-dependencies",
+        "licensing",
+        "limitations"
+      ],
+      "resource": "data/vodafone-mvp/raw/Energy Metering.pdf#feature-depedencies",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "feature-operation",
+      "path": "feature-operation.md",
+      "type": "concept",
+      "title": "FEATURE OPERATION",
+      "description": "Describes the operational mechanisms of the Energy Metering function, including hardware sampling, power estimation models, and node-level energy aggregation.",
+      "tags": [
+        "energy-metering",
+        "feature-operation",
+        "pm-counters",
+        "radiounit",
+        "basebandunit",
+        "rop",
+        "power-estimation"
+      ],
+      "resource": "data/vodafone-mvp/raw/Energy Metering.pdf#feature-operation",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "feature-overview",
+      "path": "feature-overview.md",
+      "type": "concept",
+      "title": "FEATURE OVERVIEW",
+      "description": "Overview of the Energy Metering feature providing standardized per-unit measurement and reporting of electrical energy consumption in RAN site equipment.",
+      "tags": [
+        "energy-metering",
+        "energy-efficiency",
+        "pm-counters",
+        "ran"
+      ],
+      "resource": "data/vodafone-mvp/raw/Energy Metering.pdf#feature-overview",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "network-impact",
+      "path": "network-impact.md",
+      "type": "concept",
+      "title": "Network Impact",
+      "description": "Details the impact of the Energy Metering feature on traffic, processing load, performance management counters, and organizational operations.",
+      "tags": [
+        "network-impact",
+        "energy-metering",
+        "processing-load",
+        "performance-management"
+      ],
+      "resource": "data/vodafone-mvp/raw/Energy Metering.pdf#network-impact",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "parameters",
+      "path": "parameters.md",
+      "type": "reference-table",
+      "title": "PARAMETERS",
+      "description": "Configuration parameters for the Energy Metering feature, controlling polling cadence, estimation fallback, and high-consumption alarms.",
+      "tags": [
+        "parameters",
+        "configuration",
+        "energy-metering",
+        "polling-interval",
+        "high-consumption-alarm"
+      ],
+      "resource": "data/vodafone-mvp/raw/Energy Metering.pdf#parameters",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "performance-management",
+      "path": "performance-management.md",
+      "type": "concept",
+      "title": "PERFORMANCE MANAGEMENT",
+      "description": "Defines the monitoring strategy, key performance indicators (KPIs), and performance counters for node energy consumption and efficiency.",
+      "tags": [
+        "energy-metering",
+        "performance-management",
+        "kpi",
+        "counters"
+      ],
+      "resource": "data/vodafone-mvp/raw/Energy Metering.pdf#performance-management",
+      "trust_tier": "unverified"
+    }
+  ]
+}

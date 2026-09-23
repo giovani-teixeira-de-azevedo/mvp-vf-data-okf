@@ -1,0 +1,12 @@
+{
+  "okf_version": "0.2",
+  "generated_at": "2026-09-23T10:16:04+00:00",
+  "bundle_count": 1,
+  "bundles": [
+    {
+      "name": "vodafone_mvp_dummy_data-output",
+      "concept_count": 8,
+      "description": "This directory contains technical documentation for the Cascaded RET Support feature, covering its overview, operation, lifecycle procedures, dependencies, network impact, parameters, and performance management."
+    }
+  ]
+}
