@@ -1,0 +1,273 @@
+{
+  "okf_version": "0.2",
+  "generated_at": "2026-09-23T15:16:09+00:00",
+  "concept_count": 16,
+  "concepts": [
+    {
+      "id": "vodafone_mvp_dummy_data/carrier_aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/activation-procedure",
+      "path": "vodafone_mvp_dummy_data/carrier_aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/activation-procedure.md",
+      "type": "procedure",
+      "title": "ACTIVATION PROCEDURE",
+      "description": "Activation procedure for Closed-Loop Power Control High-Band including preconditions, rollout order, and CLI commands.",
+      "tags": [
+        "activation",
+        "closed-loop-power-control",
+        "rancli",
+        "fr2",
+        "configuration"
+      ],
+      "resource": "data/vodafone-mvp/raw/Closed-Loop Power Control High-Band.pdf#activation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "vodafone_mvp_dummy_data/carrier_aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/deactivation-procedure",
+      "path": "vodafone_mvp_dummy_data/carrier_aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/deactivation-procedure.md",
+      "type": "procedure",
+      "title": "DEACTIVATION PROCEDURE",
+      "description": "Step-by-step procedure and traffic impact details for deactivating the Closed-Loop Power Control High-Band feature.",
+      "tags": [
+        "rancli",
+        "deactivation",
+        "closed-loop-power-control",
+        "nr-sector-carrier",
+        "feature-control"
+      ],
+      "resource": "data/vodafone-mvp/raw/Closed-Loop Power Control High-Band.pdf#deactivation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "vodafone_mvp_dummy_data/carrier_aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/feature-depedencies",
+      "path": "vodafone_mvp_dummy_data/carrier_aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/feature-depedencies.md",
+      "type": "concept",
+      "title": "Feature Dependencies",
+      "description": "Details the feature, hardware, and network dependencies, as well as operational limitations, for deploying Closed-Loop Power Control High-Band.",
+      "tags": [
+        "power-control",
+        "high-band",
+        "fr2",
+        "gnodeb",
+        "dependencies",
+        "limitations"
+      ],
+      "resource": "data/vodafone-mvp/raw/Closed-Loop Power Control High-Band.pdf#feature-depedencies",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "vodafone_mvp_dummy_data/carrier_aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/feature-operation",
+      "path": "vodafone_mvp_dummy_data/carrier_aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/feature-operation.md",
+      "type": "concept",
+      "title": "FEATURE OPERATION",
+      "description": "Details the operation of Closed-Loop Power Control High-Band including per-carrier state tracking, TPC commands, and blockage recovery.",
+      "tags": [
+        "closed-loop-power-control",
+        "fr2",
+        "tpc",
+        "sinr",
+        "blockage-recovery"
+      ],
+      "resource": "data/vodafone-mvp/raw/Closed-Loop Power Control High-Band.pdf#feature-operation",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "vodafone_mvp_dummy_data/carrier_aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/feature-overview",
+      "path": "vodafone_mvp_dummy_data/carrier_aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/feature-overview.md",
+      "type": "concept",
+      "title": "FEATURE OVERVIEW",
+      "description": "Provides an overview of Closed-Loop Power Control High-Band for NR FR2/mmWave carriers operating as PCells or SCells in carrier aggregation.",
+      "tags": [
+        "power-control",
+        "closed-loop",
+        "fr2",
+        "mmwave",
+        "tpc",
+        "pusch",
+        "srs",
+        "carrier-aggregation"
+      ],
+      "resource": "data/vodafone-mvp/raw/Closed-Loop Power Control High-Band.pdf#feature-overview",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "vodafone_mvp_dummy_data/carrier_aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/network-impact",
+      "path": "vodafone_mvp_dummy_data/carrier_aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/network-impact.md",
+      "type": "concept",
+      "title": "NETWORK IMPACT",
+      "description": "Network impact of Closed-Loop Power Control High-Band on uplink interference, throughput, UE battery, signaling, and KPIs.",
+      "tags": [
+        "network-impact",
+        "uplink-interference",
+        "throughput",
+        "ue-battery",
+        "signaling",
+        "kpis",
+        "fr2"
+      ],
+      "resource": "data/vodafone-mvp/raw/Closed-Loop Power Control High-Band.pdf#network-impact",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "vodafone_mvp_dummy_data/carrier_aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/parameters",
+      "path": "vodafone_mvp_dummy_data/carrier_aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/parameters.md",
+      "type": "reference-table",
+      "title": "PARAMETERS",
+      "description": "Configurable parameters for Closed-Loop Power Control High-Band set per NR sector carrier.",
+      "tags": [
+        "closed-loop power control",
+        "high-band",
+        "parameters",
+        "nr sector carrier",
+        "tpc",
+        "sinr"
+      ],
+      "resource": "data/vodafone-mvp/raw/Closed-Loop Power Control High-Band.pdf#parameters",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "vodafone_mvp_dummy_data/carrier_aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/performance-management",
+      "path": "vodafone_mvp_dummy_data/carrier_aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/performance-management.md",
+      "type": "concept",
+      "title": "PERFORMANCE MANAGEMENT",
+      "description": "Performance management principles, KPIs, formulas, and counters for evaluating loop convergence and performance.",
+      "tags": [
+        "performance-management",
+        "kpis",
+        "counters",
+        "power-control"
+      ],
+      "resource": "data/vodafone-mvp/raw/Closed-Loop Power Control High-Band.pdf#performance-management",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "vodafone_mvp_dummy_data/hardware_support/okf-hardware_support-cascaded_ret_support/activation-procedure",
+      "path": "vodafone_mvp_dummy_data/hardware_support/okf-hardware_support-cascaded_ret_support/activation-procedure.md",
+      "type": "procedure",
+      "title": "ACTIVATION PROCEDURE",
+      "description": "Activation procedure, CLI execution commands, calibration steps, and verification for Cascaded RET Support.",
+      "tags": [
+        "activation",
+        "cascaded-ret",
+        "aisg",
+        "rancli",
+        "calibration"
+      ],
+      "resource": "data/vodafone-mvp/raw/Cascaded RET Support.pdf#activation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "vodafone_mvp_dummy_data/hardware_support/okf-hardware_support-cascaded_ret_support/deactivation-procedure",
+      "path": "vodafone_mvp_dummy_data/hardware_support/okf-hardware_support-cascaded_ret_support/deactivation-procedure.md",
+      "type": "procedure",
+      "title": "Deactivation Procedure",
+      "description": "Step-by-step procedure for deactivating the Cascaded RET Support feature and verifying device management state.",
+      "tags": [
+        "cascaded-ret",
+        "ret",
+        "deactivation",
+        "rancli"
+      ],
+      "resource": "data/vodafone-mvp/raw/Cascaded RET Support.pdf#deactivation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "vodafone_mvp_dummy_data/hardware_support/okf-hardware_support-cascaded_ret_support/feature-depedencies",
+      "path": "vodafone_mvp_dummy_data/hardware_support/okf-hardware_support-cascaded_ret_support/feature-depedencies.md",
+      "type": "concept",
+      "title": "Feature Dependencies",
+      "description": "Details the feature, hardware, network dependencies, and operating limitations for Cascaded RET Support.",
+      "tags": [
+        "RET",
+        "Cascaded RET",
+        "AISG",
+        "Hardware Dependencies",
+        "License",
+        "Limitations"
+      ],
+      "resource": "data/vodafone-mvp/raw/Cascaded RET Support.pdf#feature-depedencies",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "vodafone_mvp_dummy_data/hardware_support/okf-hardware_support-cascaded_ret_support/feature-operation",
+      "path": "vodafone_mvp_dummy_data/hardware_support/okf-hardware_support-cascaded_ret_support/feature-operation.md",
+      "type": "concept",
+      "title": "Feature Operation",
+      "description": "Explains the operation of cascaded RET support, including AISG bus scanning, ALD device discovery, calibration, electrical tilt control, and continuous device supervision.",
+      "tags": [
+        "aisg",
+        "ret",
+        "ald",
+        "hdlc",
+        "calibration",
+        "tilt",
+        "gnodeb"
+      ],
+      "resource": "data/vodafone-mvp/raw/Cascaded RET Support.pdf#feature-operation",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "vodafone_mvp_dummy_data/hardware_support/okf-hardware_support-cascaded_ret_support/feature-overview",
+      "path": "vodafone_mvp_dummy_data/hardware_support/okf-hardware_support-cascaded_ret_support/feature-overview.md",
+      "type": "concept",
+      "title": "Feature Overview",
+      "description": "High-level overview of the Cascaded RET Support feature, detailing AISG bus daisy-chaining, ALD discovery, transport methods, and operational capabilities.",
+      "tags": [
+        "ret",
+        "aisg",
+        "ald",
+        "cascaded-ret",
+        "antenna-tilt"
+      ],
+      "resource": "data/vodafone-mvp/raw/Cascaded RET Support.pdf#feature-overview",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "vodafone_mvp_dummy_data/hardware_support/okf-hardware_support-cascaded_ret_support/network-impact",
+      "path": "vodafone_mvp_dummy_data/hardware_support/okf-hardware_support-cascaded_ret_support/network-impact.md",
+      "type": "concept",
+      "title": "Network Impact",
+      "description": "Outlines the coverage, capacity, end user, O&M load, and site operations impacts of the Cascaded RET Support feature.",
+      "tags": [
+        "RET",
+        "Cascaded RET",
+        "Coverage",
+        "Capacity",
+        "Network Impact",
+        "AISG"
+      ],
+      "resource": "data/vodafone-mvp/raw/Cascaded RET Support.pdf#network-impact",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "vodafone_mvp_dummy_data/hardware_support/okf-hardware_support-cascaded_ret_support/parameters",
+      "path": "vodafone_mvp_dummy_data/hardware_support/okf-hardware_support-cascaded_ret_support/parameters.md",
+      "type": "concept",
+      "title": "PARAMETERS",
+      "description": "Configuration parameters governing bus scanning behavior and per-device tilt control for Cascaded RET Support.",
+      "tags": [
+        "RET",
+        "AISG",
+        "parameters",
+        "configuration",
+        "tilt-control",
+        "bus-scanning"
+      ],
+      "resource": "data/vodafone-mvp/raw/Cascaded RET Support.pdf#parameters",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "vodafone_mvp_dummy_data/hardware_support/okf-hardware_support-cascaded_ret_support/performance-management",
+      "path": "vodafone_mvp_dummy_data/hardware_support/okf-hardware_support-cascaded_ret_support/performance-management.md",
+      "type": "concept",
+      "title": "PERFORMANCE MANAGEMENT",
+      "description": "Performance management KPIs, formula definitions, and counter specifications for monitoring Cascaded RET device health and bus stability.",
+      "tags": [
+        "aisg",
+        "ret",
+        "performance-management",
+        "kpi",
+        "counters"
+      ],
+      "resource": "data/vodafone-mvp/raw/Cascaded RET Support.pdf#performance-management",
+      "trust_tier": "unverified"
+    }
+  ]
+}
