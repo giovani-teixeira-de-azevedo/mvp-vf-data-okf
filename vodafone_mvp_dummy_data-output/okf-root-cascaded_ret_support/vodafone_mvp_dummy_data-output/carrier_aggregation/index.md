@@ -1,0 +1,5 @@
+# Subdirectories
+
+* [okf-carrier_aggregation-closed_loop_power_control_high_band](okf-carrier_aggregation-closed_loop_power_control_high_band/index.md) - This directory contains technical documentation covering the overview, operation, procedures, dependencies, parameters, network impacts, and performance management of Closed-Loop Power Control High-Band.
+* [okf-carrier_aggregation-data_aware_carrier_management](okf-carrier_aggregation-data_aware_carrier_management/index.md) - This directory contains documentation covering the overview, operation, dependencies, activation and deactivation procedures, parameters, network impact, and performance management for Data-Aware Carrier Management.
+* [okf-carrier_aggregation-dynamic_component_carrier_management](okf-carrier_aggregation-dynamic_component_carrier_management/index.md) - This directory contains technical documentation for Dynamic Component Carrier Management, covering feature operations, configuration parameters, activation procedures, dependencies, network impacts, and performance monitoring.

@@ -1,0 +1,137 @@
+{
+  "okf_version": "0.2",
+  "generated_at": "2026-09-22T13:48:26+00:00",
+  "concept_count": 8,
+  "concepts": [
+    {
+      "id": "activation-procedure",
+      "path": "activation-procedure.md",
+      "type": "procedure",
+      "title": "Activation Procedure",
+      "description": "Outlines the activation procedure, preconditions, traffic impact, and CLI commands for Data-Aware Carrier Management.",
+      "tags": [
+        "activation",
+        "data-aware-carrier-management",
+        "rancli",
+        "procedure"
+      ],
+      "resource": "data/vodafone-mvp/raw/Data-Aware Carrier Management.pdf#activation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "deactivation-procedure",
+      "path": "deactivation-procedure.md",
+      "type": "procedure",
+      "title": "DEACTIVATION PROCEDURE",
+      "description": "Details the steps, rancli commands, and operational impact for deactivating Data-Aware Carrier Management.",
+      "tags": [
+        "rancli",
+        "carrier-aggregation",
+        "deactivation",
+        "nr-function",
+        "feature-control"
+      ],
+      "resource": "data/vodafone-mvp/raw/Data-Aware Carrier Management.pdf#deactivation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "feature-depedencies",
+      "path": "feature-depedencies.md",
+      "type": "concept",
+      "title": "Feature Dependencies",
+      "description": "Outlines software, hardware, network dependencies, interworking relationships, and limitations for Data-Aware Carrier Management.",
+      "tags": [
+        "carrier-aggregation",
+        "dependencies",
+        "hardware-requirements",
+        "limitations",
+        "licensing"
+      ],
+      "resource": "data/vodafone-mvp/raw/Data-Aware Carrier Management.pdf#feature-depedencies",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "feature-operation",
+      "path": "feature-operation.md",
+      "type": "concept",
+      "title": "Feature Operation",
+      "description": "Describes the operational mechanism of Data-Aware Carrier Management, including demand estimation sampling, threshold-driven class transitions, and SCell lifecycle signaling.",
+      "tags": [
+        "data-aware-carrier-management",
+        "demand-estimator",
+        "scell-activation",
+        "scell-deactivation",
+        "rrc-reconfiguration",
+        "carrier-aggregation"
+      ],
+      "resource": "data/vodafone-mvp/raw/Data-Aware Carrier Management.pdf#feature-operation",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "feature-overview",
+      "path": "feature-overview.md",
+      "type": "concept",
+      "title": "FEATURE OVERVIEW",
+      "description": "Overview of Data-Aware Carrier Management, a gNodeB feature that dynamically configures and activates NR carrier aggregation SCells based on per-UE data demand classification.",
+      "tags": [
+        "carrier-aggregation",
+        "scell",
+        "nr",
+        "gnodeb",
+        "demand-estimator",
+        "data-aware-carrier-management"
+      ],
+      "resource": "data/vodafone-mvp/raw/Data-Aware Carrier Management.pdf#feature-overview",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "network-impact",
+      "path": "network-impact.md",
+      "type": "concept",
+      "title": "Network Impact",
+      "description": "Overview of the network signaling reductions, user throughput behavior, UE battery savings, and KPI trends associated with Data-Aware Carrier Management.",
+      "tags": [
+        "carrier-aggregation",
+        "network-impact",
+        "signaling",
+        "battery-saving",
+        "kpi",
+        "scell"
+      ],
+      "resource": "data/vodafone-mvp/raw/Data-Aware Carrier Management.pdf#network-impact",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "parameters",
+      "path": "parameters.md",
+      "type": "reference-table",
+      "title": "Parameters",
+      "description": "Configuration parameters for Data-Aware Carrier Management including ranges, datatypes, and default values.",
+      "tags": [
+        "parameters",
+        "configuration",
+        "nrfunction",
+        "carrier-management",
+        "burst-thresholds"
+      ],
+      "resource": "data/vodafone-mvp/raw/Data-Aware Carrier Management.pdf#parameters",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "performance-management",
+      "path": "performance-management.md",
+      "type": "concept",
+      "title": "Performance Management",
+      "description": "Guidance, Key Performance Indicators (KPIs), and counters for verifying the efficiency and safety of Data-Aware Carrier Management.",
+      "tags": [
+        "performance-management",
+        "kpis",
+        "counters",
+        "scell",
+        "carrier-aggregation"
+      ],
+      "resource": "data/vodafone-mvp/raw/Data-Aware Carrier Management.pdf#performance-management",
+      "trust_tier": "unverified"
+    }
+  ]
+}
