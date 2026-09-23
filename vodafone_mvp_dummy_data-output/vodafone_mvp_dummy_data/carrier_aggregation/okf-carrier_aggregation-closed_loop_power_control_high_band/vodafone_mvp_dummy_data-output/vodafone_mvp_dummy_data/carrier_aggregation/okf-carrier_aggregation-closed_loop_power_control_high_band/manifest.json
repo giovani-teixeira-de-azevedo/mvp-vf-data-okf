@@ -1,0 +1,137 @@
+{
+  "okf_version": "0.2",
+  "generated_at": "2026-09-23T12:54:18+00:00",
+  "concept_count": 8,
+  "concepts": [
+    {
+      "id": "activation-procedure",
+      "path": "activation-procedure.md",
+      "type": "procedure",
+      "title": "ACTIVATION PROCEDURE",
+      "description": "Outlines the steps, preconditions, commands, and verification checks required to activate Closed-Loop Power Control High-Band on a node and sector carrier.",
+      "tags": [
+        "activation",
+        "closed-loop-pc",
+        "rancli",
+        "fr2",
+        "power-control"
+      ],
+      "resource": "data/vodafone-mvp/raw/Closed-Loop Power Control High-Band.pdf#activation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "deactivation-procedure",
+      "path": "deactivation-procedure.md",
+      "type": "procedure",
+      "title": "Deactivation Procedure",
+      "description": "Describes the traffic impact, execution steps, and commands for deactivating the Closed-Loop Power Control High-Band feature.",
+      "tags": [
+        "closed-loop power control",
+        "deactivation",
+        "rancli",
+        "nrsectorcarrier",
+        "featurectrl"
+      ],
+      "resource": "data/vodafone-mvp/raw/Closed-Loop Power Control High-Band.pdf#deactivation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "feature-depedencies",
+      "path": "feature-depedencies.md",
+      "type": "concept",
+      "title": "Feature Dependencies",
+      "description": "Outlines feature, hardware, and network dependencies as well as operational limitations for Closed-Loop Power Control High-Band.",
+      "tags": [
+        "power-control",
+        "high-band",
+        "fr2",
+        "dependencies",
+        "limitations"
+      ],
+      "resource": "data/vodafone-mvp/raw/Closed-Loop Power Control High-Band.pdf#feature-depedencies",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "feature-operation",
+      "path": "feature-operation.md",
+      "type": "concept",
+      "title": "Feature Operation",
+      "description": "Explains the closed-loop power control operation for FR2 serving cells, including SINR tracking, TPC command generation, and blockage recovery.",
+      "tags": [
+        "power-control",
+        "fr2",
+        "tpc",
+        "gnodeb",
+        "blockage-recovery"
+      ],
+      "resource": "data/vodafone-mvp/raw/Closed-Loop Power Control High-Band.pdf#feature-operation",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "feature-overview",
+      "path": "feature-overview.md",
+      "type": "concept",
+      "title": "FEATURE OVERVIEW",
+      "description": "Overview of Closed-Loop Power Control High-Band for NR FR2 carriers, detailing open-loop limitations, closed-loop gNodeB control mechanisms, and performance gains.",
+      "tags": [
+        "closed-loop-power-control",
+        "fr2",
+        "mmwave",
+        "nr",
+        "tpc",
+        "gnodeb"
+      ],
+      "resource": "data/vodafone-mvp/raw/Closed-Loop Power Control High-Band.pdf#feature-overview",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "network-impact",
+      "path": "network-impact.md",
+      "type": "concept",
+      "title": "Network Impact",
+      "description": "Overview of the network impacts associated with Closed-Loop Power Control High-Band, including interference, throughput, UE battery, signaling, and KPIs.",
+      "tags": [
+        "power-control",
+        "high-band",
+        "fr2",
+        "network-impact",
+        "kpis"
+      ],
+      "resource": "data/vodafone-mvp/raw/Closed-Loop Power Control High-Band.pdf#network-impact",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "parameters",
+      "path": "parameters.md",
+      "type": "concept",
+      "title": "PARAMETERS",
+      "description": "Configuration parameters for Closed-Loop Power Control High-Band set per NR sector carrier.",
+      "tags": [
+        "closed-loop power control",
+        "high-band",
+        "nr",
+        "parameters",
+        "sinr",
+        "fr2"
+      ],
+      "resource": "data/vodafone-mvp/raw/Closed-Loop Power Control High-Band.pdf#parameters",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "performance-management",
+      "path": "performance-management.md",
+      "type": "concept",
+      "title": "PERFORMANCE MANAGEMENT",
+      "description": "Outlines performance management guidelines, Key Performance Indicators (KPIs), formulas, and counters for Closed-Loop Power Control High-Band.",
+      "tags": [
+        "performance-management",
+        "kpis",
+        "counters",
+        "closed-loop-power-control",
+        "high-band"
+      ],
+      "resource": "data/vodafone-mvp/raw/Closed-Loop Power Control High-Band.pdf#performance-management",
+      "trust_tier": "unverified"
+    }
+  ]
+}
