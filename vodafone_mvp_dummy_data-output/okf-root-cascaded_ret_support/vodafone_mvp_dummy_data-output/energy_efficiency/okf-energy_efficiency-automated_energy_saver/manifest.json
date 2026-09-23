@@ -1,0 +1,132 @@
+{
+  "okf_version": "0.2",
+  "generated_at": "2026-09-22T14:06:15+00:00",
+  "concept_count": 8,
+  "concepts": [
+    {
+      "id": "activation-procedure",
+      "path": "activation-procedure.md",
+      "type": "procedure",
+      "title": "ACTIVATION PROCEDURE",
+      "description": "Provides the activation procedure, preconditions, recommended rollout strategy, and rancli commands for Automated Energy Saver.",
+      "tags": [
+        "activation",
+        "automated-energy-saver",
+        "rancli",
+        "monitor-mode",
+        "auto-mode"
+      ],
+      "resource": "data/vodafone-mvp/raw/Automated Energy Saver.pdf#activation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "deactivation-procedure",
+      "path": "deactivation-procedure.md",
+      "type": "procedure",
+      "title": "Deactivation Procedure",
+      "description": "Step-by-step CLI procedure for deactivating the Automated Energy Saver feature and restoring subordinate feature configurations.",
+      "tags": [
+        "deactivation",
+        "automated-energy-saver",
+        "rancli",
+        "node-management"
+      ],
+      "resource": "data/vodafone-mvp/raw/Automated Energy Saver.pdf#deactivation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "feature-depedencies",
+      "path": "feature-depedencies.md",
+      "type": "concept",
+      "title": "Feature Dependencies",
+      "description": "Details the feature, hardware, and network dependencies along with operational limitations for Automated Energy Saver.",
+      "tags": [
+        "automated-energy-saver",
+        "dependencies",
+        "hardware-dependencies",
+        "network-dependencies",
+        "limitations",
+        "licensing"
+      ],
+      "resource": "data/vodafone-mvp/raw/Automated Energy Saver.pdf#feature-depedencies",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "feature-operation",
+      "path": "feature-operation.md",
+      "type": "concept",
+      "title": "FEATURE OPERATION",
+      "description": "Explains the operational cycle, load forecasting, savings level policies, and subordinate feature sequencing for Automated Energy Saver.",
+      "tags": [
+        "energy-saver",
+        "feature-operation",
+        "load-forecasting",
+        "savings-level"
+      ],
+      "resource": "data/vodafone-mvp/raw/Automated Energy Saver.pdf#feature-operation",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "feature-overview",
+      "path": "feature-overview.md",
+      "type": "concept",
+      "title": "FEATURE OVERVIEW",
+      "description": "Overview of Automated Energy Saver, a node-level orchestration layer that uses continuous traffic prediction to sequence gNodeB energy-saving functions.",
+      "tags": [
+        "automated-energy-saver",
+        "gnodeb",
+        "traffic-prediction",
+        "energy-saving",
+        "orchestration"
+      ],
+      "resource": "data/vodafone-mvp/raw/Automated Energy Saver.pdf#feature-overview",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "network-impact",
+      "path": "network-impact.md",
+      "type": "concept",
+      "title": "Network Impact",
+      "description": "Overview of the impact of Automated Energy Saver on energy savings, end-user experience, O&M, and KPIs.",
+      "tags": [
+        "energy-saving",
+        "network-impact",
+        "o-and-m",
+        "kpis",
+        "end-user-experience"
+      ],
+      "resource": "data/vodafone-mvp/raw/Automated Energy Saver.pdf#network-impact",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "parameters",
+      "path": "parameters.md",
+      "type": "reference-table",
+      "title": "PARAMETERS",
+      "description": "Defines the configuration parameters for the Automated Energy Saver feature, including control mode, policy settings, protected daily windows, and cell opt-out attributes.",
+      "tags": [
+        "parameters",
+        "configuration",
+        "automated-energy-saver",
+        "node-control"
+      ],
+      "resource": "data/vodafone-mvp/raw/Automated Energy Saver.pdf#parameters",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "performance-management",
+      "path": "performance-management.md",
+      "type": "concept",
+      "title": "Performance Management",
+      "description": "Performance management framework, baseline requirements, KPIs, and PM counters for the Automated Energy Saver feature.",
+      "tags": [
+        "performance-management",
+        "kpis",
+        "counters",
+        "automated-energy-saver"
+      ],
+      "resource": "data/vodafone-mvp/raw/Automated Energy Saver.pdf#performance-management",
+      "trust_tier": "unverified"
+    }
+  ]
+}
