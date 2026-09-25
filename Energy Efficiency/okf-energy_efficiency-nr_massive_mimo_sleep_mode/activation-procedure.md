@@ -13,14 +13,14 @@ tags:
 status: draft
 generated:
   by: enricher_agent/gemini-3.6-flash
-  at: '2026-09-25T16:09:53+00:00'
+  at: '2026-09-25T16:21:03+00:00'
   source_sha256: cbc496fb0074203c
 sources:
-- title: NR Massive MIMO Sleep Mode
-  resource: data/vodafone-mvp/raw/NR Massive MIMO Sleep Mode.pdf
+- resource: data/vodafone-mvp/raw/NR Massive MIMO Sleep Mode.pdf
+  title: NR Massive MIMO Sleep Mode
 ---
 
-The Activation Procedure provides the prerequisites, recommended rollout methodology, step-by-step CLI commands, and post-activation verification steps for enabling NR Massive MIMO Sleep Mode on a node and its cells.
+The Activation Procedure details the prerequisites, recommended rollout strategy, step-by-step CLI commands, and post-activation verification steps for enabling NR Massive MIMO Sleep Mode.
 
 ## Traffic Impact and Execution
 
@@ -37,7 +37,7 @@ The Activation Procedure provides the prerequisites, recommended rollout methodo
 
 1. Activate on a small cluster with `sleepMode=PARTIAL_ONLY`.
 2. Observe the KPIs for one to two weeks.
-3. Widen configuration to `PARTIAL_AND_DEEP` and roll out to further cells.
+3. Widen configuration to `PARTIAL_AND_DEEP` and to further cells.
 
 ## Step-by-Step Activation Procedure
 
@@ -47,7 +47,7 @@ Confirms the license is enabled before any configuration is touched. Activating 
 ```bash
 rancli get NodeRoot=1,NrFunction=1,FeatureCtrl=MassiveMimoSleep licenseState
 ```
-* **Expected Result:** `licenseState=ENABLED` (key FAK-31240)
+* **Expected Result:** `licenseState=ENABLED (key FAK-31240)`
 
 ### Step 2: Activate the Feature Node-Wide
 Arms the feature node-wide.
@@ -66,7 +66,7 @@ rancli set NodeRoot=1,NrFunction=1,NrCell=N1A sleepEnterTimer=300
 ```
 
 ### Step 4: Verify Configuration
-Verifies the applied configuration on the cell.
+Verifies the result.
 
 ```bash
 rancli get NodeRoot=1,NrFunction=1,NrCell=N1A sleepMode
