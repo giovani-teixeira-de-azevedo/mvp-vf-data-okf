@@ -29,7 +29,7 @@ The Activation Procedure details the prerequisites, recommended rollout strategy
 
 ## Preconditions
 
-* The license key **FAK-3112345657568778** must be installed via the normal license management flow.
+* The license key **FAK-31240** must be installed via the normal license management flow.
 * The target cells must be running a Massive MIMO baseline feature.
 * **NR Flexible Cell Shaping High-Band** must not be enabled on the same cells.
 

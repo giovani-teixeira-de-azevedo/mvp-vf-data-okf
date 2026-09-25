@@ -3,8 +3,8 @@
 * [Feature Dependencies](feature-depedencies.md) - Preconditions, software/hardware/network dependencies, interworking constraints, and operational limitations for NR Massive MIMO Sleep Mode.
 * [Feature Operation](feature-operation.md) - Details the operation of NR Massive MIMO Sleep Mode, including cell load evaluation, sequence transitions, and time-of-day restrictions.
 * [FEATURE OVERVIEW](feature-overview.md) - Overview of NR Massive MIMO Sleep Mode, describing its operating principles, sleep levels, state transitions, and expected energy savings.
-* [NETWORK IMPACT](network-impact.md) - Summarizes the impact of NR Massive MIMO Sleep Mode on energy consumption, end-user experience, mobility, and KPIs.
-* [Performance Management](performance-management.md) - Describes KPIs, counters, and monitoring guidelines for assessing energy savings and operational stability of NR Massive MIMO Sleep Mode.
+* [NETWORK IMPACT](network-impact.md) - Details the network impacts of sleep mode across energy consumption, end-user experience, mobility, and KPIs.
+* [PERFORMANCE MANAGEMENT](performance-management.md) - Defines performance KPIs, raw counters, and monitoring guidelines for assessing energy savings and operational stability.
 
 # procedure
 
