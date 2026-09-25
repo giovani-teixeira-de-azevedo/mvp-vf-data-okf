@@ -1,3 +1,3 @@
 # Subdirectories
 
-* [carrier_aggregation](carrier_aggregation/index.md) - This directory contains documentation for carrier aggregation features, including power control, carrier management, propagation delay support, mixed bandwidths, and mixed TDD patterns.
+* [Carrier Aggregation](Carrier Aggregation/index.md) - This directory documents the Closed-Loop Power Control High-Band feature, detailing its overview, operation, parameters, dependencies, activation procedures, network impacts, and performance management.
