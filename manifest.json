@@ -1,8 +1,271 @@
 {
   "okf_version": "0.2",
-  "generated_at": "2026-09-25T16:11:42+00:00",
-  "concept_count": 16,
+  "generated_at": "2026-09-25T17:16:02+00:00",
+  "concept_count": 32,
   "concepts": [
+    {
+      "id": "Carrier Aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/activation-procedure",
+      "path": "Carrier Aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/activation-procedure.md",
+      "type": "procedure",
+      "title": "Activation Procedure",
+      "description": "Outlines the activation procedure, preconditions, rollout recommendations, step-by-step instructions, and CLI commands for Closed-Loop Power Control High-Band.",
+      "tags": [
+        "activation",
+        "procedure",
+        "rancli",
+        "closed-loop-pc"
+      ],
+      "resource": "data/vodafone-mvp/raw/Closed-Loop Power Control High-Band.pdf#activation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Carrier Aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/deactivation-procedure",
+      "path": "Carrier Aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/deactivation-procedure.md",
+      "type": "procedure",
+      "title": "Deactivation Procedure",
+      "description": "Step-by-step procedure and traffic impact for deactivating the Closed-Loop Power Control High-Band feature.",
+      "tags": [
+        "closed-loop-pc",
+        "deactivation",
+        "rancli",
+        "nr-sector-carrier"
+      ],
+      "resource": "data/vodafone-mvp/raw/Closed-Loop Power Control High-Band.pdf#deactivation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Carrier Aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/feature-depedencies",
+      "path": "Carrier Aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/feature-depedencies.md",
+      "type": "concept",
+      "title": "FEATURE DEPEDENCIES",
+      "description": "Feature, hardware, and network dependencies as well as operational limitations for Closed-Loop Power Control High-Band.",
+      "tags": [
+        "closed-loop-power-control",
+        "fr2",
+        "high-band",
+        "dependencies",
+        "limitations",
+        "gnodeb"
+      ],
+      "resource": "data/vodafone-mvp/raw/Closed-Loop Power Control High-Band.pdf#feature-depedencies",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Carrier Aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/feature-operation",
+      "path": "Carrier Aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/feature-operation.md",
+      "type": "concept",
+      "title": "FEATURE OPERATION",
+      "description": "Details the operational mechanism of Closed-Loop Power Control High-Band, including per-carrier closed-loop state maintenance, TPC command generation, and blockage recovery.",
+      "tags": [
+        "power control",
+        "closed-loop",
+        "FR2",
+        "TPC",
+        "SINR",
+        "blockage recovery"
+      ],
+      "resource": "data/vodafone-mvp/raw/Closed-Loop Power Control High-Band.pdf#feature-operation",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Carrier Aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/feature-overview",
+      "path": "Carrier Aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/feature-overview.md",
+      "type": "concept",
+      "title": "Feature Overview",
+      "description": "Overview of Closed-Loop Power Control High-Band for NR FR2/mmWave carriers operating as PCells or SCells.",
+      "tags": [
+        "closed-loop-power-control",
+        "fr2",
+        "mmwave",
+        "tpc",
+        "pusch",
+        "srs"
+      ],
+      "resource": "data/vodafone-mvp/raw/Closed-Loop Power Control High-Band.pdf#feature-overview",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Carrier Aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/network-impact",
+      "path": "Carrier Aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/network-impact.md",
+      "type": "concept",
+      "title": "NETWORK IMPACT",
+      "description": "Outlines network impact on uplink interference, throughput, UE battery, signaling, and KPIs.",
+      "tags": [
+        "network-impact",
+        "uplink-interference",
+        "throughput",
+        "ue-battery",
+        "signaling",
+        "kpis",
+        "pctargetsinr"
+      ],
+      "resource": "data/vodafone-mvp/raw/Closed-Loop Power Control High-Band.pdf#network-impact",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Carrier Aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/parameters",
+      "path": "Carrier Aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/parameters.md",
+      "type": "reference-table",
+      "title": "Parameters",
+      "description": "Defines the sector carrier-level parameters and configuration defaults for closed-loop high-band power control.",
+      "tags": [
+        "closed-loop-power-control",
+        "high-band",
+        "nr",
+        "parameters",
+        "sinr",
+        "tpc"
+      ],
+      "resource": "data/vodafone-mvp/raw/Closed-Loop Power Control High-Band.pdf#parameters",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Carrier Aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/performance-management",
+      "path": "Carrier Aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/performance-management.md",
+      "type": "concept",
+      "title": "PERFORMANCE MANAGEMENT",
+      "description": "Performance management guidance, key performance indicators (KPIs), and measurement counters for Closed-Loop Power Control High-Band.",
+      "tags": [
+        "performance-management",
+        "kpi",
+        "counters",
+        "closed-loop-power-control"
+      ],
+      "resource": "data/vodafone-mvp/raw/Closed-Loop Power Control High-Band.pdf#performance-management",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Energy Efficiency/okf-energy_efficiency-cqi_based_ue_energy_efficiency_enhancement/activation-procedure",
+      "path": "Energy Efficiency/okf-energy_efficiency-cqi_based_ue_energy_efficiency_enhancement/activation-procedure.md",
+      "type": "procedure",
+      "title": "ACTIVATION PROCEDURE",
+      "description": "Step-by-step activation procedure, prerequisites, CLI commands, rollout strategy, and post-activation verification for CQI-based UE energy efficiency enhancement.",
+      "tags": [
+        "activation",
+        "procedure",
+        "rancli",
+        "energy-efficiency",
+        "cqi",
+        "rollout"
+      ],
+      "resource": "data/vodafone-mvp/raw/CQI-Based UE Energy Efficiency Enhancement.pdf#activation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Energy Efficiency/okf-energy_efficiency-cqi_based_ue_energy_efficiency_enhancement/deactivation-procedure",
+      "path": "Energy Efficiency/okf-energy_efficiency-cqi_based_ue_energy_efficiency_enhancement/deactivation-procedure.md",
+      "type": "procedure",
+      "title": "DEACTIVATION PROCEDURE",
+      "description": "Outlines the steps, CLI commands, traffic impact, and verification for deactivating CQI-Based UE Energy Efficiency Enhancement.",
+      "tags": [
+        "rancli",
+        "deactivation",
+        "cqiEnergyEffMode",
+        "FeatureCtrl",
+        "CqiUeEnergyEff",
+        "relaxedUeCount"
+      ],
+      "resource": "data/vodafone-mvp/raw/CQI-Based UE Energy Efficiency Enhancement.pdf#deactivation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Energy Efficiency/okf-energy_efficiency-cqi_based_ue_energy_efficiency_enhancement/feature-depedencies",
+      "path": "Energy Efficiency/okf-energy_efficiency-cqi_based_ue_energy_efficiency_enhancement/feature-depedencies.md",
+      "type": "concept",
+      "title": "Feature Dependencies",
+      "description": "Outlines feature, hardware, and network dependencies as well as operational limitations for CQI-Based UE Energy Efficiency Enhancement.",
+      "tags": [
+        "feature-dependencies",
+        "cqi-ue-energy-efficiency",
+        "c-drx",
+        "license-key",
+        "limitations"
+      ],
+      "resource": "data/vodafone-mvp/raw/CQI-Based UE Energy Efficiency Enhancement.pdf#feature-depedencies",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Energy Efficiency/okf-energy_efficiency-cqi_based_ue_energy_efficiency_enhancement/feature-operation",
+      "path": "Energy Efficiency/okf-energy_efficiency-cqi_based_ue_energy_efficiency_enhancement/feature-operation.md",
+      "type": "concept",
+      "title": "FEATURE OPERATION",
+      "description": "Describes CQI filtering, UE classification into race-to-sleep or relaxed classes, scheduling behaviors, link adaptation back-off, and hysteresis mechanisms for CQI-based UE energy efficiency.",
+      "tags": [
+        "cqi",
+        "ue-energy-efficiency",
+        "scheduler",
+        "race-to-sleep",
+        "relaxed-class",
+        "link-adaptation"
+      ],
+      "resource": "data/vodafone-mvp/raw/CQI-Based UE Energy Efficiency Enhancement.pdf#feature-operation",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Energy Efficiency/okf-energy_efficiency-cqi_based_ue_energy_efficiency_enhancement/feature-overview",
+      "path": "Energy Efficiency/okf-energy_efficiency-cqi_based_ue_energy_efficiency_enhancement/feature-overview.md",
+      "type": "concept",
+      "title": "Feature Overview",
+      "description": "Overview of CQI-Based UE Energy Efficiency Enhancement, detailing race-to-sleep scheduling compaction and low-CQI CSI configuration relaxation.",
+      "tags": [
+        "CQI",
+        "energy-efficiency",
+        "UE-power-saving",
+        "C-DRX",
+        "scheduling",
+        "link-adaptation"
+      ],
+      "resource": "data/vodafone-mvp/raw/CQI-Based UE Energy Efficiency Enhancement.pdf#feature-overview",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Energy Efficiency/okf-energy_efficiency-cqi_based_ue_energy_efficiency_enhancement/network-impact",
+      "path": "Energy Efficiency/okf-energy_efficiency-cqi_based_ue_energy_efficiency_enhancement/network-impact.md",
+      "type": "concept",
+      "title": "Network Impact",
+      "description": "Details the impact of the CQI-Based UE Energy Efficiency Enhancement feature on end users, cell capacity, signaling, and network KPIs.",
+      "tags": [
+        "network-impact",
+        "cqi",
+        "energy-efficiency",
+        "prb-utilization",
+        "rrc-reconfiguration",
+        "harq"
+      ],
+      "resource": "data/vodafone-mvp/raw/CQI-Based UE Energy Efficiency Enhancement.pdf#network-impact",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Energy Efficiency/okf-energy_efficiency-cqi_based_ue_energy_efficiency_enhancement/parameters",
+      "path": "Energy Efficiency/okf-energy_efficiency-cqi_based_ue_energy_efficiency_enhancement/parameters.md",
+      "type": "reference-table",
+      "title": "Parameters",
+      "description": "Configuration parameters, value ranges, datatypes, and default settings for the CQI-Based UE Energy Efficiency Enhancement feature.",
+      "tags": [
+        "cqi",
+        "parameters",
+        "energy-efficiency",
+        "configuration"
+      ],
+      "resource": "data/vodafone-mvp/raw/CQI-Based UE Energy Efficiency Enhancement.pdf#parameters",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Energy Efficiency/okf-energy_efficiency-cqi_based_ue_energy_efficiency_enhancement/performance-management",
+      "path": "Energy Efficiency/okf-energy_efficiency-cqi_based_ue_energy_efficiency_enhancement/performance-management.md",
+      "type": "concept",
+      "title": "Performance Management",
+      "description": "Monitors UE battery saving proxies, throughput impact, KPIs, and performance counters for CQI-based UE energy efficiency enhancement.",
+      "tags": [
+        "performance-management",
+        "kpi",
+        "counters",
+        "cqi",
+        "energy-efficiency"
+      ],
+      "resource": "data/vodafone-mvp/raw/CQI-Based UE Energy Efficiency Enhancement.pdf#performance-management",
+      "trust_tier": "unverified"
+    },
     {
       "id": "Energy Efficiency/okf-energy_efficiency-energy_optimized_power_allocation/activation-procedure",
       "path": "Energy Efficiency/okf-energy_efficiency-energy_optimized_power_allocation/activation-procedure.md",
@@ -217,15 +480,12 @@
       "path": "Energy Efficiency/okf-energy_efficiency-nr_massive_mimo_sleep_mode/network-impact.md",
       "type": "concept",
       "title": "NETWORK IMPACT",
-      "description": "Summarizes the impact of NR Massive MIMO Sleep Mode on energy consumption, end-user experience, mobility, and KPIs.",
+      "description": "Details the network impacts of sleep mode across energy consumption, end-user experience, mobility, and KPIs.",
       "tags": [
-        "energy-saving",
-        "massive-mimo",
-        "sleep-mode",
-        "throughput",
-        "kpis",
+        "energy",
+        "end-users",
         "mobility",
-        "vonr"
+        "kpis"
       ],
       "resource": "data/vodafone-mvp/raw/NR Massive MIMO Sleep Mode.pdf#network-impact",
       "trust_tier": "unverified"
@@ -250,15 +510,14 @@
       "id": "Energy Efficiency/okf-energy_efficiency-nr_massive_mimo_sleep_mode/performance-management",
       "path": "Energy Efficiency/okf-energy_efficiency-nr_massive_mimo_sleep_mode/performance-management.md",
       "type": "concept",
-      "title": "Performance Management",
-      "description": "Describes KPIs, counters, and monitoring guidelines for assessing energy savings and operational stability of NR Massive MIMO Sleep Mode.",
+      "title": "PERFORMANCE MANAGEMENT",
+      "description": "Defines performance KPIs, raw counters, and monitoring guidelines for assessing energy savings and operational stability.",
       "tags": [
         "performance-management",
         "kpis",
         "counters",
-        "nr-massive-mimo",
-        "sleep-mode",
-        "energy-saving"
+        "energy-saving",
+        "sleep-mode"
       ],
       "resource": "data/vodafone-mvp/raw/NR Massive MIMO Sleep Mode.pdf#performance-management",
       "trust_tier": "unverified"
