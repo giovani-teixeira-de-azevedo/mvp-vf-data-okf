@@ -1,6 +1,6 @@
 {
   "okf_version": "0.2",
-  "generated_at": "2026-09-25T11:11:09+00:00",
+  "generated_at": "2026-09-25T11:24:36+00:00",
   "concept_count": 8,
   "concepts": [
     {
@@ -90,10 +90,11 @@
       "path": "Carrier Aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/network-impact.md",
       "type": "concept",
       "title": "Network Impact",
-      "description": "Outlines the network impacts on uplink interference, throughput, UE battery, signaling, and KPIs.",
+      "description": "Details the network impacts on uplink interference, throughput, UE battery, signaling, and KPIs for high-band closed-loop power control.",
       "tags": [
         "closed-loop power control",
         "fr2",
+        "network impact",
         "uplink interference",
         "throughput",
         "ue battery",
@@ -124,13 +125,11 @@
       "path": "Carrier Aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/performance-management.md",
       "type": "concept",
       "title": "Performance Management",
-      "description": "Details the performance management strategy, KPIs, and performance counters for the Closed-Loop Power Control High-Band feature.",
+      "description": "Performance management guidelines, Key Performance Indicators (KPIs), and counter definitions for evaluating closed-loop power control.",
       "tags": [
-        "power-control",
         "performance-management",
         "kpis",
-        "counters",
-        "fr2"
+        "counters"
       ],
       "resource": "data/vodafone-mvp/raw/Closed-Loop Power Control High-Band.pdf#performance-management",
       "trust_tier": "unverified"
