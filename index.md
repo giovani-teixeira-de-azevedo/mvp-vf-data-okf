@@ -1,3 +1,3 @@
 # Subdirectories
 
-* [carrier_aggregation](carrier_aggregation/index.md) - This directory contains documentation for carrier aggregation features, including power control, carrier management, propagation delay support, mixed bandwidths, and mixed TDD patterns.
+* [Energy Efficiency](Energy Efficiency/index.md) - This directory contains overviews, operational mechanisms, parameters, dependencies, procedures, network impacts, and performance metrics for the Energy-Optimized Power Allocation feature.

@@ -1,11 +1,11 @@
 {
   "okf_version": "0.2",
-  "generated_at": "2026-09-25T14:49:19+00:00",
+  "generated_at": "2026-09-25T14:49:08+00:00",
   "concept_count": 8,
   "concepts": [
     {
-      "id": "Energy Efficiency/okf-energy_efficiency-energy_optimized_power_allocation/activation-procedure",
-      "path": "Energy Efficiency/okf-energy_efficiency-energy_optimized_power_allocation/activation-procedure.md",
+      "id": "activation-procedure",
+      "path": "activation-procedure.md",
       "type": "procedure",
       "title": "ACTIVATION PROCEDURE",
       "description": "Activation procedure, prerequisites, CLI commands, and post-change verification for Energy-Optimized Power Allocation.",
@@ -20,8 +20,8 @@
       "trust_tier": "unverified"
     },
     {
-      "id": "Energy Efficiency/okf-energy_efficiency-energy_optimized_power_allocation/deactivation-procedure",
-      "path": "Energy Efficiency/okf-energy_efficiency-energy_optimized_power_allocation/deactivation-procedure.md",
+      "id": "deactivation-procedure",
+      "path": "deactivation-procedure.md",
       "type": "procedure",
       "title": "Deactivation Procedure",
       "description": "Describes the step-by-step process, CLI commands, traffic impact, and verification steps for deactivating Energy-Optimized Power Allocation.",
@@ -35,8 +35,8 @@
       "trust_tier": "unverified"
     },
     {
-      "id": "Energy Efficiency/okf-energy_efficiency-energy_optimized_power_allocation/feature-depedencies",
-      "path": "Energy Efficiency/okf-energy_efficiency-energy_optimized_power_allocation/feature-depedencies.md",
+      "id": "feature-depedencies",
+      "path": "feature-depedencies.md",
       "type": "concept",
       "title": "FEATURE DEPEDENCIES",
       "description": "Feature, hardware, network dependencies, and functional limitations for Energy-Optimized Power Allocation.",
@@ -51,8 +51,8 @@
       "trust_tier": "unverified"
     },
     {
-      "id": "Energy Efficiency/okf-energy_efficiency-energy_optimized_power_allocation/feature-operation",
-      "path": "Energy Efficiency/okf-energy_efficiency-energy_optimized_power_allocation/feature-operation.md",
+      "id": "feature-operation",
+      "path": "feature-operation.md",
       "type": "concept",
       "title": "Feature Operation",
       "description": "Details the dynamic power reduction calculation, implicit signaling mechanism, and guard protection for Energy-Optimized Power Allocation.",
@@ -67,8 +67,8 @@
       "trust_tier": "unverified"
     },
     {
-      "id": "Energy Efficiency/okf-energy_efficiency-energy_optimized_power_allocation/feature-overview",
-      "path": "Energy Efficiency/okf-energy_efficiency-energy_optimized_power_allocation/feature-overview.md",
+      "id": "feature-overview",
+      "path": "feature-overview.md",
       "type": "concept",
       "title": "FEATURE OVERVIEW",
       "description": "Overview of Energy-Optimized Power Allocation, detailing dynamic PDSCH transmit power adaptation based on per-UE SINR headroom.",
@@ -84,8 +84,8 @@
       "trust_tier": "unverified"
     },
     {
-      "id": "Energy Efficiency/okf-energy_efficiency-energy_optimized_power_allocation/network-impact",
-      "path": "Energy Efficiency/okf-energy_efficiency-energy_optimized_power_allocation/network-impact.md",
+      "id": "network-impact",
+      "path": "network-impact.md",
       "type": "concept",
       "title": "Network Impact",
       "description": "Outlines the expected impacts of the Energy-Optimized Power Allocation feature on energy savings, user throughput, inter-cell interference, and network KPIs.",
@@ -100,8 +100,8 @@
       "trust_tier": "unverified"
     },
     {
-      "id": "Energy Efficiency/okf-energy_efficiency-energy_optimized_power_allocation/parameters",
-      "path": "Energy Efficiency/okf-energy_efficiency-energy_optimized_power_allocation/parameters.md",
+      "id": "parameters",
+      "path": "parameters.md",
       "type": "concept",
       "title": "Parameters",
       "description": "Configuration parameters for the Energy-Optimized Power Allocation feature, including operating modes, margin thresholds, guard times, and PA bias settings.",
@@ -115,8 +115,8 @@
       "trust_tier": "unverified"
     },
     {
-      "id": "Energy Efficiency/okf-energy_efficiency-energy_optimized_power_allocation/performance-management",
-      "path": "Energy Efficiency/okf-energy_efficiency-energy_optimized_power_allocation/performance-management.md",
+      "id": "performance-management",
+      "path": "performance-management.md",
       "type": "concept",
       "title": "Performance Management",
       "description": "Details key performance indicators (KPIs) and counters used to measure energy savings and monitor link performance for Energy-Optimized Power Allocation.",
