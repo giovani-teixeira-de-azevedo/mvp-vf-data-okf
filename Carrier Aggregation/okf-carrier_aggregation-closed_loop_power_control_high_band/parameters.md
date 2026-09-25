@@ -1,31 +1,33 @@
 ---
 type: reference-table
 resource: data/vodafone-mvp/raw/Closed-Loop Power Control High-Band.pdf#parameters
-title: Parameters
-description: Parameter configuration details for Closed-Loop Power Control High-Band
-  on NR sector carriers.
+title: PARAMETERS
+description: Configuration parameters set per NR sector carrier for high-band closed-loop
+  power control.
 tags:
-- closed-loop-pc
 - parameters
 - power-control
-- high-band
 - nr-sector-carrier
+- fr2
+- sinr
 status: draft
 generated:
-  by: enricher_agent/gemini-3.5-flash
-  at: '2026-09-11T16:37:06+00:00'
+  by: enricher_agent/gemini-3.6-flash
+  at: '2026-09-25T11:06:02+00:00'
   source_sha256: c7e81fe336ed2a07
 sources:
 - resource: data/vodafone-mvp/raw/Closed-Loop Power Control High-Band.pdf
   title: Closed-Loop Power Control High-Band
 ---
 
-This section details the configuration parameters for Closed-Loop Power Control High-Band. The parameters are configured per NR sector carrier.
+This section details the configuration parameters set per NR sector carrier for Closed-Loop Power Control High-Band. The target SINR acts as the primary tuning knob, where raising it improves per-UE MCS at the cost of higher interference, with defaults chosen for dense urban FR2 grids.
 
-The target SINR (`pcTargetSinr`) is the primary tuning knob: raising it improves per-UE Modulation and Coding Scheme (MCS) at the cost of higher interference. The default value is selected for dense urban FR2 grids. The hysteresis window and step configuration should only be changed after observing loop stability counters.
+The hysteresis window and step configuration should only be changed after observing loop stability counters.
+
+## Parameter List
 
 | Parameter | Description | Values | Datatype | Default |
-| :--- | :--- | :--- | :--- | :--- |
+| --- | --- | --- | --- | --- |
 | `closedLoopPcEnabled` | Enables the closed loop on the sector carrier | true, false | boolean | false |
 | `pcTargetSinr` | Target uplink SINR for the control loop | -5–30 (dB) | int32 | 12 |
 | `pcHysteresis` | Half-width of the no-action window around the target | 0–6 (dB) | int32 | 1 |
@@ -37,6 +39,5 @@ The target SINR (`pcTargetSinr`) is the primary tuning knob: raising it improves
 
 # Cross-References
 
-* [Feature Overview](feature-overview.md)
-* [Feature Operation](feature-operation.md)
-* [Performance Management](performance-management.md)
+- [Performance Management](performance-management.md)
+- [Feature Operation](feature-operation.md)
