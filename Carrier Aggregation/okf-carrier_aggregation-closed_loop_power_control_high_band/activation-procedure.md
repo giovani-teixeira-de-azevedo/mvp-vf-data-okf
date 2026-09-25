@@ -13,7 +13,7 @@ tags:
 status: draft
 generated:
   by: enricher_agent/gemini-3.6-flash
-  at: '2026-09-25T11:35:14+00:00'
+  at: '2026-09-25T13:41:37+00:00'
   source_sha256: d590f884016b6245
 sources:
 - resource: data/vodafone-mvp/raw/Closed-Loop Power Control High-Band.pdf
@@ -37,6 +37,8 @@ Recommended rollout order:
 2. Verify TPC Balance and In-Window Ratio after 48 hours.
 3. Tune `pcTargetSinr` if needed.
 4. Expand cluster by cluster.
+
+* Note: Restart must be done just on Friday during 5 minutes between 12:00 and 12:30. This should only be considered if the FR2 cluster has the default parameters and TPC Balance and In-Window Ratio was not after 48 hours.
 
 ## Execution Steps
 

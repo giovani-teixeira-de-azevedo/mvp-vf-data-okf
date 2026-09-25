@@ -8,7 +8,7 @@
 
 # procedure
 
-* [Activation Procedure](activation-procedure.md) - Outlines the traffic impact, preconditions, rollout strategy, and step-by-step CLI commands for activating Closed-Loop Power Control High-Band.
+* [Activation Procedure](activation-procedure.md) - Describes preconditions, rollout recommendations, traffic impact, and step-by-step CLI commands for activating Closed-Loop Power Control High-Band.
 * [Deactivation Procedure](deactivation-procedure.md) - Outlines the procedure and commands for deactivating the Closed-Loop Power Control High-Band feature.
 
 # reference-table

@@ -1,3 +1,3 @@
 # Subdirectories
 
-* [Carrier Aggregation](Carrier Aggregation/index.md) - This directory contains documentation on the operation, configuration parameters, activation procedures, dependencies, network impacts, and performance management for Closed-Loop Power Control High-Band.
+* [Carrier Aggregation](Carrier Aggregation/index.md) - This directory contains technical documentation, parameters, operational details, lifecycle procedures, and performance management guidelines for the Closed-Loop Power Control High-Band feature.
