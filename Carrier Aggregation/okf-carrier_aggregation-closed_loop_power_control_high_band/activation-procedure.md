@@ -12,18 +12,18 @@ tags:
 status: draft
 generated:
   by: enricher_agent/gemini-3.6-flash
-  at: '2026-09-25T11:06:14+00:00'
+  at: '2026-09-25T11:23:46+00:00'
   source_sha256: d590f884016b6245
 sources:
-- title: Closed-Loop Power Control High-Band
-  resource: data/vodafone-mvp/raw/Closed-Loop Power Control High-Band.pdf
+- resource: data/vodafone-mvp/raw/Closed-Loop Power Control High-Band.pdf
+  title: Closed-Loop Power Control High-Band
 ---
 
-This document defines the activation procedure for Closed-Loop Power Control High-Band, including traffic impact, preconditions, recommended rollout strategy, and step-by-step CLI commands.
+The activation procedure enables Closed-Loop Power Control High-Band on a node with zero traffic impact, describing preconditions, recommended rollout strategy, and step-by-step CLI execution.
 
 ## Overview and Preconditions
 
-* **Traffic Impact:** None. Activation arms the control loop; each UE starts from its current open-loop operating point and is moved gradually by ±1 dB steps. No service interruption or cell lock is required, and the procedure can be executed during business hours.
+* **Traffic Impact:** None. Activation only arms the control loop; each UE starts from its current open-loop operating point and is moved gradually by ±1 dB steps, so no service interruption or cell lock is required. The procedure can be executed during business hours.
 * **Preconditions:**
   * License key `FAK-33011` installed.
   * Physical Layer High-Band and Scheduler High-Band active on the node.
@@ -37,6 +37,8 @@ This document defines the activation procedure for Closed-Loop Power Control Hig
 4. Expand cluster by cluster.
 
 ## Step-by-Step Activation Procedure
+
+Step 1 verifies the license before configuration; step 2 activates the feature control on the node; step 3 enables the loop per sector carrier and sets the target explicitly so the applied configuration is auditable; step 4 verifies.
 
 ### Step 1: Verify License State
 Verify that the license key is installed prior to configuration.
@@ -52,7 +54,7 @@ rancli set NodeRoot=1,NrFunction=1,FeatureCtrl=ClosedLoopPcHighBand featureState
 ```
 
 ### Step 3: Enable Loop and Configure Sector Carrier
-Enable the loop per sector carrier and explicitly set the target so the applied configuration is auditable.
+Enable the loop per sector carrier and set the target explicitly so the applied configuration is auditable.
 ```bash
 rancli set NodeRoot=1,NrFunction=1,NrSectorCarrier=N1A-FR2 closedLoopPcEnabled=true
 rancli set NodeRoot=1,NrFunction=1,NrSectorCarrier=N1A-FR2 pcTargetSinr=12 pcHysteresis=1
@@ -65,7 +67,7 @@ rancli get NodeRoot=1,NrFunction=1,NrSectorCarrier=N1A-FR2 closedLoopPcEnabled
 ```
 
 ### Post-Activation Verification
-After activation, confirm that counters `ctrTpcUpCmds` and `ctrTpcDownCmds` begin incrementing during the next busy period.
+After activation, confirm that `ctrTpcUpCmds` and `ctrTpcDownCmds` begin incrementing during the next busy period.
 
 # Cross-References
 
