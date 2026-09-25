@@ -1,11 +1,11 @@
 {
   "okf_version": "0.2",
-  "generated_at": "2026-09-25T11:11:09+00:00",
+  "generated_at": "2026-09-25T11:10:59+00:00",
   "concept_count": 8,
   "concepts": [
     {
-      "id": "Carrier Aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/activation-procedure",
-      "path": "Carrier Aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/activation-procedure.md",
+      "id": "activation-procedure",
+      "path": "activation-procedure.md",
       "type": "procedure",
       "title": "Activation Procedure",
       "description": "Outlines the traffic impact, preconditions, rollout strategy, and step-by-step CLI commands for activating Closed-Loop Power Control High-Band.",
@@ -19,8 +19,8 @@
       "trust_tier": "unverified"
     },
     {
-      "id": "Carrier Aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/deactivation-procedure",
-      "path": "Carrier Aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/deactivation-procedure.md",
+      "id": "deactivation-procedure",
+      "path": "deactivation-procedure.md",
       "type": "procedure",
       "title": "Deactivation Procedure",
       "description": "Outlines the procedure and commands for deactivating the Closed-Loop Power Control High-Band feature.",
@@ -35,8 +35,8 @@
       "trust_tier": "unverified"
     },
     {
-      "id": "Carrier Aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/feature-depedencies",
-      "path": "Carrier Aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/feature-depedencies.md",
+      "id": "feature-depedencies",
+      "path": "feature-depedencies.md",
       "type": "concept",
       "title": "Feature Dependencies",
       "description": "Defines feature, hardware, network dependencies, and operational limitations for Closed-Loop Power Control High-Band.",
@@ -53,8 +53,8 @@
       "trust_tier": "unverified"
     },
     {
-      "id": "Carrier Aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/feature-operation",
-      "path": "Carrier Aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/feature-operation.md",
+      "id": "feature-operation",
+      "path": "feature-operation.md",
       "type": "concept",
       "title": "Feature Operation",
       "description": "Details the operational procedure for closed-loop power control in FR2 serving cells, including SINR estimation, TPC command evaluation, and blockage recovery.",
@@ -69,8 +69,8 @@
       "trust_tier": "unverified"
     },
     {
-      "id": "Carrier Aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/feature-overview",
-      "path": "Carrier Aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/feature-overview.md",
+      "id": "feature-overview",
+      "path": "feature-overview.md",
       "type": "concept",
       "title": "Feature Overview",
       "description": "Overview of Closed-Loop Power Control High-Band for NR FR2 carriers operating as PCells or SCells in carrier aggregation configurations.",
@@ -86,8 +86,8 @@
       "trust_tier": "unverified"
     },
     {
-      "id": "Carrier Aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/network-impact",
-      "path": "Carrier Aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/network-impact.md",
+      "id": "network-impact",
+      "path": "network-impact.md",
       "type": "concept",
       "title": "Network Impact",
       "description": "Outlines the network impacts on uplink interference, throughput, UE battery, signaling, and KPIs.",
@@ -104,8 +104,8 @@
       "trust_tier": "unverified"
     },
     {
-      "id": "Carrier Aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/parameters",
-      "path": "Carrier Aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/parameters.md",
+      "id": "parameters",
+      "path": "parameters.md",
       "type": "reference-table",
       "title": "PARAMETERS",
       "description": "Configuration parameters set per NR sector carrier for high-band closed-loop power control.",
@@ -120,8 +120,8 @@
       "trust_tier": "unverified"
     },
     {
-      "id": "Carrier Aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/performance-management",
-      "path": "Carrier Aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/performance-management.md",
+      "id": "performance-management",
+      "path": "performance-management.md",
       "type": "concept",
       "title": "Performance Management",
       "description": "Details the performance management strategy, KPIs, and performance counters for the Closed-Loop Power Control High-Band feature.",
