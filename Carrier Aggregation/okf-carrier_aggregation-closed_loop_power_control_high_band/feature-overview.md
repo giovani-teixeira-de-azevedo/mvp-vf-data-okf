@@ -14,7 +14,7 @@ tags:
 status: draft
 generated:
   by: enricher_agent/gemini-3.6-flash
-  at: '2026-09-25T11:05:46+00:00'
+  at: '2026-09-25T13:59:40+00:00'
   source_sha256: 19cc77df8780848c
 sources:
 - title: Closed-Loop Power Control High-Band
@@ -52,8 +52,9 @@ This feature closes the loop through active gNodeB monitoring and feedback:
 
 ### Measured Performance Gains
 
+The reported performance improvements depend on cell operating conditions and traffic scenarios. Observed gains are achieved specifically under loaded FR2 cell conditions with co-scheduled cell-center and cell-edge UEs:
 - **Uplink Interference-over-Thermal (IoT):** Typical measured gains show a 1.5–3 dB reduction in average uplink IoT on loaded FR2 cells.
-- **Cell-Edge Throughput:** A 10–20% improvement in uplink cell-edge throughput, as cell-edge UEs no longer compete against over-powered cell-center UEs.
+- **Cell-Edge Throughput:** A 10–20% improvement in uplink cell-edge throughput, observed as cell-edge UEs no longer compete against over-powered cell-center UEs.
 
 ### Control Loop Flow
 
