@@ -1,5 +1,0 @@
-# Subdirectories
-
-* [okf-energy_efficiency-cqi_based_ue_energy_efficiency_enhancement](okf-energy_efficiency-cqi_based_ue_energy_efficiency_enhancement/index.md) - This directory documents the CQI-based UE energy efficiency enhancement feature, including its operation, dependencies, activation, deactivation, configuration parameters, network impact, and performance monitoring.
-* [okf-energy_efficiency-energy_optimized_power_allocation](okf-energy_efficiency-energy_optimized_power_allocation/index.md) - This directory contains documentation for the Energy-Optimized Power Allocation feature, covering its overview, operation, configuration parameters, dependencies, activation procedures, and performance management.
-* [okf-energy_efficiency-nr_massive_mimo_sleep_mode](okf-energy_efficiency-nr_massive_mimo_sleep_mode/index.md) - This directory contains technical documentation for NR Massive MIMO Sleep Mode, covering feature operation, activation and deactivation procedures, dependencies, parameters, network impact, and performance monitoring.

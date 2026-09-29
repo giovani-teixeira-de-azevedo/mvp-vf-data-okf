@@ -1,16 +1,16 @@
 # concept
 
-* [FEATURE DEPEDENCIES](feature-depedencies.md) - Feature, hardware, and network dependencies as well as operational limitations for Closed-Loop Power Control High-Band.
-* [FEATURE OPERATION](feature-operation.md) - Details the operational mechanism of Closed-Loop Power Control High-Band, including per-carrier closed-loop state maintenance, TPC command generation, and blockage recovery.
-* [Feature Overview](feature-overview.md) - Overview of Closed-Loop Power Control High-Band for NR FR2/mmWave carriers operating as PCells or SCells.
-* [NETWORK IMPACT](network-impact.md) - Outlines network impact on uplink interference, throughput, UE battery, signaling, and KPIs.
-* [PERFORMANCE MANAGEMENT](performance-management.md) - Performance management guidance, key performance indicators (KPIs), and measurement counters for Closed-Loop Power Control High-Band.
+* [Feature Dependencies](feature-depedencies.md) - Details feature, hardware, and network dependencies, as well as operational limitations for Closed-Loop Power Control High-Band.
+* [FEATURE OPERATION](feature-operation.md) - Describes the operational procedure for closed-loop power control in FR2, including TPC command calculation, signal estimation, and blockage recovery.
+* [FEATURE OVERVIEW](feature-overview.md) - Overview of the Closed-Loop Power Control High-Band feature for NR FR2 carriers.
+* [Network Impact](network-impact.md) - Outlines network impacts on uplink interference, throughput, UE battery, signaling, and KPIs.
+* [Performance Management](performance-management.md) - Outlines performance management guidelines, key performance indicators, and counters for the Closed-Loop Power Control High-Band feature.
 
 # procedure
 
-* [Activation Procedure](activation-procedure.md) - Outlines the activation procedure, preconditions, rollout recommendations, step-by-step instructions, and CLI commands for Closed-Loop Power Control High-Band.
-* [Deactivation Procedure](deactivation-procedure.md) - Step-by-step procedure and traffic impact for deactivating the Closed-Loop Power Control High-Band feature.
+* [Activation Procedure](activation-procedure.md) - Step-by-step activation procedure, preconditions, traffic impact, rollout guidance, and CLI commands for Closed-Loop Power Control High-Band.
+* [Deactivation Procedure](deactivation-procedure.md) - Step-by-step procedure and traffic impact for deactivating Closed-Loop Power Control High-Band.
 
 # reference-table
 
-* [Parameters](parameters.md) - Defines the sector carrier-level parameters and configuration defaults for closed-loop high-band power control.
+* [Parameters](parameters.md) - Configuration parameters for Closed-Loop Power Control High-Band set per NR sector carrier.

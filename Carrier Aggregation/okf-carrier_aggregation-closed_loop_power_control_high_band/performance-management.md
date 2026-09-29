@@ -1,31 +1,42 @@
 ---
 type: concept
 resource: data/vodafone-mvp/raw/Closed-Loop Power Control High-Band.pdf#performance-management
-title: PERFORMANCE MANAGEMENT
-description: Performance management guidance, key performance indicators (KPIs), and
-  measurement counters for Closed-Loop Power Control High-Band.
+title: Performance Management
+description: Outlines performance management guidelines, key performance indicators,
+  and counters for the Closed-Loop Power Control High-Band feature.
 tags:
 - performance-management
 - kpi
 - counters
 - closed-loop-power-control
+- high-band
 status: draft
 generated:
   by: enricher_agent/gemini-3.6-flash
-  at: '2026-09-25T16:57:45+00:00'
+  at: '2026-09-29T13:04:42+00:00'
   source_sha256: 3fc34b470724ed9e
 sources:
 - title: Closed-Loop Power Control High-Band
   resource: data/vodafone-mvp/raw/Closed-Loop Power Control High-Band.pdf
 ---
 
-This section details performance management for the Closed-Loop Power Control High-Band feature, including monitoring objectives, baseline data collection, key performance indicators (KPIs), and measurement counters.
+This section details performance management guidelines, key performance indicators (KPIs), and performance counters for the Closed-Loop Power Control High-Band feature.
 
-Performance management for this feature answers three questions: is the loop converging (UEs reaching the target window and staying there), is interference actually falling (IoT trend versus the pre-activation baseline), and is the loop stable (no oscillation between up and down commands). Collect a two-week pre-activation baseline of uplink IoT, uplink BLER, and cell-edge throughput over matching hours, then compare post-activation. All counters are per cell per standard 15-minute ROP.
+## Monitoring and Baseline Guidelines
 
-## KPIs
+Performance management for this feature answers three main questions:
+1. Is the loop converging (UEs reaching the target window and staying there)?
+2. Is interference actually falling (IoT trend versus the pre-activation baseline)?
+3. Is the loop stable (no oscillation between up and down commands)?
 
-In a healthy cell, TPC Balance should settle between 40% and 60% — a strong bias toward up-commands indicates the target is set too high for the coverage design, while a bias toward down-commands suggests open-loop p0 is too generous. In-Window Ratio above 80% indicates good convergence; below 60% investigate blockage frequency and beam switching rates. IoT Reduction is the headline benefit KPI and should trend 1.5–3 dB below baseline within a week.
+A two-week pre-activation baseline of uplink IoT, uplink BLER, and cell-edge throughput should be collected over matching hours, then compared post-activation. All counters are measured per cell per standard 15-minute Result Output Period (ROP).
+
+## Key Performance Indicators (KPIs)
+
+KPI guidance for feature evaluation:
+- **TPC Balance:** In a healthy cell, TPC Balance should settle between 40% and 60%. A strong bias toward up-commands indicates the target is set too high for the coverage design, while a bias toward down-commands suggests open-loop p0 is too generous.
+- **In-Window Ratio:** An In-Window Ratio above 80% indicates good convergence; values below 60% require investigating blockage frequency and beam switching rates.
+- **IoT Reduction:** This is the headline benefit KPI and should trend 1.5–3 dB below baseline within a week.
 
 | KPI | Formula | Description |
 | --- | --- | --- |
@@ -34,9 +45,11 @@ In a healthy cell, TPC Balance should settle between 40% and 60% — a strong bi
 | Loop Reset Rate | `ctrLoopResets / (ctrSinrSamples / 1000)` | Loop resets per 1000 SINR samples; high values indicate beam instability |
 | Fast Ramp Rate | `ctrFastRampEvents / ctrTpcUpCmds × 100` | Share of up-corrections triggered by blockage recovery (%) |
 
-## Counters
+## Performance Counters
 
-The counters record loop activity and convergence quality. `ctrLoopResets` deserves particular attention: it increments on every beam-switch-induced reset, so a cell with a high value relative to its traffic is suffering beam churn, and power control tuning will not help until beam management is stabilized. `ctrUeAtMaxPower` identifies coverage-limited UEs that the loop cannot help — a rising trend suggests the cell is being asked to serve UEs beyond its FR2 link budget.
+The performance counters record loop activity and convergence quality:
+- `ctrLoopResets` increments on every beam-switch-induced reset. A cell with a high value relative to its traffic is suffering beam churn, and power control tuning will not help until beam management is stabilized.
+- `ctrUeAtMaxPower` identifies coverage-limited UEs that the loop cannot help. A rising trend suggests the cell is being asked to serve UEs beyond its FR2 link budget.
 
 | Counter | Description | Range | Datatype |
 | --- | --- | --- | --- |
@@ -47,9 +60,3 @@ The counters record loop activity and convergence quality. `ctrLoopResets` deser
 | `ctrLoopResets` | Loop state resets (beam switch or RRC reconfiguration) | 0–2³¹ | int64 |
 | `ctrFastRampEvents` | Blockage-recovery fast ramp activations | 0–2³¹ | int64 |
 | `ctrUeAtMaxPower` | Samples where a UE reported PHR ≤ 0 at max power | 0–2³¹ | int64 |
-
-# Cross-References
-
-- [Feature Operation](feature-operation.md)
-- [Parameters](parameters.md)
-- [Activation Procedure](activation-procedure.md)
