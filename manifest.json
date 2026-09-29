@@ -1,14 +1,14 @@
 {
   "okf_version": "0.2",
-  "generated_at": "2026-09-29T16:22:09+00:00",
-  "concept_count": 49,
+  "generated_at": "2026-09-29T23:27:58+00:00",
+  "concept_count": 59,
   "concepts": [
     {
       "id": "Carrier Aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/activation-procedure",
       "path": "Carrier Aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/activation-procedure.md",
       "type": "procedure",
       "title": "Activation Procedure",
-      "description": "Outlines the activation procedure, preconditions, rollout recommendations, step-by-step instructions, and CLI commands for Closed-Loop Power Control High-Band.",
+      "description": "Activation procedure, preconditions, rollout recommendations, and CLI commands for Closed-Loop Power Control High-Band.",
       "tags": [
         "activation",
         "procedure",
@@ -233,16 +233,15 @@
       "id": "Energy Efficiency/okf-energy_efficiency-automated_energy_saver/parameters",
       "path": "Energy Efficiency/okf-energy_efficiency-automated_energy_saver/parameters.md",
       "type": "reference-table",
-      "title": "Parameters",
-      "description": "Defines the parameters governing bus scanning behavior and per-device tilt control in Cascaded RET Support.",
+      "title": "PARAMETERS",
+      "description": "Configuration parameters for controlling Automated Energy Saver node and cell behavior.",
       "tags": [
-        "aisg",
-        "ret",
         "parameters",
-        "tilt-control",
-        "bus-scanning"
+        "automated-energy-saver",
+        "energy-saver",
+        "configuration"
       ],
-      "resource": "data/vodafone-mvp/raw/Cascaded RET Support.pdf#parameters",
+      "resource": "data/vodafone-mvp/raw/Automated Energy Saver.pdf#parameters",
       "trust_tier": "unverified"
     },
     {
@@ -521,6 +520,133 @@
       "trust_tier": "unverified"
     },
     {
+      "id": "Energy Efficiency/okf-energy_efficiency-energy_optimized_symbol_allocation/activation-procedure",
+      "path": "Energy Efficiency/okf-energy_efficiency-energy_optimized_symbol_allocation/activation-procedure.md",
+      "type": "procedure",
+      "title": "Activation Procedure",
+      "description": "Activation procedure, preconditions, traffic impact, and CLI commands for Energy-Optimized Symbol Allocation.",
+      "tags": [
+        "energy-saving",
+        "activation",
+        "rancli",
+        "symbol-allocation",
+        "nr"
+      ],
+      "resource": "data/vodafone-mvp/raw/Energy-Optimized Symbol Allocation.pdf#activation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Energy Efficiency/okf-energy_efficiency-energy_optimized_symbol_allocation/deactivation-procedure",
+      "path": "Energy Efficiency/okf-energy_efficiency-energy_optimized_symbol_allocation/deactivation-procedure.md",
+      "type": "procedure",
+      "title": "DEACTIVATION PROCEDURE",
+      "description": "Details the deactivation procedure, traffic impact, execution steps, and verification commands for the Energy-Optimized Symbol Allocation feature.",
+      "tags": [
+        "deactivation",
+        "rancli",
+        "energy-optimization",
+        "symbol-allocation"
+      ],
+      "resource": "data/vodafone-mvp/raw/Energy-Optimized Symbol Allocation.pdf#deactivation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Energy Efficiency/okf-energy_efficiency-energy_optimized_symbol_allocation/feature-depedencies",
+      "path": "Energy Efficiency/okf-energy_efficiency-energy_optimized_symbol_allocation/feature-depedencies.md",
+      "type": "concept",
+      "title": "Feature Dependencies",
+      "description": "Details the feature, hardware, and network dependencies as well as operational limitations for Energy-Optimized Symbol Allocation.",
+      "tags": [
+        "energy-saving",
+        "symbol-allocation",
+        "dependencies",
+        "limitations"
+      ],
+      "resource": "data/vodafone-mvp/raw/Energy-Optimized Symbol Allocation.pdf#feature-depedencies",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Energy Efficiency/okf-energy_efficiency-energy_optimized_symbol_allocation/feature-operation",
+      "path": "Energy Efficiency/okf-energy_efficiency-energy_optimized_symbol_allocation/feature-operation.md",
+      "type": "concept",
+      "title": "FEATURE OPERATION",
+      "description": "Describes the operational mechanism of energy-optimized symbol compaction in downlink scheduling and radio unit power amplifier muting.",
+      "tags": [
+        "energy-saving",
+        "symbol-allocation",
+        "downlink",
+        "scheduler",
+        "pa-muting",
+        "sliv"
+      ],
+      "resource": "data/vodafone-mvp/raw/Energy-Optimized Symbol Allocation.pdf#feature-operation",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Energy Efficiency/okf-energy_efficiency-energy_optimized_symbol_allocation/feature-overview",
+      "path": "Energy Efficiency/okf-energy_efficiency-energy_optimized_symbol_allocation/feature-overview.md",
+      "type": "concept",
+      "title": "FEATURE OVERVIEW",
+      "description": "Overview of Energy-Optimized Symbol Allocation, which compacts downlink transmissions into fewer OFDM symbols within a slot to enable symbol-level micro sleep.",
+      "tags": [
+        "energy-saving",
+        "symbol-allocation",
+        "pdsch",
+        "sliv",
+        "micro-sleep",
+        "nr"
+      ],
+      "resource": "data/vodafone-mvp/raw/Energy-Optimized Symbol Allocation.pdf#feature-overview",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Energy Efficiency/okf-energy_efficiency-energy_optimized_symbol_allocation/network-impact",
+      "path": "Energy Efficiency/okf-energy_efficiency-energy_optimized_symbol_allocation/network-impact.md",
+      "type": "concept",
+      "title": "NETWORK IMPACT",
+      "description": "Energy, end-user, capacity, and KPI impact of Energy-Optimized Symbol Allocation.",
+      "tags": [
+        "energy-saving",
+        "network-impact",
+        "kpi",
+        "capacity",
+        "latency"
+      ],
+      "resource": "data/vodafone-mvp/raw/Energy-Optimized Symbol Allocation.pdf#network-impact",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Energy Efficiency/okf-energy_efficiency-energy_optimized_symbol_allocation/parameters",
+      "path": "Energy Efficiency/okf-energy_efficiency-energy_optimized_symbol_allocation/parameters.md",
+      "type": "reference-table",
+      "title": "Parameters",
+      "description": "Configuration parameters for Energy-Optimized Symbol Allocation, including load thresholds, compaction lengths, and bandwidth limits.",
+      "tags": [
+        "parameters",
+        "configuration",
+        "symbol-allocation",
+        "energy-saving",
+        "compaction"
+      ],
+      "resource": "data/vodafone-mvp/raw/Energy-Optimized Symbol Allocation.pdf#parameters",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Energy Efficiency/okf-energy_efficiency-energy_optimized_symbol_allocation/performance-management",
+      "path": "Energy Efficiency/okf-energy_efficiency-energy_optimized_symbol_allocation/performance-management.md",
+      "type": "concept",
+      "title": "Performance Management",
+      "description": "Defines performance management strategy, KPIs, formulas, and counters for monitoring Energy-Optimized Symbol Allocation.",
+      "tags": [
+        "performance-management",
+        "kpis",
+        "counters",
+        "energy-optimization"
+      ],
+      "resource": "data/vodafone-mvp/raw/Energy-Optimized Symbol Allocation.pdf#performance-management",
+      "trust_tier": "unverified"
+    },
+    {
       "id": "Energy Efficiency/okf-energy_efficiency-nr_massive_mimo_sleep_mode/activation-procedure",
       "path": "Energy Efficiency/okf-energy_efficiency-nr_massive_mimo_sleep_mode/activation-procedure.md",
       "type": "procedure",
@@ -736,14 +862,14 @@
       "path": "Hardware Support/okf-hardware_support-cascaded_ret_support/network-impact.md",
       "type": "concept",
       "title": "Network Impact",
-      "description": "Overview of the network impact of Cascaded RET Support across coverage, capacity, end users, O&M load, and site operations.",
+      "description": "Overview of network impact across coverage, capacity, end users, O&M load, and site operations.",
       "tags": [
-        "RET",
-        "Cascaded RET",
+        "Network Impact",
         "Coverage",
         "Capacity",
         "O&M",
-        "AISG"
+        "AISG",
+        "Site Operations"
       ],
       "resource": "data/vodafone-mvp/raw/Cascaded RET Support.pdf#network-impact",
       "trust_tier": "unverified"
@@ -795,6 +921,38 @@
         "lan-management-services"
       ],
       "resource": "data/vodafone_mvp_dummy_data/dummy.pdf#confidentiality-and-disclaimer-notice",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "okf-lte_nr_dual_conn/feature-depedencies",
+      "path": "okf-lte_nr_dual_conn/feature-depedencies.md",
+      "type": "concept",
+      "title": "Feature Dependencies",
+      "description": "Outlines technical prerequisites, licensing, configuration, and feature dependencies for LTE-NR Dual Connectivity (EN-DC).",
+      "tags": [
+        "EN-DC",
+        "LTE-NR",
+        "Dependencies",
+        "Licensing",
+        "X2"
+      ],
+      "resource": "data/vodafone-mvp/raw/LTE-NR_Dual_Conn.pdf#feature-depedencies",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "okf-lte_nr_dual_conn/feature-overview",
+      "path": "okf-lte_nr_dual_conn/feature-overview.md",
+      "type": "concept",
+      "title": "FEATURE OVERVIEW",
+      "description": "Provides an overview of LTE-NR Dual Connectivity (EN-DC) architecture, signalling flows, and bearer configurations in Non-Standalone 5G deployments.",
+      "tags": [
+        "EN-DC",
+        "LTE-NR Dual Connectivity",
+        "NSA",
+        "SgNB Addition",
+        "Split Bearer"
+      ],
+      "resource": "data/vodafone-mvp/raw/LTE-NR_Dual_Conn.pdf#feature-overview",
       "trust_tier": "unverified"
     }
   ]

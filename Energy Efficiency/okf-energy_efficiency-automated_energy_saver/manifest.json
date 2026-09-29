@@ -1,6 +1,6 @@
 {
   "okf_version": "0.2",
-  "generated_at": "2026-09-29T16:13:47+00:00",
+  "generated_at": "2026-09-29T22:55:02+00:00",
   "concept_count": 8,
   "concepts": [
     {
@@ -8,7 +8,7 @@
       "path": "activation-procedure.md",
       "type": "procedure",
       "title": "Activation Procedure",
-      "description": "Step-by-step procedure, preconditions, and CLI commands for activating the Automated Energy Saver feature.",
+      "description": "Procedure, preconditions, rollout strategy, and CLI commands for activating the Automated Energy Saver feature.",
       "tags": [
         "activation",
         "procedure",
@@ -103,14 +103,15 @@
       "path": "parameters.md",
       "type": "reference-table",
       "title": "Parameters",
-      "description": "Defines the parameters governing the Automated Energy Saver feature, including node control, forecast margins, protected daily windows, and fallback behaviors.",
+      "description": "Defines the parameters governing bus scanning behavior and per-device tilt control in Cascaded RET Support.",
       "tags": [
-        "energy-saver",
+        "aisg",
+        "ret",
         "parameters",
-        "configuration",
-        "node-control"
+        "tilt-control",
+        "bus-scanning"
       ],
-      "resource": "data/vodafone-mvp/raw/Automated Energy Saver.pdf#parameters",
+      "resource": "data/vodafone-mvp/raw/Cascaded RET Support.pdf#parameters",
       "trust_tier": "unverified"
     },
     {

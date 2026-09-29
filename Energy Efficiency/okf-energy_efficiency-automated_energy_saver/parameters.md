@@ -1,38 +1,35 @@
 ---
 type: reference-table
-resource: data/vodafone-mvp/raw/Cascaded RET Support.pdf#parameters
-title: Parameters
-description: Defines the parameters governing bus scanning behavior and per-device
-  tilt control in Cascaded RET Support.
+resource: data/vodafone-mvp/raw/Automated Energy Saver.pdf#parameters
+title: PARAMETERS
+description: Configuration parameters for controlling Automated Energy Saver node
+  and cell behavior.
 tags:
-- aisg
-- ret
 - parameters
-- tilt-control
-- bus-scanning
+- automated-energy-saver
+- energy-saver
+- configuration
 status: draft
 generated:
   by: enricher_agent/gemini-3.6-flash
-  at: '2026-09-29T16:18:49+00:00'
+  at: '2026-09-29T22:58:52+00:00'
   source_sha256: 9c10e48e2adcd7fd
 sources:
-- resource: data/vodafone-mvp/raw/Cascaded RET Support.pdf
-  title: Cascaded RET Support
+- title: Automated Energy Saver
+  resource: data/vodafone-mvp/raw/Automated Energy Saver.pdf
 ---
 
-This section details the parameters governing AISG bus scanning behavior and per-device tilt control for Cascaded RET Support.
-
-Defaults are safe for standard installations; `aisgScanMode` is the only parameter most deployments touch, switching from manual to automatic scanning after the site integration phase is complete so that replaced actuators are rediscovered without operator action.
+This section details the configuration parameters for the Automated Energy Saver feature. The parameter set is deliberately small, requiring policy input while allowing automation output. Most networks only set `savingsLevel` and the protected window, using the cell-level opt-out attribute to exclude special-event or VIP sites rather than deactivating the feature node-wide.
 
 ## Parameter Reference
 
 | Parameter | Description | Values | Datatype | Default |
 | --- | --- | --- | --- | --- |
-| `aisgScanMode` | Bus scan trigger mode per port | `MANUAL`, `AUTO_ON_UNLOCK`, `PERIODIC` | enum | `AUTO_ON_UNLOCK` |
-| `aisgScanInterval` | Rescan interval when `PERIODIC` | 1–168 (h) | int32 | 24 |
-| `maxAldPerPort` | Administrative cap on discovered ALDs per port | 1–12 | int32 | 12 |
-| `electricalTilt` | Commanded tilt per `RetDevice` subunit | device range (0.1°) | int32 | 0 |
-| `retSupervisionTimer` | Keep-alive poll interval per device | 10–600 (s) | int32 | 60 |
-| `busPowerMode` | DC power feed on the AISG port | `OFF`, `ON`, `ON_DEMAND` | enum | `ON` |
-| `movementTimeout` | Max time a tilt movement may run | 30–600 (s) | int32 | 180 |
-| `calibrationRequired` | Reject tilt commands on uncalibrated devices | `true`, `false` | boolean | `true` |
+| `energySaverMode` | Enables automated control on the node | `OFF`, `MONITOR`, `AUTO` | enum | `OFF` |
+| `savingsLevel` | Forecast margin policy | `CONSERVATIVE`, `BALANCED`, `AGGRESSIVE` | enum | `BALANCED` |
+| `protectedStart` | Start of daily window with no automated actions | 00:00–23:59 | string | 06:30 |
+| `protectedStop` | End of daily window with no automated actions | 00:00–23:59 | string | 22:00 |
+| `wakeupLeadTime` | Pre-emptive wake-up lead ahead of forecast rise | 5–60 (min) | int32 | 30 |
+| `cellOptOut` | Excludes the cell from automated control | `true`, `false` | boolean | `false` |
+| `historyWindow` | Days of PM history used by the prediction model | 7–42 | int32 | 21 |
+| `fallbackMode` | Behavior before sufficient history exists | `DISABLED`, `REACTIVE_ONLY` | enum | `REACTIVE_ONLY` |

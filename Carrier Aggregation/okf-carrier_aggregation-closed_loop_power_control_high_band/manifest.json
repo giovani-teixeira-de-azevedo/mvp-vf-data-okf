@@ -1,6 +1,6 @@
 {
   "okf_version": "0.2",
-  "generated_at": "2026-09-29T15:59:31+00:00",
+  "generated_at": "2026-09-29T23:26:24+00:00",
   "concept_count": 8,
   "concepts": [
     {
@@ -8,7 +8,7 @@
       "path": "activation-procedure.md",
       "type": "procedure",
       "title": "Activation Procedure",
-      "description": "Outlines the activation procedure, preconditions, rollout recommendations, step-by-step instructions, and CLI commands for Closed-Loop Power Control High-Band.",
+      "description": "Activation procedure, preconditions, rollout recommendations, and CLI commands for Closed-Loop Power Control High-Band.",
       "tags": [
         "activation",
         "procedure",
