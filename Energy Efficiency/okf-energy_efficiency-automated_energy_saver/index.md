@@ -13,4 +13,4 @@
 
 # reference-table
 
-* [Parameters](parameters.md) - Defines the parameters governing bus scanning behavior and per-device tilt control in Cascaded RET Support.
+* [PARAMETERS](parameters.md) - Configuration parameters for controlling Automated Energy Saver node and cell behavior.
