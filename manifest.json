@@ -1,7 +1,7 @@
 {
   "okf_version": "0.2",
-  "generated_at": "2026-09-25T17:16:02+00:00",
-  "concept_count": 32,
+  "generated_at": "2026-09-29T16:22:09+00:00",
+  "concept_count": 49,
   "concepts": [
     {
       "id": "Carrier Aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/activation-procedure",
@@ -135,11 +135,137 @@
       "trust_tier": "unverified"
     },
     {
+      "id": "Energy Efficiency/okf-energy_efficiency-automated_energy_saver/activation-procedure",
+      "path": "Energy Efficiency/okf-energy_efficiency-automated_energy_saver/activation-procedure.md",
+      "type": "procedure",
+      "title": "Activation Procedure",
+      "description": "Procedure, preconditions, rollout strategy, and CLI commands for activating the Automated Energy Saver feature.",
+      "tags": [
+        "activation",
+        "procedure",
+        "automated-energy-saver",
+        "rancli",
+        "configuration"
+      ],
+      "resource": "data/vodafone-mvp/raw/Automated Energy Saver.pdf#activation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Energy Efficiency/okf-energy_efficiency-automated_energy_saver/deactivation-procedure",
+      "path": "Energy Efficiency/okf-energy_efficiency-automated_energy_saver/deactivation-procedure.md",
+      "type": "procedure",
+      "title": "DEACTIVATION PROCEDURE",
+      "description": "Deactivation procedure for Automated Energy Saver, including wake-and-release behavior and rancli commands.",
+      "tags": [
+        "deactivation",
+        "energy-saver",
+        "rancli",
+        "configuration"
+      ],
+      "resource": "data/vodafone-mvp/raw/Automated Energy Saver.pdf#deactivation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Energy Efficiency/okf-energy_efficiency-automated_energy_saver/feature-depedencies",
+      "path": "Energy Efficiency/okf-energy_efficiency-automated_energy_saver/feature-depedencies.md",
+      "type": "concept",
+      "title": "Feature Dependencies",
+      "description": "Defines the feature, hardware, network dependencies, and system limitations for Automated Energy Saver.",
+      "tags": [
+        "energy-saver",
+        "dependencies",
+        "hardware",
+        "network",
+        "limitations"
+      ],
+      "resource": "data/vodafone-mvp/raw/Automated Energy Saver.pdf#feature-depedencies",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Energy Efficiency/okf-energy_efficiency-automated_energy_saver/feature-operation",
+      "path": "Energy Efficiency/okf-energy_efficiency-automated_energy_saver/feature-operation.md",
+      "type": "concept",
+      "title": "FEATURE OPERATION",
+      "description": "Details the operational mechanism, forecasting intervals, savings level policies, subordinate feature request sequencing, and pre-emptive wake-up control of the Automated Energy Saver feature.",
+      "tags": [
+        "energy-saver",
+        "load-forecast",
+        "savingsLevel",
+        "wakeupLeadTime",
+        "feature-operation"
+      ],
+      "resource": "data/vodafone-mvp/raw/Automated Energy Saver.pdf#feature-operation",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Energy Efficiency/okf-energy_efficiency-automated_energy_saver/feature-overview",
+      "path": "Energy Efficiency/okf-energy_efficiency-automated_energy_saver/feature-overview.md",
+      "type": "concept",
+      "title": "Feature Overview",
+      "description": "High-level overview of the Automated Energy Saver feature for orchestrating gNodeB energy-saving functions.",
+      "tags": [
+        "automated-energy-saver",
+        "energy-saving",
+        "gnodeb",
+        "orchestration",
+        "traffic-prediction"
+      ],
+      "resource": "data/vodafone-mvp/raw/Automated Energy Saver.pdf#feature-overview",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Energy Efficiency/okf-energy_efficiency-automated_energy_saver/network-impact",
+      "path": "Energy Efficiency/okf-energy_efficiency-automated_energy_saver/network-impact.md",
+      "type": "concept",
+      "title": "Network Impact",
+      "description": "Overview of the energy savings, end-user experience, O&M operational changes, and KPI impacts of the Automated Energy Saver feature.",
+      "tags": [
+        "energy-savings",
+        "network-impact",
+        "kpi",
+        "o-and-m",
+        "end-user-experience"
+      ],
+      "resource": "data/vodafone-mvp/raw/Automated Energy Saver.pdf#network-impact",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Energy Efficiency/okf-energy_efficiency-automated_energy_saver/parameters",
+      "path": "Energy Efficiency/okf-energy_efficiency-automated_energy_saver/parameters.md",
+      "type": "reference-table",
+      "title": "Parameters",
+      "description": "Defines the parameters governing bus scanning behavior and per-device tilt control in Cascaded RET Support.",
+      "tags": [
+        "aisg",
+        "ret",
+        "parameters",
+        "tilt-control",
+        "bus-scanning"
+      ],
+      "resource": "data/vodafone-mvp/raw/Cascaded RET Support.pdf#parameters",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Energy Efficiency/okf-energy_efficiency-automated_energy_saver/performance-management",
+      "path": "Energy Efficiency/okf-energy_efficiency-automated_energy_saver/performance-management.md",
+      "type": "concept",
+      "title": "PERFORMANCE MANAGEMENT",
+      "description": "Performance management baseline requirements, KPIs, formulas, and counter definitions for Automated Energy Saver.",
+      "tags": [
+        "performance-management",
+        "kpi",
+        "counters",
+        "energy-saver"
+      ],
+      "resource": "data/vodafone-mvp/raw/Automated Energy Saver.pdf#performance-management",
+      "trust_tier": "unverified"
+    },
+    {
       "id": "Energy Efficiency/okf-energy_efficiency-cqi_based_ue_energy_efficiency_enhancement/activation-procedure",
       "path": "Energy Efficiency/okf-energy_efficiency-cqi_based_ue_energy_efficiency_enhancement/activation-procedure.md",
       "type": "procedure",
       "title": "ACTIVATION PROCEDURE",
-      "description": "Step-by-step activation procedure, prerequisites, CLI commands, rollout strategy, and post-activation verification for CQI-based UE energy efficiency enhancement.",
+      "description": "Activation procedure, preconditions, rollout strategy, CLI commands, and post-change verification for CQI-based UE energy efficiency enhancement.",
       "tags": [
         "activation",
         "procedure",
@@ -156,10 +282,10 @@
       "path": "Energy Efficiency/okf-energy_efficiency-cqi_based_ue_energy_efficiency_enhancement/deactivation-procedure.md",
       "type": "procedure",
       "title": "DEACTIVATION PROCEDURE",
-      "description": "Outlines the steps, CLI commands, traffic impact, and verification for deactivating CQI-Based UE Energy Efficiency Enhancement.",
+      "description": "Outlines the deactivation procedure, traffic impact, and CLI commands for CQI-Based UE Energy Efficiency Enhancement.",
       "tags": [
-        "rancli",
         "deactivation",
+        "rancli",
         "cqiEnergyEffMode",
         "FeatureCtrl",
         "CqiUeEnergyEff",
@@ -172,14 +298,15 @@
       "id": "Energy Efficiency/okf-energy_efficiency-cqi_based_ue_energy_efficiency_enhancement/feature-depedencies",
       "path": "Energy Efficiency/okf-energy_efficiency-cqi_based_ue_energy_efficiency_enhancement/feature-depedencies.md",
       "type": "concept",
-      "title": "Feature Dependencies",
-      "description": "Outlines feature, hardware, and network dependencies as well as operational limitations for CQI-Based UE Energy Efficiency Enhancement.",
+      "title": "FEATURE DEPEDENCIES",
+      "description": "Describes feature, hardware, and network dependencies as well as operational limitations.",
       "tags": [
         "feature-dependencies",
-        "cqi-ue-energy-efficiency",
-        "c-drx",
-        "license-key",
-        "limitations"
+        "hardware-dependencies",
+        "network-dependencies",
+        "limitations",
+        "drx",
+        "cqi"
       ],
       "resource": "data/vodafone-mvp/raw/CQI-Based UE Energy Efficiency Enhancement.pdf#feature-depedencies",
       "trust_tier": "unverified"
@@ -189,7 +316,7 @@
       "path": "Energy Efficiency/okf-energy_efficiency-cqi_based_ue_energy_efficiency_enhancement/feature-operation.md",
       "type": "concept",
       "title": "FEATURE OPERATION",
-      "description": "Describes CQI filtering, UE classification into race-to-sleep or relaxed classes, scheduling behaviors, link adaptation back-off, and hysteresis mechanisms for CQI-based UE energy efficiency.",
+      "description": "Details CQI filtering, UE classification into race-to-sleep or relaxed classes, dynamic scheduling, link adaptation adjustments, and class transition hysteresis.",
       "tags": [
         "cqi",
         "ue-energy-efficiency",
@@ -520,6 +647,154 @@
         "sleep-mode"
       ],
       "resource": "data/vodafone-mvp/raw/NR Massive MIMO Sleep Mode.pdf#performance-management",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Hardware Support/okf-hardware_support-cascaded_ret_support/activation-procedure",
+      "path": "Hardware Support/okf-hardware_support-cascaded_ret_support/activation-procedure.md",
+      "type": "procedure",
+      "title": "ACTIVATION PROCEDURE",
+      "description": "Step-by-step activation procedure, preconditions, and verification commands for Cascaded RET Support.",
+      "tags": [
+        "cascaded-ret",
+        "activation",
+        "rancli",
+        "aisg",
+        "calibration"
+      ],
+      "resource": "data/vodafone-mvp/raw/Cascaded RET Support.pdf#activation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Hardware Support/okf-hardware_support-cascaded_ret_support/deactivation-procedure",
+      "path": "Hardware Support/okf-hardware_support-cascaded_ret_support/deactivation-procedure.md",
+      "type": "procedure",
+      "title": "Deactivation Procedure",
+      "description": "Deactivation procedure and CLI commands for the Cascaded RET Support feature.",
+      "tags": [
+        "ret",
+        "cascaded-ret",
+        "deactivation",
+        "rancli",
+        "o-and-m"
+      ],
+      "resource": "data/vodafone-mvp/raw/Cascaded RET Support.pdf#deactivation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Hardware Support/okf-hardware_support-cascaded_ret_support/feature-depedencies",
+      "path": "Hardware Support/okf-hardware_support-cascaded_ret_support/feature-depedencies.md",
+      "type": "concept",
+      "title": "Feature Dependencies",
+      "description": "Outlines feature, hardware, and network dependencies alongside system limitations for Cascaded RET Support.",
+      "tags": [
+        "cascaded-ret",
+        "dependencies",
+        "hardware-requirements",
+        "licensing",
+        "limitations",
+        "aisg"
+      ],
+      "resource": "data/vodafone-mvp/raw/Cascaded RET Support.pdf#feature-depedencies",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Hardware Support/okf-hardware_support-cascaded_ret_support/feature-operation",
+      "path": "Hardware Support/okf-hardware_support-cascaded_ret_support/feature-operation.md",
+      "type": "concept",
+      "title": "Feature Operation",
+      "description": "Details the operational workflow of Cascaded RET Support, including AISG bus scanning, device discovery, calibration, electrical tilt configuration, and continuous supervision.",
+      "tags": [
+        "aisg",
+        "ret",
+        "ald",
+        "cascade",
+        "calibration",
+        "electrical-tilt"
+      ],
+      "resource": "data/vodafone-mvp/raw/Cascaded RET Support.pdf#feature-operation",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Hardware Support/okf-hardware_support-cascaded_ret_support/feature-overview",
+      "path": "Hardware Support/okf-hardware_support-cascaded_ret_support/feature-overview.md",
+      "type": "concept",
+      "title": "Feature Overview",
+      "description": "Overview of Cascaded RET Support, enabling remote control, supervision, and individual management of daisy-chained AISG RET devices on a single bus.",
+      "tags": [
+        "cascaded-ret",
+        "aisg",
+        "ald",
+        "ret-device",
+        "remote-electrical-tilt"
+      ],
+      "resource": "data/vodafone-mvp/raw/Cascaded RET Support.pdf#feature-overview",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Hardware Support/okf-hardware_support-cascaded_ret_support/network-impact",
+      "path": "Hardware Support/okf-hardware_support-cascaded_ret_support/network-impact.md",
+      "type": "concept",
+      "title": "Network Impact",
+      "description": "Overview of the network impact of Cascaded RET Support across coverage, capacity, end users, O&M load, and site operations.",
+      "tags": [
+        "RET",
+        "Cascaded RET",
+        "Coverage",
+        "Capacity",
+        "O&M",
+        "AISG"
+      ],
+      "resource": "data/vodafone-mvp/raw/Cascaded RET Support.pdf#network-impact",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Hardware Support/okf-hardware_support-cascaded_ret_support/parameters",
+      "path": "Hardware Support/okf-hardware_support-cascaded_ret_support/parameters.md",
+      "type": "reference-table",
+      "title": "PARAMETERS",
+      "description": "Parameters governing bus scanning behavior and per-device tilt control in Cascaded RET Support.",
+      "tags": [
+        "parameters",
+        "aisg",
+        "ret",
+        "tilt-control",
+        "configuration"
+      ],
+      "resource": "data/vodafone-mvp/raw/Cascaded RET Support.pdf#parameters",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Hardware Support/okf-hardware_support-cascaded_ret_support/performance-management",
+      "path": "Hardware Support/okf-hardware_support-cascaded_ret_support/performance-management.md",
+      "type": "concept",
+      "title": "PERFORMANCE MANAGEMENT",
+      "description": "Details performance management metrics, KPIs, and counters for monitoring device health and troubleshooting in Cascaded RET Support.",
+      "tags": [
+        "performance management",
+        "RET",
+        "ALD",
+        "AISG",
+        "KPIs",
+        "counters"
+      ],
+      "resource": "data/vodafone-mvp/raw/Cascaded RET Support.pdf#performance-management",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "okf-dummy/confidentiality-and-disclaimer-notice",
+      "path": "okf-dummy/confidentiality-and-disclaimer-notice.md",
+      "type": "concept",
+      "title": "Confidentiality and Disclaimer Notice",
+      "description": "Legal confidentiality notice and disclaimer governing the Request for Information issued by Toyota Motor Europe NV/SA regarding LAN Management Services.",
+      "tags": [
+        "confidentiality",
+        "disclaimer",
+        "rfi",
+        "tme",
+        "lan-management-services"
+      ],
+      "resource": "data/vodafone_mvp_dummy_data/dummy.pdf#confidentiality-and-disclaimer-notice",
       "trust_tier": "unverified"
     }
   ]

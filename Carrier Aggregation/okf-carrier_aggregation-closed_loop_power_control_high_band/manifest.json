@@ -1,6 +1,6 @@
 {
   "okf_version": "0.2",
-  "generated_at": "2026-09-25T16:49:51+00:00",
+  "generated_at": "2026-09-29T15:59:31+00:00",
   "concept_count": 8,
   "concepts": [
     {
@@ -8,7 +8,7 @@
       "path": "activation-procedure.md",
       "type": "procedure",
       "title": "Activation Procedure",
-      "description": "Outlines the step-by-step procedure, CLI commands, prerequisites, and rollout guidelines for activating Closed-Loop Power Control High-Band on a node.",
+      "description": "Outlines the activation procedure, preconditions, rollout recommendations, step-by-step instructions, and CLI commands for Closed-Loop Power Control High-Band.",
       "tags": [
         "activation",
         "procedure",
@@ -88,18 +88,16 @@
       "id": "network-impact",
       "path": "network-impact.md",
       "type": "concept",
-      "title": "Network Impact",
-      "description": "Details the network impact of Closed-Loop Power Control High-Band on interference, throughput, UE battery, signaling, and KPIs.",
+      "title": "NETWORK IMPACT",
+      "description": "Outlines network impact on uplink interference, throughput, UE battery, signaling, and KPIs.",
       "tags": [
-        "closed-loop-power-control",
-        "fr2",
-        "high-band",
         "network-impact",
-        "iot",
+        "uplink-interference",
         "throughput",
         "ue-battery",
         "signaling",
-        "kpi"
+        "kpis",
+        "pctargetsinr"
       ],
       "resource": "data/vodafone-mvp/raw/Closed-Loop Power Control High-Band.pdf#network-impact",
       "trust_tier": "unverified"
@@ -125,14 +123,13 @@
       "id": "performance-management",
       "path": "performance-management.md",
       "type": "concept",
-      "title": "Performance Management",
-      "description": "Performance management guidance, KPIs, and counters for monitoring Closed-Loop Power Control High-Band convergence, stability, and interference reduction.",
+      "title": "PERFORMANCE MANAGEMENT",
+      "description": "Performance management guidance, key performance indicators (KPIs), and measurement counters for Closed-Loop Power Control High-Band.",
       "tags": [
         "performance-management",
         "kpi",
         "counters",
-        "closed-loop-power-control",
-        "fr2"
+        "closed-loop-power-control"
       ],
       "resource": "data/vodafone-mvp/raw/Closed-Loop Power Control High-Band.pdf#performance-management",
       "trust_tier": "unverified"
