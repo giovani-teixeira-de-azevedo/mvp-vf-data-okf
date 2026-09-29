@@ -1,6 +1,6 @@
 {
   "okf_version": "0.2",
-  "generated_at": "2026-09-29T16:22:09+00:00",
+  "generated_at": "2026-09-29T20:52:38+00:00",
   "concept_count": 49,
   "concepts": [
     {
@@ -736,14 +736,14 @@
       "path": "Hardware Support/okf-hardware_support-cascaded_ret_support/network-impact.md",
       "type": "concept",
       "title": "Network Impact",
-      "description": "Overview of the network impact of Cascaded RET Support across coverage, capacity, end users, O&M load, and site operations.",
+      "description": "Overview of network impact across coverage, capacity, end users, O&M load, and site operations.",
       "tags": [
-        "RET",
-        "Cascaded RET",
+        "Network Impact",
         "Coverage",
         "Capacity",
         "O&M",
-        "AISG"
+        "AISG",
+        "Site Operations"
       ],
       "resource": "data/vodafone-mvp/raw/Cascaded RET Support.pdf#network-impact",
       "trust_tier": "unverified"

@@ -1,6 +1,6 @@
 # Subdirectories
 
-* [Carrier Aggregation](Carrier Aggregation/index.md) - This directory contains technical documentation for Closed-Loop Power Control High-Band, covering feature operations, procedures, parameters, dependencies, network impacts, and performance management.
-* [Energy Efficiency](Energy Efficiency/index.md) - This directory contains technical documentation, operational procedures, configuration parameters, and network impacts for energy efficiency features, including sleep modes and power allocation.
-* [Hardware Support](Hardware Support/index.md) - This directory documents Cascaded RET Support, covering feature operations, dependencies, network impacts, parameters, performance management, and activation and deactivation procedures.
-* [okf-dummy](okf-dummy/index.md) - This directory contains a legal confidentiality notice for Toyota Motor Europe's LAN Management Services RFI alongside PDF outline extraction notes.
+* [Carrier Aggregation](Carrier Aggregation/index.md) - This directory contains technical documentation for Closed-Loop Power Control High-Band, covering feature operations, procedures, parameters, dependencies, network impact, and performance management.
+* [Energy Efficiency](Energy Efficiency/index.md) - This directory contains technical documentation for energy efficiency features, covering automated energy saving, CQI-based UE enhancement, energy-optimized power allocation, and NR Massive MIMO sleep mode.
+* [Hardware Support](Hardware Support/index.md) - This directory contains documentation covering the overview, operation, procedures, parameters, dependencies, performance management, and network impact for Cascaded RET Support.
+* [okf-dummy](okf-dummy/index.md) - This directory contains confidentiality notices, legal disclaimers, scope overviews, and metadata for Toyota Motor Europe's LAN Management Services Request for Information.
