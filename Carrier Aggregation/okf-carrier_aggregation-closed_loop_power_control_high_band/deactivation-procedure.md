@@ -12,14 +12,14 @@ tags:
 status: draft
 generated:
   by: enricher_agent/gemini-3.6-flash
-  at: '2026-09-29T13:04:39+00:00'
+  at: '2026-09-29T14:58:48+00:00'
   source_sha256: 7963f633076b7c15
 sources:
-- resource: data/vodafone-mvp/raw/Closed-Loop Power Control High-Band.pdf
-  title: Closed-Loop Power Control High-Band
+- title: Closed-Loop Power Control High-Band
+  resource: data/vodafone-mvp/raw/Closed-Loop Power Control High-Band.pdf
 ---
 
-This section outlines the traffic impact and command-line steps required to deactivate the Closed-Loop Power Control High-Band feature.
+This procedure details the steps and traffic impact associated with deactivating the Closed-Loop Power Control High-Band feature.
 
 ## Traffic Impact
 
