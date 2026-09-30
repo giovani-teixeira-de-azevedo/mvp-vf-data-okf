@@ -1,6 +1,6 @@
 {
   "okf_version": "0.2",
-  "generated_at": "2026-09-29T16:21:02+00:00",
+  "generated_at": "2026-09-30T00:25:38+00:00",
   "concept_count": 1,
   "concepts": [
     {
@@ -8,8 +8,9 @@
       "path": "confidentiality-and-disclaimer-notice.md",
       "type": "concept",
       "title": "Confidentiality and Disclaimer Notice",
-      "description": "Legal confidentiality notice and disclaimer governing the Request for Information issued by Toyota Motor Europe NV/SA regarding LAN Management Services.",
+      "description": "Legal disclaimer and confidentiality provisions governing the Request for Information (RFI) issued by Toyota Motor Europe NV/SA for LAN Management Services.",
       "tags": [
+        "legal",
         "confidentiality",
         "disclaimer",
         "rfi",
