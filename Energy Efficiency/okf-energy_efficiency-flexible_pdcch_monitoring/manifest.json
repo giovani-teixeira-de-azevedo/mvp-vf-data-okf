@@ -1,0 +1,136 @@
+{
+  "okf_version": "0.2",
+  "generated_at": "2026-09-30T14:20:32+00:00",
+  "concept_count": 8,
+  "concepts": [
+    {
+      "id": "activation-procedure",
+      "path": "activation-procedure.md",
+      "type": "procedure",
+      "title": "ACTIVATION PROCEDURE",
+      "description": "Details the step-by-step activation procedure, preconditions, traffic impact, and CLI commands for Flexible PDCCH Monitoring.",
+      "tags": [
+        "flexible-pdcch-monitoring",
+        "activation",
+        "rancli",
+        "sssg"
+      ],
+      "resource": "data/vodafone-mvp/raw/Flexible PDCCH Monitoring.pdf#activation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "deactivation-procedure",
+      "path": "deactivation-procedure.md",
+      "type": "procedure",
+      "title": "Deactivation Procedure",
+      "description": "Step-by-step procedure and RAN CLI commands to deactivate Flexible PDCCH Monitoring and recall UEs to dense monitoring.",
+      "tags": [
+        "deactivation",
+        "ran-cli",
+        "pdcch-monitoring",
+        "flexible-pdcch-monitoring"
+      ],
+      "resource": "data/vodafone-mvp/raw/Flexible PDCCH Monitoring.pdf#deactivation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "feature-depedencies",
+      "path": "feature-depedencies.md",
+      "type": "concept",
+      "title": "Feature Dependencies",
+      "description": "Outlines feature, hardware, and network dependencies as well as operational limitations for Flexible PDCCH Monitoring.",
+      "tags": [
+        "pdcch-monitoring",
+        "feature-dependencies",
+        "hardware-dependencies",
+        "limitations",
+        "c-drx"
+      ],
+      "resource": "data/vodafone-mvp/raw/Flexible PDCCH Monitoring.pdf#feature-depedencies",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "feature-operation",
+      "path": "feature-operation.md",
+      "type": "concept",
+      "title": "FEATURE OPERATION",
+      "description": "Describes search space set group (SSSG) switching, PDCCH skipping, and per-5QI monitoring profiles in Flexible PDCCH Monitoring.",
+      "tags": [
+        "pdcch",
+        "sssg",
+        "sssg0",
+        "sssg1",
+        "5qi",
+        "scheduler",
+        "nr",
+        "rrc"
+      ],
+      "resource": "data/vodafone-mvp/raw/Flexible PDCCH Monitoring.pdf#feature-operation",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "feature-overview",
+      "path": "feature-overview.md",
+      "type": "concept",
+      "title": "FEATURE OVERVIEW",
+      "description": "Overview of Flexible PDCCH Monitoring, including SSSG switching, PDCCH skipping, state transitions, and performance impact.",
+      "tags": [
+        "pdcch-monitoring",
+        "power-saving",
+        "sssg-switching",
+        "pdcch-skipping",
+        "3gpp-rel16",
+        "3gpp-rel17"
+      ],
+      "resource": "data/vodafone-mvp/raw/Flexible PDCCH Monitoring.pdf#feature-overview",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "network-impact",
+      "path": "network-impact.md",
+      "type": "concept",
+      "title": "Network Impact",
+      "description": "Details the network, end-user, capacity, signaling, and KPI impacts of Flexible PDCCH Monitoring.",
+      "tags": [
+        "pdcch",
+        "network-impact",
+        "kpi",
+        "signaling",
+        "sssg"
+      ],
+      "resource": "data/vodafone-mvp/raw/Flexible PDCCH Monitoring.pdf#network-impact",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "parameters",
+      "path": "parameters.md",
+      "type": "concept",
+      "title": "Parameters",
+      "description": "Configuration parameters, value ranges, data types, and default settings for the Flexible PDCCH Monitoring feature.",
+      "tags": [
+        "pdcch-monitoring",
+        "parameters",
+        "configuration",
+        "sssg",
+        "5qi"
+      ],
+      "resource": "data/vodafone-mvp/raw/Flexible PDCCH Monitoring.pdf#parameters",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "performance-management",
+      "path": "performance-management.md",
+      "type": "concept",
+      "title": "PERFORMANCE MANAGEMENT",
+      "description": "Details performance management KPIs, counters, and monitoring strategy for Flexible PDCCH Monitoring.",
+      "tags": [
+        "performance-management",
+        "kpi",
+        "counters",
+        "flexible-pdcch-monitoring"
+      ],
+      "resource": "data/vodafone-mvp/raw/Flexible PDCCH Monitoring.pdf#performance-management",
+      "trust_tier": "unverified"
+    }
+  ]
+}

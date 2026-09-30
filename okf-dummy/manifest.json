@@ -1,0 +1,24 @@
+{
+  "okf_version": "0.2",
+  "generated_at": "2026-09-30T13:26:53+00:00",
+  "concept_count": 1,
+  "concepts": [
+    {
+      "id": "confidentiality-and-disclaimer-notice",
+      "path": "confidentiality-and-disclaimer-notice.md",
+      "type": "concept",
+      "title": "Confidentiality and Disclaimer Notice",
+      "description": "Legal disclaimer and confidentiality provisions governing the Request for Information (RFI) issued by Toyota Motor Europe NV/SA for LAN Management Services.",
+      "tags": [
+        "legal",
+        "confidentiality",
+        "disclaimer",
+        "rfi",
+        "tme",
+        "lan-management-services"
+      ],
+      "resource": "data/vodafone_mvp_dummy_data/dummy.pdf#confidentiality-and-disclaimer-notice",
+      "trust_tier": "unverified"
+    }
+  ]
+}
