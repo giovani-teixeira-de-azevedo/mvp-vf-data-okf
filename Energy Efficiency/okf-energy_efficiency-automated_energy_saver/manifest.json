@@ -1,6 +1,6 @@
 {
   "okf_version": "0.2",
-  "generated_at": "2026-09-29T22:55:02+00:00",
+  "generated_at": "2026-09-30T13:40:15+00:00",
   "concept_count": 8,
   "concepts": [
     {
@@ -102,16 +102,15 @@
       "id": "parameters",
       "path": "parameters.md",
       "type": "reference-table",
-      "title": "Parameters",
-      "description": "Defines the parameters governing bus scanning behavior and per-device tilt control in Cascaded RET Support.",
+      "title": "PARAMETERS",
+      "description": "Configuration parameters for controlling Automated Energy Saver node and cell behavior.",
       "tags": [
-        "aisg",
-        "ret",
         "parameters",
-        "tilt-control",
-        "bus-scanning"
+        "automated-energy-saver",
+        "energy-saver",
+        "configuration"
       ],
-      "resource": "data/vodafone-mvp/raw/Cascaded RET Support.pdf#parameters",
+      "resource": "data/vodafone-mvp/raw/Automated Energy Saver.pdf#parameters",
       "trust_tier": "unverified"
     },
     {

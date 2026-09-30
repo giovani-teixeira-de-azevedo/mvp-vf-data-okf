@@ -1,6 +1,6 @@
 {
   "okf_version": "0.2",
-  "generated_at": "2026-09-30T09:28:15+00:00",
+  "generated_at": "2026-09-30T12:27:24+00:00",
   "concept_count": 2,
   "concepts": [
     {
@@ -8,13 +8,13 @@
       "path": "feature-depedencies.md",
       "type": "concept",
       "title": "Feature Dependencies",
-      "description": "Outlines technical prerequisites, licensing, configuration, and feature dependencies for LTE-NR Dual Connectivity (EN-DC).",
+      "description": "Outlines the licensing, node configuration, transport, and feature dependencies required for EN-DC operation.",
       "tags": [
+        "LTE-NR Dual Connectivity",
         "EN-DC",
-        "LTE-NR",
-        "Dependencies",
+        "Feature Dependencies",
         "Licensing",
-        "X2"
+        "X2 Configuration"
       ],
       "resource": "data/vodafone-mvp/raw/LTE-NR_Dual_Conn.pdf#feature-depedencies",
       "trust_tier": "unverified"
@@ -24,13 +24,14 @@
       "path": "feature-overview.md",
       "type": "concept",
       "title": "FEATURE OVERVIEW",
-      "description": "Provides an overview of LTE-NR Dual Connectivity (EN-DC) architecture, signalling flows, and bearer configurations in Non-Standalone 5G deployments.",
+      "description": "Overview of LTE-NR Dual Connectivity (EN-DC) architecture, signalling procedures, bearer options, and secondary node management.",
       "tags": [
-        "EN-DC",
-        "LTE-NR Dual Connectivity",
-        "NSA",
-        "SgNB Addition",
-        "Split Bearer"
+        "lte",
+        "nr",
+        "en-dc",
+        "dual-connectivity",
+        "5g-nsa",
+        "sgnb"
       ],
       "resource": "data/vodafone-mvp/raw/LTE-NR_Dual_Conn.pdf#feature-overview",
       "trust_tier": "unverified"

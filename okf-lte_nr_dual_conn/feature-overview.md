@@ -2,47 +2,53 @@
 type: concept
 resource: data/vodafone-mvp/raw/LTE-NR_Dual_Conn.pdf#feature-overview
 title: FEATURE OVERVIEW
-description: Provides an overview of LTE-NR Dual Connectivity (EN-DC) architecture,
-  signalling flows, and bearer configurations in Non-Standalone 5G deployments.
+description: Overview of LTE-NR Dual Connectivity (EN-DC) architecture, signalling
+  procedures, bearer options, and secondary node management.
 tags:
-- EN-DC
-- LTE-NR Dual Connectivity
-- NSA
-- SgNB Addition
-- Split Bearer
+- lte
+- nr
+- en-dc
+- dual-connectivity
+- 5g-nsa
+- sgnb
 status: draft
 generated:
   by: enricher_agent/gemini-3.6-flash
-  at: '2026-09-29T23:17:45+00:00'
+  at: '2026-09-30T12:27:19+00:00'
   source_sha256: ccc683befc11fe0d
 sources:
-- title: LTE-NR Dual Connectivity
-  resource: data/vodafone-mvp/raw/LTE-NR_Dual_Conn.pdf
+- resource: data/vodafone-mvp/raw/LTE-NR_Dual_Conn.pdf
+  title: LTE-NR Dual Connectivity
 ---
 
-This section provides an overview of LTE-NR Dual Connectivity (EN-DC) architecture, protocol signalling, bearer configurations, and procedures in Non-Standalone (NSA) 5G network deployments.
+This section provides a high-level overview of LTE-NR Dual Connectivity (EN-DC), describing its non-standalone (NSA) architecture, signaling protocols, bearer architecture, setup procedure, and key lifecycle operations.
 
-## Overview and Network Architecture
+## Architecture and Signalling
 
-LTE-NR Dual Connectivity introduces E-UTRA–NR Dual Connectivity (EN-DC) as specified in 3GPP TS 37.340. It allows a User Equipment (UE) to be simultaneously connected to an LTE eNodeB acting as the Master Node (MN) and an NR gNodeB acting as the Secondary Node (SN).
+LTE-NR Dual Connectivity introduces E-UTRA–NR Dual Connectivity (EN-DC) as specified in 3GPP TS 37.340. It allows a UE to be simultaneously connected to an LTE eNodeB acting as Master Node (MN) and an NR gNodeB acting as Secondary Node (SN).
 
-Key features of this architecture include:
-* **Deployment Mode:** Foundational feature of Non-Standalone (NSA) 5G deployments.
-* **Control Plane:** The LTE anchor carries the control plane toward the Evolved Packet Core (EPC) over the S1-MME interface.
-* **User Plane Capacity:** The NR leg adds user-plane capacity, boosting per-UE throughput typically by a factor of 2–10 depending on the NR carrier bandwidth.
+- **Deployment Model:** Foundational feature of Non-Standalone (NSA) 5G deployments.
+- **Control Plane:** The LTE anchor carries the control plane toward the EPC over S1-MME.
+- **User Plane:** The NR leg adds user-plane capacity, typically boosting per-UE throughput by a factor of 2–10 depending on the NR carrier bandwidth.
+- **Protocol Interface:** Implements SgNB Addition, Modification, and Release procedures over the X2-C interface, extended with EN-DC signalling defined in TS 36.423.
 
-## Signalling and SgNB Addition Procedure
+## SgNB Addition Procedure
 
-From a protocol perspective, the feature implements the SgNB Addition, Modification, and Release procedures over the X2-C interface, extended with the EN-DC signalling defined in 3GPP TS 36.423.
+1. **UE Capability & Indication:** An EN-DC-capable UE indicates support via the `dcNR` bit in UE capability signalling and receives the upper-layer indication in SIB2 upon attaching to an anchor LTE cell.
+2. **Measurement Configuration:** The eNodeB configures a B1 measurement on the configured NR ARFCN.
+3. **Trigger:** The UE reports an NR cell above the configured RSRP entry threshold.
+4. **SgNB Addition:**
+   - The eNodeB initiates SgNB Addition.
+   - The gNodeB allocates a PSCell, builds the NR `RRCReconfiguration` container (TS 38.331), and returns it embedded in the LTE `RRCConnectionReconfiguration`.
+5. **Activation:** The UE performs random access toward the PSCell, and the split or SN-terminated bearer becomes active.
 
-The procedure operates as follows:
-1. **UE Capability & Indication:** An EN-DC-capable UE indicates capability via the `dcNR` bit in UE capability signalling, and upper-layer indication is provided in SIB2.
-2. **Measurement Configuration:** When the UE attaches to an anchor LTE cell, the eNodeB configures a B1 measurement on the configured NR Absolute Radio Frequency Channel Number (ARFCN).
-3. **Triggering SgNB Addition:** Once the UE reports an NR cell above the configured RSRP entry threshold, the eNodeB initiates SgNB Addition over X2-C.
-4. **Container & RRC Reconfiguration:** The gNodeB allocates a Primary SCG Cell (PSCell), builds the NR `RRCReconfiguration` container (3GPP TS 38.331), and returns it embedded in the LTE `RRCConnectionReconfiguration`.
-5. **Access & Bearer Activation:** The UE performs random access toward the PSCell, and the split or SN-terminated bearer becomes active.
+## Bearer Architecture
 
-### SgNB Addition Sequence Diagram
+- **Default Architecture:** The default bearer architecture is the SN-terminated split bearer.
+- **Downlink Data:** The S1-U tunnel for the selected E-RAB is moved to the gNodeB, whose PDCP entity (NR PDCP, TS 38.323) distributes downlink data between the NR leg and the X2-U leg toward the eNodeB.
+- **Uplink Data:** Uplink is by default routed on the NR leg only, unless LTE-NR Uplink Aggregation is activated.
+
+## Signalling Flow
 
 ```mermaid
 sequenceDiagram 
@@ -60,20 +66,13 @@ sequenceDiagram
     Note over UE,SN: Split bearer active - DL data via NR + X2-U
 ```
 
-## Bearer Architecture
-
-The default bearer architecture is the **SN-terminated split bearer**:
-* **S1-U Path Switch:** The S1-U tunnel for the selected E-RAB is moved to the gNodeB.
-* **Downlink Traffic:** The gNodeB Packet Data Convergence Protocol entity (NR PDCP, 3GPP TS 38.323) distributes downlink data between the NR leg and the X2-U leg toward the eNodeB.
-* **Uplink Traffic:** Uplink data is routed on the NR leg only by default, unless LTE-NR Uplink Aggregation is activated.
-
-## Additional Operational Features
+## Additional Features
 
 The feature also covers:
-* **Release Handling:** SgNB-initiated release on NR coverage loss (SCG failure handling per 3GPP TS 37.340 section 7.7).
-* **PSCell Mobility:** PSCell change within the gNodeB.
-* **Key Derivation:** Secondary node key ($\text{S-K}_{\text{gNB}}$) derivation and refresh.
+- SgNB-initiated release on NR coverage loss (SCG failure handling per TS 37.340 section 7.7).
+- PSCell change within the gNodeB.
+- Secondary node key (S-KgNB) derivation and refresh.
 
 # Cross-References
 
-* [FEATURE DEPEDENCIES](feature-depedencies.md)
+- [FEATURE DEPEDENCIES](feature-depedencies.md)

@@ -4,5 +4,5 @@
 
 # concept
 
-* [Feature Dependencies](feature-depedencies.md) - Outlines technical prerequisites, licensing, configuration, and feature dependencies for LTE-NR Dual Connectivity (EN-DC).
-* [FEATURE OVERVIEW](feature-overview.md) - Provides an overview of LTE-NR Dual Connectivity (EN-DC) architecture, signalling flows, and bearer configurations in Non-Standalone 5G deployments.
+* [Feature Dependencies](feature-depedencies.md) - Outlines the licensing, node configuration, transport, and feature dependencies required for EN-DC operation.
+* [FEATURE OVERVIEW](feature-overview.md) - Overview of LTE-NR Dual Connectivity (EN-DC) architecture, signalling procedures, bearer options, and secondary node management.

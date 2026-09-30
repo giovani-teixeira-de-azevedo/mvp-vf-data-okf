@@ -5,7 +5,7 @@ description: Headings skipped or deduplicated while extracting this bundle's out
   from its source PDF.
 generated:
   by: enricher_agent/gemini-3.6-flash
-  at: '2026-09-30T00:25:35+00:00'
+  at: '2026-09-30T13:26:49+00:00'
 ---
 
 - Body text style: 10.6pt
