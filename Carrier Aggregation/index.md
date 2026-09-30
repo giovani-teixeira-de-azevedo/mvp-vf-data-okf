@@ -1,3 +1,3 @@
 # Subdirectories
 
-* [okf-carrier_aggregation-closed_loop_power_control_high_band](okf-carrier_aggregation-closed_loop_power_control_high_band/index.md) - This directory documents the Closed-Loop Power Control High-Band feature, detailing its technical operation, parameters, dependencies, activation procedures, network impacts, and performance management.
+* [okf-carrier_aggregation-closed_loop_power_control_high_band](okf-carrier_aggregation-closed_loop_power_control_high_band/index.md) - This directory contains technical documentation for Closed-Loop Power Control High-Band, covering feature operation, activation, deactivation, dependencies, parameters, network impact, and performance management.
