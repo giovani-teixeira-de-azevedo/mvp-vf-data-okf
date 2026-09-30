@@ -12,11 +12,11 @@ tags:
 status: draft
 generated:
   by: enricher_agent/gemini-3.6-flash
-  at: '2026-09-30T14:20:20+00:00'
+  at: '2026-09-30T15:03:52+00:00'
   source_sha256: 7c5ef5a708e47fda
 sources:
-- title: Flexible PDCCH Monitoring
-  resource: data/vodafone-mvp/raw/Flexible PDCCH Monitoring.pdf
+- resource: data/vodafone-mvp/raw/Flexible PDCCH Monitoring.pdf
+  title: Flexible PDCCH Monitoring
 ---
 
 This section details the step-by-step activation procedure for the Flexible PDCCH Monitoring feature, including traffic impact, preconditions, recommended rollout strategy, and command-line execution steps.
@@ -58,6 +58,9 @@ This section details the step-by-step activation procedure for the Flexible PDCC
    ```bash
    rancli get NodeRoot=1,NrFunction=1,NrCell=N1A pdcchMonitoringMode
    ```
+
+6. **test112342345354536456 step**
+   Execute test112342345354536456 step.
 
 # Cross-References
 
