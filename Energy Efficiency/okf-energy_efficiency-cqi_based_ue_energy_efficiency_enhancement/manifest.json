@@ -1,0 +1,139 @@
+{
+  "okf_version": "0.2",
+  "generated_at": "2026-09-25T17:15:14+00:00",
+  "concept_count": 8,
+  "concepts": [
+    {
+      "id": "activation-procedure",
+      "path": "activation-procedure.md",
+      "type": "procedure",
+      "title": "ACTIVATION PROCEDURE",
+      "description": "Step-by-step activation procedure, prerequisites, CLI commands, rollout strategy, and post-activation verification for CQI-based UE energy efficiency enhancement.",
+      "tags": [
+        "activation",
+        "procedure",
+        "rancli",
+        "energy-efficiency",
+        "cqi",
+        "rollout"
+      ],
+      "resource": "data/vodafone-mvp/raw/CQI-Based UE Energy Efficiency Enhancement.pdf#activation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "deactivation-procedure",
+      "path": "deactivation-procedure.md",
+      "type": "procedure",
+      "title": "DEACTIVATION PROCEDURE",
+      "description": "Outlines the steps, CLI commands, traffic impact, and verification for deactivating CQI-Based UE Energy Efficiency Enhancement.",
+      "tags": [
+        "rancli",
+        "deactivation",
+        "cqiEnergyEffMode",
+        "FeatureCtrl",
+        "CqiUeEnergyEff",
+        "relaxedUeCount"
+      ],
+      "resource": "data/vodafone-mvp/raw/CQI-Based UE Energy Efficiency Enhancement.pdf#deactivation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "feature-depedencies",
+      "path": "feature-depedencies.md",
+      "type": "concept",
+      "title": "Feature Dependencies",
+      "description": "Outlines feature, hardware, and network dependencies as well as operational limitations for CQI-Based UE Energy Efficiency Enhancement.",
+      "tags": [
+        "feature-dependencies",
+        "cqi-ue-energy-efficiency",
+        "c-drx",
+        "license-key",
+        "limitations"
+      ],
+      "resource": "data/vodafone-mvp/raw/CQI-Based UE Energy Efficiency Enhancement.pdf#feature-depedencies",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "feature-operation",
+      "path": "feature-operation.md",
+      "type": "concept",
+      "title": "FEATURE OPERATION",
+      "description": "Describes CQI filtering, UE classification into race-to-sleep or relaxed classes, scheduling behaviors, link adaptation back-off, and hysteresis mechanisms for CQI-based UE energy efficiency.",
+      "tags": [
+        "cqi",
+        "ue-energy-efficiency",
+        "scheduler",
+        "race-to-sleep",
+        "relaxed-class",
+        "link-adaptation"
+      ],
+      "resource": "data/vodafone-mvp/raw/CQI-Based UE Energy Efficiency Enhancement.pdf#feature-operation",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "feature-overview",
+      "path": "feature-overview.md",
+      "type": "concept",
+      "title": "Feature Overview",
+      "description": "Overview of CQI-Based UE Energy Efficiency Enhancement, detailing race-to-sleep scheduling compaction and low-CQI CSI configuration relaxation.",
+      "tags": [
+        "CQI",
+        "energy-efficiency",
+        "UE-power-saving",
+        "C-DRX",
+        "scheduling",
+        "link-adaptation"
+      ],
+      "resource": "data/vodafone-mvp/raw/CQI-Based UE Energy Efficiency Enhancement.pdf#feature-overview",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "network-impact",
+      "path": "network-impact.md",
+      "type": "concept",
+      "title": "Network Impact",
+      "description": "Details the impact of the CQI-Based UE Energy Efficiency Enhancement feature on end users, cell capacity, signaling, and network KPIs.",
+      "tags": [
+        "network-impact",
+        "cqi",
+        "energy-efficiency",
+        "prb-utilization",
+        "rrc-reconfiguration",
+        "harq"
+      ],
+      "resource": "data/vodafone-mvp/raw/CQI-Based UE Energy Efficiency Enhancement.pdf#network-impact",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "parameters",
+      "path": "parameters.md",
+      "type": "reference-table",
+      "title": "Parameters",
+      "description": "Configuration parameters, value ranges, datatypes, and default settings for the CQI-Based UE Energy Efficiency Enhancement feature.",
+      "tags": [
+        "cqi",
+        "parameters",
+        "energy-efficiency",
+        "configuration"
+      ],
+      "resource": "data/vodafone-mvp/raw/CQI-Based UE Energy Efficiency Enhancement.pdf#parameters",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "performance-management",
+      "path": "performance-management.md",
+      "type": "concept",
+      "title": "Performance Management",
+      "description": "Monitors UE battery saving proxies, throughput impact, KPIs, and performance counters for CQI-based UE energy efficiency enhancement.",
+      "tags": [
+        "performance-management",
+        "kpi",
+        "counters",
+        "cqi",
+        "energy-efficiency"
+      ],
+      "resource": "data/vodafone-mvp/raw/CQI-Based UE Energy Efficiency Enhancement.pdf#performance-management",
+      "trust_tier": "unverified"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "okf_version": "0.2",
+  "generated_at": "2026-09-25T16:09:58+00:00",
+  "concept_count": 8,
+  "concepts": [
+    {
+      "id": "activation-procedure",
+      "path": "activation-procedure.md",
+      "type": "procedure",
+      "title": "ACTIVATION PROCEDURE",
+      "description": "Step-by-step activation procedure, preconditions, and verification commands for NR Massive MIMO Sleep Mode.",
+      "tags": [
+        "activation",
+        "rancli",
+        "nr-massive-mimo-sleep-mode",
+        "licensing",
+        "configuration"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Massive MIMO Sleep Mode.pdf#activation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "deactivation-procedure",
+      "path": "deactivation-procedure.md",
+      "type": "procedure",
+      "title": "DEACTIVATION PROCEDURE",
+      "description": "Details the deactivation sequence, traffic impact, and CLI commands for disabling the NR Massive MIMO Sleep Mode feature.",
+      "tags": [
+        "ran",
+        "nr",
+        "massive-mimo",
+        "sleep-mode",
+        "deactivation",
+        "cli"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Massive MIMO Sleep Mode.pdf#deactivation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "feature-depedencies",
+      "path": "feature-depedencies.md",
+      "type": "concept",
+      "title": "Feature Dependencies",
+      "description": "Preconditions, software/hardware/network dependencies, interworking constraints, and operational limitations for NR Massive MIMO Sleep Mode.",
+      "tags": [
+        "massive-mimo",
+        "sleep-mode",
+        "feature-dependencies",
+        "hardware-dependencies",
+        "network-dependencies",
+        "limitations"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Massive MIMO Sleep Mode.pdf#feature-depedencies",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "feature-operation",
+      "path": "feature-operation.md",
+      "type": "concept",
+      "title": "Feature Operation",
+      "description": "Details the operation of NR Massive MIMO Sleep Mode, including cell load evaluation, sequence transitions, and time-of-day restrictions.",
+      "tags": [
+        "massive-mimo",
+        "sleep-mode",
+        "gnodeb",
+        "energy-saving",
+        "nr-cell"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Massive MIMO Sleep Mode.pdf#feature-operation",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "feature-overview",
+      "path": "feature-overview.md",
+      "type": "concept",
+      "title": "FEATURE OVERVIEW",
+      "description": "Overview of NR Massive MIMO Sleep Mode, describing its operating principles, sleep levels, state transitions, and expected energy savings.",
+      "tags": [
+        "nr",
+        "massive-mimo",
+        "sleep-mode",
+        "energy-saving",
+        "aas"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Massive MIMO Sleep Mode.pdf#feature-overview",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "network-impact",
+      "path": "network-impact.md",
+      "type": "concept",
+      "title": "NETWORK IMPACT",
+      "description": "Summarizes the impact of NR Massive MIMO Sleep Mode on energy consumption, end-user experience, mobility, and KPIs.",
+      "tags": [
+        "energy-saving",
+        "massive-mimo",
+        "sleep-mode",
+        "throughput",
+        "kpis",
+        "mobility",
+        "vonr"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Massive MIMO Sleep Mode.pdf#network-impact",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "parameters",
+      "path": "parameters.md",
+      "type": "reference-table",
+      "title": "PARAMETERS",
+      "description": "Configuration parameters for tuning NR Massive MIMO Sleep Mode on a per-cell basis.",
+      "tags": [
+        "NR",
+        "Massive MIMO",
+        "Sleep Mode",
+        "Parameters",
+        "Configuration"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Massive MIMO Sleep Mode.pdf#parameters",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "performance-management",
+      "path": "performance-management.md",
+      "type": "concept",
+      "title": "Performance Management",
+      "description": "Describes KPIs, counters, and monitoring guidelines for assessing energy savings and operational stability of NR Massive MIMO Sleep Mode.",
+      "tags": [
+        "performance-management",
+        "kpis",
+        "counters",
+        "nr-massive-mimo",
+        "sleep-mode",
+        "energy-saving"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Massive MIMO Sleep Mode.pdf#performance-management",
+      "trust_tier": "unverified"
+    }
+  ]
+}
