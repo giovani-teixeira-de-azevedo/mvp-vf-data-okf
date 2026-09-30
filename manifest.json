@@ -1,7 +1,7 @@
 {
   "okf_version": "0.2",
-  "generated_at": "2026-09-30T09:29:49+00:00",
-  "concept_count": 59,
+  "generated_at": "2026-09-30T13:42:00+00:00",
+  "concept_count": 67,
   "concepts": [
     {
       "id": "Carrier Aggregation/okf-carrier_aggregation-closed_loop_power_control_high_band/activation-procedure",
@@ -520,6 +520,133 @@
       "trust_tier": "unverified"
     },
     {
+      "id": "Energy Efficiency/okf-energy_efficiency-energy_optimized_slot_allocation/activation-procedure",
+      "path": "Energy Efficiency/okf-energy_efficiency-energy_optimized_slot_allocation/activation-procedure.md",
+      "type": "procedure",
+      "title": "ACTIVATION PROCEDURE",
+      "description": "Outlines traffic impact, preconditions, rollout recommendations, procedure steps, and CLI commands for activating Energy-Optimized Slot Allocation.",
+      "tags": [
+        "energy-saving",
+        "slot-allocation",
+        "activation",
+        "rancli"
+      ],
+      "resource": "data/vodafone-mvp/raw/Energy-Optimized Slot Allocation.pdf#activation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Energy Efficiency/okf-energy_efficiency-energy_optimized_slot_allocation/deactivation-procedure",
+      "path": "Energy Efficiency/okf-energy_efficiency-energy_optimized_slot_allocation/deactivation-procedure.md",
+      "type": "procedure",
+      "title": "Deactivation Procedure",
+      "description": "Details the step-by-step deactivation procedure and traffic impact for Energy-Optimized Slot Allocation.",
+      "tags": [
+        "energy-saving",
+        "slot-allocation",
+        "deactivation",
+        "rancli",
+        "nr-cell"
+      ],
+      "resource": "data/vodafone-mvp/raw/Energy-Optimized Slot Allocation.pdf#deactivation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Energy Efficiency/okf-energy_efficiency-energy_optimized_slot_allocation/feature-depedencies",
+      "path": "Energy Efficiency/okf-energy_efficiency-energy_optimized_slot_allocation/feature-depedencies.md",
+      "type": "concept",
+      "title": "Feature Dependencies",
+      "description": "Details feature, hardware, and network dependencies and limitations for Energy-Optimized Slot Allocation.",
+      "tags": [
+        "energy-saving",
+        "slot-allocation",
+        "dependencies",
+        "limitations"
+      ],
+      "resource": "data/vodafone-mvp/raw/Energy-Optimized Slot Allocation.pdf#feature-depedencies",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Energy Efficiency/okf-energy_efficiency-energy_optimized_slot_allocation/feature-operation",
+      "path": "Energy Efficiency/okf-energy_efficiency-energy_optimized_slot_allocation/feature-operation.md",
+      "type": "concept",
+      "title": "FEATURE OPERATION",
+      "description": "Describes the scheduling mechanisms, batching triggers, micro-sleep signaling, and load guard operations for Energy-Optimized Slot Allocation.",
+      "tags": [
+        "energy-saving",
+        "slot-allocation",
+        "scheduler",
+        "batching",
+        "micro-sleep",
+        "ran"
+      ],
+      "resource": "data/vodafone-mvp/raw/Energy-Optimized Slot Allocation.pdf#feature-operation",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Energy Efficiency/okf-energy_efficiency-energy_optimized_slot_allocation/feature-overview",
+      "path": "Energy Efficiency/okf-energy_efficiency-energy_optimized_slot_allocation/feature-overview.md",
+      "type": "concept",
+      "title": "Feature Overview",
+      "description": "High-level overview of Energy-Optimized Slot Allocation, detailing slot packing mechanisms, QoS delay handling, and energy saving benefits.",
+      "tags": [
+        "energy-saving",
+        "scheduler",
+        "slot-allocation",
+        "micro-sleep",
+        "tdd",
+        "5qi"
+      ],
+      "resource": "data/vodafone-mvp/raw/Energy-Optimized Slot Allocation.pdf#feature-overview",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Energy Efficiency/okf-energy_efficiency-energy_optimized_slot_allocation/network-impact",
+      "path": "Energy Efficiency/okf-energy_efficiency-energy_optimized_slot_allocation/network-impact.md",
+      "type": "concept",
+      "title": "NETWORK IMPACT",
+      "description": "Summarizes network impacts including energy savings, end-user latency, interference behavior, and KPIs.",
+      "tags": [
+        "network-impact",
+        "energy",
+        "latency",
+        "interference",
+        "kpi"
+      ],
+      "resource": "data/vodafone-mvp/raw/Energy-Optimized Slot Allocation.pdf#network-impact",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Energy Efficiency/okf-energy_efficiency-energy_optimized_slot_allocation/parameters",
+      "path": "Energy Efficiency/okf-energy_efficiency-energy_optimized_slot_allocation/parameters.md",
+      "type": "reference-table",
+      "title": "PARAMETERS",
+      "description": "Configuration parameters controlling Energy-Optimized Slot Allocation, including cell activation, queuing delay, slot fill targets, load thresholds, exempt 5QIs, sleep windows, and retransmission steering.",
+      "tags": [
+        "parameters",
+        "configuration",
+        "energy-saving",
+        "slot-allocation"
+      ],
+      "resource": "data/vodafone-mvp/raw/Energy-Optimized Slot Allocation.pdf#parameters",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Energy Efficiency/okf-energy_efficiency-energy_optimized_slot_allocation/performance-management",
+      "path": "Energy Efficiency/okf-energy_efficiency-energy_optimized_slot_allocation/performance-management.md",
+      "type": "concept",
+      "title": "Performance Management",
+      "description": "Details performance metrics, KPIs, formulas, and counters for evaluating the Energy-Optimized Slot Allocation feature over 15-minute reporting periods.",
+      "tags": [
+        "performance-management",
+        "kpi",
+        "counters",
+        "energy-saving",
+        "slot-allocation"
+      ],
+      "resource": "data/vodafone-mvp/raw/Energy-Optimized Slot Allocation.pdf#performance-management",
+      "trust_tier": "unverified"
+    },
+    {
       "id": "Energy Efficiency/okf-energy_efficiency-energy_optimized_symbol_allocation/activation-procedure",
       "path": "Energy Efficiency/okf-energy_efficiency-energy_optimized_symbol_allocation/activation-procedure.md",
       "type": "procedure",
@@ -929,13 +1056,13 @@
       "path": "okf-lte_nr_dual_conn/feature-depedencies.md",
       "type": "concept",
       "title": "Feature Dependencies",
-      "description": "Outlines technical prerequisites, licensing, configuration, and feature dependencies for LTE-NR Dual Connectivity (EN-DC).",
+      "description": "Outlines the licensing, node configuration, transport, and feature dependencies required for EN-DC operation.",
       "tags": [
+        "LTE-NR Dual Connectivity",
         "EN-DC",
-        "LTE-NR",
-        "Dependencies",
+        "Feature Dependencies",
         "Licensing",
-        "X2"
+        "X2 Configuration"
       ],
       "resource": "data/vodafone-mvp/raw/LTE-NR_Dual_Conn.pdf#feature-depedencies",
       "trust_tier": "unverified"
@@ -945,13 +1072,14 @@
       "path": "okf-lte_nr_dual_conn/feature-overview.md",
       "type": "concept",
       "title": "FEATURE OVERVIEW",
-      "description": "Provides an overview of LTE-NR Dual Connectivity (EN-DC) architecture, signalling flows, and bearer configurations in Non-Standalone 5G deployments.",
+      "description": "Overview of LTE-NR Dual Connectivity (EN-DC) architecture, signalling procedures, bearer options, and secondary node management.",
       "tags": [
-        "EN-DC",
-        "LTE-NR Dual Connectivity",
-        "NSA",
-        "SgNB Addition",
-        "Split Bearer"
+        "lte",
+        "nr",
+        "en-dc",
+        "dual-connectivity",
+        "5g-nsa",
+        "sgnb"
       ],
       "resource": "data/vodafone-mvp/raw/LTE-NR_Dual_Conn.pdf#feature-overview",
       "trust_tier": "unverified"
