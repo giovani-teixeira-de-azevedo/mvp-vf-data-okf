@@ -9,10 +9,11 @@ tags:
 - downlink-beam-optimizer
 - dependencies
 - limitations
+- demo-testing
 status: draft
 generated:
   by: enricher_agent/gemini-3.5-flash
-  at: '2026-10-01T14:21:00+00:00'
+  at: '2026-10-01T14:35:38+00:00'
   source_sha256: '6907192936486100'
 sources:
 - title: NR Downlink Beam Optimizer

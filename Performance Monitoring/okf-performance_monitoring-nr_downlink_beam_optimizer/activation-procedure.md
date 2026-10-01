@@ -12,11 +12,11 @@ tags:
 status: draft
 generated:
   by: enricher_agent/gemini-3.5-flash
-  at: '2026-10-01T14:21:29+00:00'
+  at: '2026-10-01T14:33:56+00:00'
   source_sha256: a66a563c0d3824f1
 sources:
-- resource: data/vodafone-mvp/raw/NR Downlink Beam Optimizer.pdf
-  title: NR Downlink Beam Optimizer
+- title: NR Downlink Beam Optimizer
+  resource: data/vodafone-mvp/raw/NR Downlink Beam Optimizer.pdf
 ---
 
 This section describes the step-by-step activation procedure for the NR Downlink Beam Optimizer feature. It outlines the traffic impact, preconditions, recommended rollout strategy, and the specific CLI commands required to activate and verify the feature.
@@ -26,6 +26,7 @@ This section describes the step-by-step activation procedure for the NR Downlink
 * **Traffic Impact:** None at activation. Each applied grid change causes a sub-second SSB discontinuity inside the configured night window. In `OPEN_LOOP` mode, there is no autonomous change at all, making activation itself traffic-safe at any hour.
 * **Preconditions:**
   * License key `FAK-30170` must be installed.
+  * License key `TESTING_LICENCE` must be installed.
   * Massive MIMO baseline feature must be active.
   * NR Flexible Cell Shaping variants must be deactivated on target cells.
 * **Recommended Rollout:** Activate in `OPEN_LOOP` on a cluster for two weeks, review the recommendation records against local knowledge, apply one or two manually, and only then switch validated cells to `CLOSED_LOOP`.

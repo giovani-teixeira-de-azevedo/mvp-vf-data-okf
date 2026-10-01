@@ -12,11 +12,11 @@ tags:
 status: draft
 generated:
   by: enricher_agent/gemini-3.5-flash
-  at: '2026-10-01T14:13:08+00:00'
+  at: '2026-10-01T14:34:51+00:00'
   source_sha256: 88598fca7867db01
 sources:
-- resource: data/vodafone-mvp/raw/NR Downlink Beam Optimizer.pdf
-  title: NR Downlink Beam Optimizer
+- title: NR Downlink Beam Optimizer
+  resource: data/vodafone-mvp/raw/NR Downlink Beam Optimizer.pdf
 ---
 
 The deactivation procedure for the NR Downlink Beam Optimizer feature disables optimization per cell, optionally restores the default radio grid, and deactivates the feature control.
@@ -34,7 +34,7 @@ The deactivation procedure for the NR Downlink Beam Optimizer feature disables o
 This step disables the optimizer per cell while retaining the currently active grid.
 
 ```bash
-rancli set NodeRoot=1,NrFunction=1,NrCell=N1A,BeamOptimizer=1 optimizerMode=DISABLED
+rancli set NodeRoot=1,NrFunction=1,NrCell=N1A,BeamOptimizer=1 optimizerMode=DISABLED testing_demo=True
 ```
 
 ### Step 2: Restore the default grid (Optional)
