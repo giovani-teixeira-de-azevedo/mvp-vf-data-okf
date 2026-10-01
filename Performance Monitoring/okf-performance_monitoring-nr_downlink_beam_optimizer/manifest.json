@@ -1,0 +1,135 @@
+{
+  "okf_version": "0.2",
+  "generated_at": "2026-10-01T14:21:35+00:00",
+  "concept_count": 8,
+  "concepts": [
+    {
+      "id": "activation-procedure",
+      "path": "activation-procedure.md",
+      "type": "procedure",
+      "title": "ACTIVATION PROCEDURE",
+      "description": "Step-by-step procedure to activate and verify the NR Downlink Beam Optimizer feature.",
+      "tags": [
+        "activation",
+        "configuration",
+        "open-loop",
+        "rancli"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Downlink Beam Optimizer.pdf#activation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "deactivation-procedure",
+      "path": "deactivation-procedure.md",
+      "type": "procedure",
+      "title": "DEACTIVATION PROCEDURE",
+      "description": "Step-by-step procedure to disable and deactivate the NR Downlink Beam Optimizer feature and optionally restore the default grid.",
+      "tags": [
+        "deactivation",
+        "beam-optimizer",
+        "rancli",
+        "configuration"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Downlink Beam Optimizer.pdf#deactivation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "feature-depedencies",
+      "path": "feature-depedencies.md",
+      "type": "concept",
+      "title": "Feature Dependencies",
+      "description": "Describes the feature, hardware, and network dependencies, as well as limitations of the NR Downlink Beam Optimizer.",
+      "tags": [
+        "nr",
+        "downlink-beam-optimizer",
+        "dependencies",
+        "limitations"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Downlink Beam Optimizer.pdf#feature-depedencies",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "feature-operation",
+      "path": "feature-operation.md",
+      "type": "concept",
+      "title": "Feature Operation",
+      "description": "Describes the evaluation cycle, scoring mechanism, open-loop and closed-loop modes, and rollback behavior of the NR Downlink Beam Optimizer.",
+      "tags": [
+        "NR",
+        "Downlink Beam Optimizer",
+        "Open Loop",
+        "Closed Loop",
+        "Beam Optimization",
+        "Rollback"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Downlink Beam Optimizer.pdf#feature-operation",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "feature-overview",
+      "path": "feature-overview.md",
+      "type": "concept",
+      "title": "Feature Overview",
+      "description": "Overview of the NR Downlink Beam Optimizer feature, which continuously adapts SSB beam configurations based on per-beam performance measurements.",
+      "tags": [
+        "NR",
+        "Downlink",
+        "Beam Optimizer",
+        "Massive MIMO",
+        "SSB",
+        "Beam Grid",
+        "AAS"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Downlink Beam Optimizer.pdf#feature-overview",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "network-impact",
+      "path": "network-impact.md",
+      "type": "concept",
+      "title": "Network Impact",
+      "description": "Overview of the impact of the NR Downlink Beam Optimizer on coverage, mobility, end users, and KPIs.",
+      "tags": [
+        "nr",
+        "downlink-beam-optimizer",
+        "network-impact",
+        "coverage",
+        "mobility",
+        "kpi"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Downlink Beam Optimizer.pdf#network-impact",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "parameters",
+      "path": "parameters.md",
+      "type": "reference-table",
+      "title": "Parameters",
+      "description": "Configuration parameters for the NR Downlink Beam Optimizer, located per cell under the BeamOptimizer MO.",
+      "tags": [
+        "parameters",
+        "configuration",
+        "beam-optimizer",
+        "nr"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Downlink Beam Optimizer.pdf#parameters",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "performance-management",
+      "path": "performance-management.md",
+      "type": "concept",
+      "title": "Performance Management",
+      "description": "Performance management, KPIs, and counters for the NR Downlink Beam Optimizer feature.",
+      "tags": [
+        "performance-management",
+        "KPIs",
+        "counters",
+        "NR",
+        "beam-optimization"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Downlink Beam Optimizer.pdf#performance-management",
+      "trust_tier": "unverified"
+    }
+  ]
+}

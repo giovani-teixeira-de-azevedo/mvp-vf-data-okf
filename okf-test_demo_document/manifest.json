@@ -1,0 +1,20 @@
+{
+  "okf_version": "0.2",
+  "generated_at": "2026-10-01T14:11:53+00:00",
+  "concept_count": 1,
+  "concepts": [
+    {
+      "id": "title",
+      "path": "title.md",
+      "type": "concept",
+      "title": "Title",
+      "description": "A test document for demo purposes.",
+      "tags": [
+        "test",
+        "demo"
+      ],
+      "resource": "data/vodafone_mvp_dummy_data/test_demo_document.pdf#title",
+      "trust_tier": "unverified"
+    }
+  ]
+}
