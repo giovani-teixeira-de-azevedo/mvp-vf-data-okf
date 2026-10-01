@@ -9,7 +9,7 @@
 # procedure
 
 * [ACTIVATION PROCEDURE](activation-procedure.md) - Step-by-step procedure to activate and configure the Coverage-Optimized Uplink Transmission High-Band feature.
-* [DEACTIVATION PROCEDURE](deactivation-procedure.md) - Step-by-step procedure to disable and deactivate the Coverage-Optimized Uplink Transmission High-Band feature.
+* [DEACTIVATION PROCEDURE](deactivation-procedure.md) - Step-by-step procedure to disable and deactivate the Coverage-Optimized Uplink Transmission High-Band feature, including cluster restart.
 
 # reference-table
 
