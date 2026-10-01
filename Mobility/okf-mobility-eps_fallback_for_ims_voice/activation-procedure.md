@@ -12,7 +12,7 @@ tags:
 status: draft
 generated:
   by: enricher_agent/gemini-3.5-flash
-  at: '2026-10-01T10:25:12+00:00'
+  at: '2026-10-01T10:33:36+00:00'
   source_sha256: 8f79bf5a69410c73
 sources:
 - title: EPS Fallback for IMS Voice
@@ -49,7 +49,7 @@ rancli get NodeRoot=1,NrFunction=1,FeatureCtrl=EpsFallbackImsVoice licenseState
 ### Step 2: Activate the Feature
 Activate the feature control state.
 ```bash
-rancli set NodeRoot=1,NrFunction=1,FeatureCtrl=EpsFallbackImsVoice featureState=ACTIVATED
+rancli set NodeRoot=1,NrFunction=1,FeatureCtrl=EpsFallbackImsVoice featureState=SUPER_ACTIVATED
 ```
 
 ### Step 3: Configure Per-Cell Policy
@@ -71,8 +71,6 @@ Perform the following verification steps immediately after activation:
 1. Place test calls from Standalone (SA) camped UEs at both the cell center and cell edge.
 2. Confirm that the `ctrEpsFbSuccess` counter increments (see [Performance Management](performance-management.md)) and that the calls establish successfully as VoLTE.
 3. Confirm that the Fallback Success Rate is greater than 99% over the first full day of operation.
-
-> **Note:** Deployments on Friday are not allowed.
 
 # Cross-References
 * [Feature Dependencies](feature-depedencies.md)
