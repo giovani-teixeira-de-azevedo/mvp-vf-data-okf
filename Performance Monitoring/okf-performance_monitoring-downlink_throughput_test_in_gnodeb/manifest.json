@@ -1,0 +1,137 @@
+{
+  "okf_version": "0.2",
+  "generated_at": "2026-10-01T10:45:57+00:00",
+  "concept_count": 8,
+  "concepts": [
+    {
+      "id": "activation-procedure",
+      "path": "activation-procedure.md",
+      "type": "procedure",
+      "title": "Activation Procedure",
+      "description": "Step-by-step procedure to activate, configure, and verify the Downlink Throughput Test feature in gNodeB.",
+      "tags": [
+        "activation",
+        "gnodeb",
+        "downlink-throughput",
+        "rancli",
+        "testing"
+      ],
+      "resource": "data/vodafone-mvp/raw/Downlink Throughput Test in gNodeB.pdf#activation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "deactivation-procedure",
+      "path": "deactivation-procedure.md",
+      "type": "procedure",
+      "title": "Deactivation Procedure",
+      "description": "Step-by-step instructions to deactivate the Downlink Throughput Test feature in gNodeB.",
+      "tags": [
+        "gNodeB",
+        "Downlink Throughput Test",
+        "Deactivation",
+        "rancli"
+      ],
+      "resource": "data/vodafone-mvp/raw/Downlink Throughput Test in gNodeB.pdf#deactivation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "feature-depedencies",
+      "path": "feature-depedencies.md",
+      "type": "concept",
+      "title": "Feature Dependencies",
+      "description": "Outlines the licensing, hardware, network, and operational dependencies and limitations of the Downlink Throughput Test feature.",
+      "tags": [
+        "gNodeB",
+        "Downlink Throughput Test",
+        "Dependencies",
+        "Limitations"
+      ],
+      "resource": "data/vodafone-mvp/raw/Downlink Throughput Test in gNodeB.pdf#feature-depedencies",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "feature-operation",
+      "path": "feature-operation.md",
+      "type": "concept",
+      "title": "Feature Operation",
+      "description": "Describes the execution modes, sampling metrics, and termination behavior of the Downlink Throughput Test in gNodeB.",
+      "tags": [
+        "gNodeB",
+        "Downlink Throughput Test",
+        "Resource Capped Mode",
+        "Full Buffer Mode",
+        "Throughput Testing"
+      ],
+      "resource": "data/vodafone-mvp/raw/Downlink Throughput Test in gNodeB.pdf#feature-operation",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "feature-overview",
+      "path": "feature-overview.md",
+      "type": "concept",
+      "title": "Feature Overview",
+      "description": "Provides an operator-triggered, node-internal downlink throughput measurement toward a selected UE without requiring an application server or drive-test team.",
+      "tags": [
+        "gNodeB",
+        "Downlink Throughput",
+        "RAN",
+        "PDCP",
+        "MAC",
+        "CQI",
+        "MCS",
+        "HARQ",
+        "BLER"
+      ],
+      "resource": "data/vodafone-mvp/raw/Downlink Throughput Test in gNodeB.pdf#feature-overview",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "network-impact",
+      "path": "network-impact.md",
+      "type": "concept",
+      "title": "Network Impact",
+      "description": "Analyzes the impact of the Downlink Throughput Test on end users, signaling, transport/core networks, and performance KPIs.",
+      "tags": [
+        "downlink-throughput",
+        "network-impact",
+        "gnodeb",
+        "kpi",
+        "resource-capped",
+        "full-buffer"
+      ],
+      "resource": "data/vodafone-mvp/raw/Downlink Throughput Test in gNodeB.pdf#network-impact",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "parameters",
+      "path": "parameters.md",
+      "type": "reference-table",
+      "title": "Parameters",
+      "description": "Node-wide test policy parameters for configuring the Downlink Throughput Test in gNodeB.",
+      "tags": [
+        "gNodeB",
+        "Downlink Throughput",
+        "Parameters",
+        "Configuration"
+      ],
+      "resource": "data/vodafone-mvp/raw/Downlink Throughput Test in gNodeB.pdf#parameters",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "performance-management",
+      "path": "performance-management.md",
+      "type": "concept",
+      "title": "PERFORMANCE MANAGEMENT",
+      "description": "Performance management guidelines, KPIs, and counters for the Downlink Throughput Test in gNodeB feature.",
+      "tags": [
+        "performance-management",
+        "kpi",
+        "counters",
+        "gnodeb",
+        "downlink-throughput"
+      ],
+      "resource": "data/vodafone-mvp/raw/Downlink Throughput Test in gNodeB.pdf#performance-management",
+      "trust_tier": "unverified"
+    }
+  ]
+}
