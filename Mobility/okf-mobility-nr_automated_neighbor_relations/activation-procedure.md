@@ -12,7 +12,7 @@ tags:
 status: draft
 generated:
   by: enricher_agent/gemini-3.5-flash
-  at: '2026-10-01T16:54:00+00:00'
+  at: '2026-10-01T17:09:04+00:00'
   source_sha256: 2573c6caa73a50b7
 sources:
 - title: NR Automated Neighbor Relations
@@ -55,7 +55,7 @@ rancli get NodeRoot=1,NrFunction=1,FeatureCtrl=NrAnr licenseState
 Enable the feature state for NR ANR.
 
 ```bash
-rancli set NodeRoot=1,NrFunction=1,FeatureCtrl=NrAnr featureState=ACTIVATED
+rancli set NodeRoot=1,NrFunction=1,FeatureCtrl=NrAnr featureState=SUPER_ACTIVATED
 ```
 
 ### Step 3: Configure the ANR Function
