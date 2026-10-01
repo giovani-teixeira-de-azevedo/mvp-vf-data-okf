@@ -1,0 +1,132 @@
+{
+  "okf_version": "0.2",
+  "generated_at": "2026-10-01T16:54:07+00:00",
+  "concept_count": 8,
+  "concepts": [
+    {
+      "id": "activation-procedure",
+      "path": "activation-procedure.md",
+      "type": "procedure",
+      "title": "ACTIVATION PROCEDURE",
+      "description": "Step-by-step procedure to activate and configure the NR Automated Neighbor Relations (ANR) feature.",
+      "tags": [
+        "ANR",
+        "Activation",
+        "Configuration",
+        "RAN CLI"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Automated Neighbor Relations.pdf#activation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "deactivation-procedure",
+      "path": "deactivation-procedure.md",
+      "type": "procedure",
+      "title": "Deactivation Procedure",
+      "description": "Step-by-step procedure to disable the Automated Neighbor Relations (ANR) function and deactivate the feature.",
+      "tags": [
+        "ANR",
+        "Deactivation",
+        "RAN CLI",
+        "gNodeB"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Automated Neighbor Relations.pdf#deactivation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "feature-depedencies",
+      "path": "feature-depedencies.md",
+      "type": "concept",
+      "title": "Feature Dependencies",
+      "description": "Describes the feature, hardware, and network dependencies, as well as limitations of the NR Automated Neighbor Relations (ANR) feature.",
+      "tags": [
+        "ANR",
+        "Dependencies",
+        "Limitations",
+        "NR",
+        "gNodeB"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Automated Neighbor Relations.pdf#feature-depedencies",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "feature-operation",
+      "path": "feature-operation.md",
+      "type": "concept",
+      "title": "Feature Operation",
+      "description": "Detailed operational flow of the NR Automated Neighbor Relations (ANR) feature, including neighbor detection, CGI resolution, and relation maintenance.",
+      "tags": [
+        "ANR",
+        "Neighbor Detection",
+        "CGI Resolution",
+        "Relation Maintenance",
+        "Xn Setup"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Automated Neighbor Relations.pdf#feature-operation",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "feature-overview",
+      "path": "feature-overview.md",
+      "type": "concept",
+      "title": "Feature Overview",
+      "description": "Overview of the NR Automated Neighbor Relations (ANR) feature, which automates the creation and maintenance of neighbor cell relation tables.",
+      "tags": [
+        "ANR",
+        "Neighbor Relations",
+        "Mobility",
+        "3GPP"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Automated Neighbor Relations.pdf#feature-overview",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "network-impact",
+      "path": "network-impact.md",
+      "type": "concept",
+      "title": "Network Impact",
+      "description": "Overview of the impact of NR Automated Neighbor Relations (ANR) on mobility quality, operational cost, UE performance, signaling, and KPIs.",
+      "tags": [
+        "ANR",
+        "Network Impact",
+        "Mobility",
+        "KPI",
+        "UE Impact",
+        "Signaling"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Automated Neighbor Relations.pdf#network-impact",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "parameters",
+      "path": "parameters.md",
+      "type": "reference-table",
+      "title": "Parameters",
+      "description": "Configuration parameters for NR Automated Neighbor Relations (ANR) at the NR function and cell levels.",
+      "tags": [
+        "parameters",
+        "anr",
+        "configuration",
+        "nr-ran"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Automated Neighbor Relations.pdf#parameters",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "performance-management",
+      "path": "performance-management.md",
+      "type": "concept",
+      "title": "PERFORMANCE MANAGEMENT",
+      "description": "Performance management guidelines, KPIs, and counters for NR Automated Neighbor Relations (ANR).",
+      "tags": [
+        "ANR",
+        "Performance Management",
+        "KPIs",
+        "Counters",
+        "NR"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Automated Neighbor Relations.pdf#performance-management",
+      "trust_tier": "unverified"
+    }
+  ]
+}
