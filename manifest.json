@@ -1,0 +1,263 @@
+{
+  "okf_version": "0.2",
+  "generated_at": "2026-10-01T10:15:51+00:00",
+  "concept_count": 16,
+  "concepts": [
+    {
+      "id": "Mobility/okf-mobility-eps_fallback_for_ims_voice/activation-procedure",
+      "path": "Mobility/okf-mobility-eps_fallback_for_ims_voice/activation-procedure.md",
+      "type": "procedure",
+      "title": "Activation Procedure",
+      "description": "Step-by-step procedure to activate and configure EPS Fallback for IMS Voice.",
+      "tags": [
+        "activation",
+        "configuration",
+        "EPS Fallback",
+        "RAN CLI"
+      ],
+      "resource": "data/vodafone-mvp/raw/EPS Fallback for IMS Voice.pdf#activation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Mobility/okf-mobility-eps_fallback_for_ims_voice/deactivation-procedure",
+      "path": "Mobility/okf-mobility-eps_fallback_for_ims_voice/deactivation-procedure.md",
+      "type": "procedure",
+      "title": "DEACTIVATION PROCEDURE",
+      "description": "Step-by-step procedure to deactivate EPS Fallback for IMS Voice and verify the configuration.",
+      "tags": [
+        "EPS Fallback",
+        "IMS Voice",
+        "Deactivation",
+        "RAN CLI",
+        "VoNR"
+      ],
+      "resource": "data/vodafone-mvp/raw/EPS Fallback for IMS Voice.pdf#deactivation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Mobility/okf-mobility-eps_fallback_for_ims_voice/feature-depedencies",
+      "path": "Mobility/okf-mobility-eps_fallback_for_ims_voice/feature-depedencies.md",
+      "type": "concept",
+      "title": "Feature Dependencies",
+      "description": "Outlines the feature, hardware, network dependencies, and limitations for EPS Fallback for IMS Voice.",
+      "tags": [
+        "EPS Fallback",
+        "Dependencies",
+        "Limitations",
+        "Interworking"
+      ],
+      "resource": "data/vodafone-mvp/raw/EPS Fallback for IMS Voice.pdf#feature-depedencies",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Mobility/okf-mobility-eps_fallback_for_ims_voice/feature-operation",
+      "path": "Mobility/okf-mobility-eps_fallback_for_ims_voice/feature-operation.md",
+      "type": "concept",
+      "title": "Feature Operation",
+      "description": "Detailed operational logic and decision flow for EPS Fallback for IMS Voice in the gNodeB.",
+      "tags": [
+        "EPS Fallback",
+        "IMS Voice",
+        "gNodeB",
+        "Handover",
+        "Redirection"
+      ],
+      "resource": "data/vodafone-mvp/raw/EPS Fallback for IMS Voice.pdf#feature-operation",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Mobility/okf-mobility-eps_fallback_for_ims_voice/feature-overview",
+      "path": "Mobility/okf-mobility-eps_fallback_for_ims_voice/feature-overview.md",
+      "type": "concept",
+      "title": "Feature Overview",
+      "description": "Overview of EPS Fallback for IMS Voice, enabling voice services for UEs camped on NR Standalone (SA) by moving them to LTE at voice-call establishment.",
+      "tags": [
+        "EPS Fallback",
+        "IMS Voice",
+        "NR SA",
+        "VoNR",
+        "VoLTE",
+        "Handover",
+        "Redirect"
+      ],
+      "resource": "data/vodafone-mvp/raw/EPS Fallback for IMS Voice.pdf#feature-overview",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Mobility/okf-mobility-eps_fallback_for_ims_voice/network-impact",
+      "path": "Mobility/okf-mobility-eps_fallback_for_ims_voice/network-impact.md",
+      "type": "concept",
+      "title": "Network Impact",
+      "description": "Analyzes the impact of EPS Fallback on voice services, call setup delay, NR KPIs, LTE layer, and signaling.",
+      "tags": [
+        "EPS Fallback",
+        "IMS Voice",
+        "Network Impact",
+        "VoLTE",
+        "VoNR",
+        "NR KPIs",
+        "LTE",
+        "Signaling"
+      ],
+      "resource": "data/vodafone-mvp/raw/EPS Fallback for IMS Voice.pdf#network-impact",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Mobility/okf-mobility-eps_fallback_for_ims_voice/parameters",
+      "path": "Mobility/okf-mobility-eps_fallback_for_ims_voice/parameters.md",
+      "type": "reference-table",
+      "title": "Parameters",
+      "description": "Configuration parameters for EPS Fallback for IMS Voice configured per NR cell.",
+      "tags": [
+        "parameters",
+        "configuration",
+        "eps-fallback",
+        "nr-cell"
+      ],
+      "resource": "data/vodafone-mvp/raw/EPS Fallback for IMS Voice.pdf#parameters",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Mobility/okf-mobility-eps_fallback_for_ims_voice/performance-management",
+      "path": "Mobility/okf-mobility-eps_fallback_for_ims_voice/performance-management.md",
+      "type": "concept",
+      "title": "Performance Management",
+      "description": "Performance management guidelines, KPIs, and counters for monitoring EPS Fallback for IMS Voice.",
+      "tags": [
+        "EPS Fallback",
+        "IMS Voice",
+        "Performance Management",
+        "KPIs",
+        "Counters"
+      ],
+      "resource": "data/vodafone-mvp/raw/EPS Fallback for IMS Voice.pdf#performance-management",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Mobility/okf-mobility-nr_data_aware_mobility/activation-procedure",
+      "path": "Mobility/okf-mobility-nr_data_aware_mobility/activation-procedure.md",
+      "type": "procedure",
+      "title": "ACTIVATION PROCEDURE",
+      "description": "Step-by-step procedure to activate and configure the NR Data-Aware Mobility feature.",
+      "tags": [
+        "activation",
+        "configuration",
+        "rancli",
+        "deployment"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Data-Aware Mobility.pdf#activation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Mobility/okf-mobility-nr_data_aware_mobility/deactivation-procedure",
+      "path": "Mobility/okf-mobility-nr_data_aware_mobility/deactivation-procedure.md",
+      "type": "procedure",
+      "title": "DEACTIVATION PROCEDURE",
+      "description": "Step-by-step procedure to deactivate the NR Data-Aware Mobility feature and restore baseline mobility behavior.",
+      "tags": [
+        "deactivation",
+        "rancli",
+        "configuration",
+        "nr-mobility"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Data-Aware Mobility.pdf#deactivation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Mobility/okf-mobility-nr_data_aware_mobility/feature-depedencies",
+      "path": "Mobility/okf-mobility-nr_data_aware_mobility/feature-depedencies.md",
+      "type": "concept",
+      "title": "Feature Dependencies",
+      "description": "Outlines the feature, hardware, and network dependencies, as well as the operational limitations of the NR Data-Aware Mobility feature.",
+      "tags": [
+        "dependencies",
+        "limitations",
+        "hardware-dependencies",
+        "network-dependencies",
+        "nr-data-aware-mobility"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Data-Aware Mobility.pdf#feature-depedencies",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Mobility/okf-mobility-nr_data_aware_mobility/feature-operation",
+      "path": "Mobility/okf-mobility-nr_data_aware_mobility/feature-operation.md",
+      "type": "concept",
+      "title": "Feature Operation",
+      "description": "Describes the operational mechanisms of NR Data-Aware Mobility, including activity classification, handover deferral, gap-seeking, and safety enforcement.",
+      "tags": [
+        "mobility",
+        "handover",
+        "gap-seeker",
+        "activity-classifier",
+        "RRC-connected"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Data-Aware Mobility.pdf#feature-operation",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Mobility/okf-mobility-nr_data_aware_mobility/feature-overview",
+      "path": "Mobility/okf-mobility-nr_data_aware_mobility/feature-overview.md",
+      "type": "concept",
+      "title": "Feature Overview",
+      "description": "Overview of the NR Data-Aware Mobility feature, which optimizes handover timing and target selection based on UE data activity.",
+      "tags": [
+        "NR",
+        "Mobility",
+        "Handover",
+        "Data-Aware",
+        "Optimization"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Data-Aware Mobility.pdf#feature-overview",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Mobility/okf-mobility-nr_data_aware_mobility/network-impact",
+      "path": "Mobility/okf-mobility-nr_data_aware_mobility/network-impact.md",
+      "type": "concept",
+      "title": "NETWORK IMPACT",
+      "description": "Analysis of the network-level impacts, KPI changes, risk profile, load distribution, and signaling overhead of NR Data-Aware Mobility.",
+      "tags": [
+        "mobility",
+        "kpi",
+        "handover",
+        "signaling",
+        "load-balancing"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Data-Aware Mobility.pdf#network-impact",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Mobility/okf-mobility-nr_data_aware_mobility/parameters",
+      "path": "Mobility/okf-mobility-nr_data_aware_mobility/parameters.md",
+      "type": "reference-table",
+      "title": "Parameters",
+      "description": "Configuration parameters per NR cell for the NR Data-Aware Mobility feature.",
+      "tags": [
+        "NR",
+        "Data-Aware Mobility",
+        "Parameters",
+        "Configuration",
+        "RSRP"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Data-Aware Mobility.pdf#parameters",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Mobility/okf-mobility-nr_data_aware_mobility/performance-management",
+      "path": "Mobility/okf-mobility-nr_data_aware_mobility/performance-management.md",
+      "type": "concept",
+      "title": "Performance Management",
+      "description": "Performance management guidelines, KPIs, and counters for monitoring NR Data-Aware Mobility.",
+      "tags": [
+        "NR Data-Aware Mobility",
+        "Performance Management",
+        "KPIs",
+        "Counters",
+        "RAN"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Data-Aware Mobility.pdf#performance-management",
+      "trust_tier": "unverified"
+    }
+  ]
+}
