@@ -1,0 +1,139 @@
+{
+  "okf_version": "0.2",
+  "generated_at": "2026-10-01T09:20:19+00:00",
+  "concept_count": 8,
+  "concepts": [
+    {
+      "id": "activation-procedure",
+      "path": "activation-procedure.md",
+      "type": "procedure",
+      "title": "ACTIVATION PROCEDURE",
+      "description": "Step-by-step procedure to verify licenses, activate inter-frequency mobility, and configure mobility thresholds.",
+      "tags": [
+        "activation",
+        "mobility",
+        "configuration",
+        "rancli",
+        "nr"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Mobility.pdf#activation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "deactivation-procedure",
+      "path": "deactivation-procedure.md",
+      "type": "procedure",
+      "title": "DEACTIVATION PROCEDURE",
+      "description": "Step-by-step procedure to deactivate inter-frequency mobility and the NR Mobility feature.",
+      "tags": [
+        "NR Mobility",
+        "Deactivation",
+        "RAN CLI",
+        "Inter-frequency Mobility"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Mobility.pdf#deactivation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "feature-depedencies",
+      "path": "feature-depedencies.md",
+      "type": "concept",
+      "title": "Feature Dependencies",
+      "description": "Outlines the feature, hardware, and network dependencies, as well as the operational limitations for NR Mobility.",
+      "tags": [
+        "NR Mobility",
+        "Dependencies",
+        "Hardware Dependencies",
+        "Network Dependencies",
+        "Limitations"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Mobility.pdf#feature-depedencies",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "feature-operation",
+      "path": "feature-operation.md",
+      "type": "concept",
+      "title": "FEATURE OPERATION",
+      "description": "Describes the mobility behavior, measurement configurations, execution steps, and filtering parameters for NR Mobility.",
+      "tags": [
+        "NR Mobility",
+        "Handover",
+        "Measurement Configuration",
+        "A3 Event",
+        "A2 Event",
+        "A1 Event"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Mobility.pdf#feature-operation",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "feature-overview",
+      "path": "feature-overview.md",
+      "type": "concept",
+      "title": "Feature Overview",
+      "description": "Overview of NR Mobility, the foundational connected-mode mobility feature for NR cells, covering measurement configurations, event triggers, and handover execution.",
+      "tags": [
+        "NR",
+        "Mobility",
+        "Handover",
+        "Xn",
+        "NG",
+        "RRC_CONNECTED",
+        "TS 38.331",
+        "TS 38.300"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Mobility.pdf#feature-overview",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "network-impact",
+      "path": "network-impact.md",
+      "type": "concept",
+      "title": "Network Impact",
+      "description": "Analyzes the impact of NR mobility on service continuity, user plane performance, signaling load, measurement overhead, and network KPIs.",
+      "tags": [
+        "mobility",
+        "nr",
+        "handover",
+        "signaling",
+        "kpi"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Mobility.pdf#network-impact",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "parameters",
+      "path": "parameters.md",
+      "type": "reference-table",
+      "title": "PARAMETERS",
+      "description": "Configuration parameters for NR cell mobility, including A3, A5, and measurement thresholds.",
+      "tags": [
+        "NR",
+        "Mobility",
+        "Parameters",
+        "Handover",
+        "A3",
+        "A5"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Mobility.pdf#parameters",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "performance-management",
+      "path": "performance-management.md",
+      "type": "concept",
+      "title": "Performance Management",
+      "description": "Performance management guidelines, KPIs, and counters for monitoring NR Mobility health.",
+      "tags": [
+        "NR Mobility",
+        "Performance Management",
+        "KPIs",
+        "Counters",
+        "MRO"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Mobility.pdf#performance-management",
+      "trust_tier": "unverified"
+    }
+  ]
+}
