@@ -12,11 +12,11 @@ tags:
 status: draft
 generated:
   by: enricher_agent/gemini-3.5-flash
-  at: '2026-10-01T10:15:22+00:00'
+  at: '2026-10-01T10:25:12+00:00'
   source_sha256: 8f79bf5a69410c73
 sources:
-- resource: data/vodafone-mvp/raw/EPS Fallback for IMS Voice.pdf
-  title: EPS Fallback for IMS Voice
+- title: EPS Fallback for IMS Voice
+  resource: data/vodafone-mvp/raw/EPS Fallback for IMS Voice.pdf
 ---
 
 This section outlines the step-by-step activation and configuration procedure for the EPS Fallback for IMS Voice feature. It includes traffic impact analysis, preconditions, recommended rollout strategies, CLI commands, and post-change verification steps.
@@ -71,6 +71,8 @@ Perform the following verification steps immediately after activation:
 1. Place test calls from Standalone (SA) camped UEs at both the cell center and cell edge.
 2. Confirm that the `ctrEpsFbSuccess` counter increments (see [Performance Management](performance-management.md)) and that the calls establish successfully as VoLTE.
 3. Confirm that the Fallback Success Rate is greater than 99% over the first full day of operation.
+
+> **Note:** Deployments on Friday are not allowed.
 
 # Cross-References
 * [Feature Dependencies](feature-depedencies.md)
