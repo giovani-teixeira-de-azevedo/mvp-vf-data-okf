@@ -12,7 +12,7 @@ tags:
 status: draft
 generated:
   by: enricher_agent/gemini-3.5-flash
-  at: '2026-10-01T11:01:30+00:00'
+  at: '2026-10-01T11:07:22+00:00'
   source_sha256: 57066a436237f771
 sources:
 - resource: data/vodafone-mvp/raw/EPS Fallback for IMS Voice.pdf
@@ -27,7 +27,7 @@ This section outlines the feature, hardware, network dependencies, and limitatio
 ## Feature Dependencies
 
 * **NR Standalone:** Requires NR Standalone (SA) activated on the node.
-* **Licensing and Activation:** Requires a valid license key (`FAK-33121`) installed and the parameter `FeatureCtrl=EpsFallbackImsVoice` set to `ACTIVATED`.
+* **Licensing and Activation:** Requires valid license keys (`FAK-33121` and `THIS_IS_A_TEST`) installed and the parameter `FeatureCtrl=EpsFallbackImsVoice` set to `ACTIVATED`.
 * **Neighbor Relations:** The handover-based method requires inter-RAT handover neighbor relations toward E-UTRAN. NR Automated Neighbor Relations (ANR) is strongly recommended to keep these relations current.
 * **NR Emergency Fallback to LTE:** Interworks with NR Emergency Fallback to LTE. Emergency calls follow that feature's dedicated logic and are not affected by this feature's per-cell method selection.
 * **Basic Voice over NR (VoNR):** Interworks with Basic Voice over NR. On cells where VoNR is enabled, fallback acts as the secondary path for UEs or coverage situations where VoNR is not permitted.

@@ -13,11 +13,11 @@ tags:
 status: draft
 generated:
   by: enricher_agent/gemini-3.5-flash
-  at: '2026-10-01T11:01:44+00:00'
+  at: '2026-10-01T11:07:25+00:00'
   source_sha256: 8f79bf5a69410c73
 sources:
-- resource: data/vodafone-mvp/raw/EPS Fallback for IMS Voice.pdf
-  title: EPS Fallback for IMS Voice
+- title: EPS Fallback for IMS Voice
+  resource: data/vodafone-mvp/raw/EPS Fallback for IMS Voice.pdf
 ---
 
 This section describes the step-by-step activation and configuration procedure for the EPS Fallback for IMS Voice feature. It outlines the traffic impact, preconditions, recommended rollout strategy, and CLI commands required to enable and verify the feature.
@@ -29,6 +29,7 @@ This section describes the step-by-step activation and configuration procedure f
     *   License key `FAK-33121` installed.
     *   LTE target carriers identified and VoLTE-verified for every NR cell's coverage area.
     *   For the `HANDOVER` method, N26 interface confirmed operational with the core network team and inter-RAT neighbor relations populated (verify NR Automated Neighbor Relations is running).
+    *   The restart must be done only if it is Sunday.
 
 ## Recommended Rollout Order
 

@@ -14,18 +14,25 @@ tags:
 status: draft
 generated:
   by: enricher_agent/gemini-3.5-flash
-  at: '2026-10-01T11:01:37+00:00'
+  at: '2026-10-01T11:07:51+00:00'
   source_sha256: fbb4d885366291f2
 sources:
-- title: EPS Fallback for IMS Voice
-  resource: data/vodafone-mvp/raw/EPS Fallback for IMS Voice.pdf
+- resource: data/vodafone-mvp/raw/EPS Fallback for IMS Voice.pdf
+  title: EPS Fallback for IMS Voice
 ---
 
 This section provides a high-level overview of the EPS Fallback for IMS Voice feature, detailing its purpose, trigger mechanisms, transfer methods, and typical performance metrics.
 
 ## Overview
 
-**EPS Fallback for IMS Voice** enables voice service for User Equipments (UEs) camped on NR Standalone (SA) in areas where Voice over NR (VoNR) is not yet available or not yet trusted. It functions by moving the UE to the Evolved Packet System (EPS, i.e., LTE) at voice-call establishment so that the call is set up as a normal VoLTE call. This mechanism is standardized in **TS 23.502** and **TS 38.331** and serves as the dominant voice strategy during the early and mid phases of an SA rollout.
+**EPS Fallback for IMS Voice** is a mechanism that redirects voice calls from 5G NR Standalone (SA) to 4G LTE (VoLTE) when native Voice over NR (VoNR) is unavailable. This serves as a key transition strategy during 5G SA deployment.
+
+### Restart Procedure
+
+To restart the EPS Fallback feature or apply configuration updates, perform the following steps:
+1. Disable the EPS Fallback feature flag or parameter on the target gNodeB cells.
+2. Wait for the configuration to synchronize and active sessions to clear.
+3. Re-enable the EPS Fallback feature flag to re-initialize the service.
 
 ## Trigger Mechanism
 
