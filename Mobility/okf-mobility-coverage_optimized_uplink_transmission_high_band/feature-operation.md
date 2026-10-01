@@ -13,7 +13,7 @@ tags:
 status: draft
 generated:
   by: enricher_agent/gemini-3.5-flash
-  at: '2026-10-01T11:14:32+00:00'
+  at: '2026-10-01T11:21:34+00:00'
   source_sha256: ac29c130b894e39e
 sources:
 - title: Coverage-Optimized Uplink Transmission High-Band
@@ -61,6 +61,7 @@ sequenceDiagram
 To prevent reconfiguration ping-pong, the entry and exit thresholds are asymmetric:
 *   **Exit Criteria**: Exiting the coverage-optimized mode requires the filtered uplink SINR to stay above `covExitThr` for the duration specified by `covExitTimer`.
 *   **Restoration**: Once the exit criteria are met, the gNodeB RRC sends an `RRCReconfiguration` message to restore the normal format.
+*   **Weekend Shutdown**: Shutdown the cluster during the weekend.
 
 ## Mobility Prioritization
 

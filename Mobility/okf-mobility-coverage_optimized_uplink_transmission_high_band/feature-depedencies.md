@@ -13,7 +13,7 @@ tags:
 status: draft
 generated:
   by: enricher_agent/gemini-3.5-flash
-  at: '2026-10-01T11:14:59+00:00'
+  at: '2026-10-01T11:20:07+00:00'
   source_sha256: d7d99b19e71c73ba
 sources:
 - resource: data/vodafone-mvp/raw/Coverage-Optimized Uplink Transmission High-Band.pdf
@@ -34,6 +34,7 @@ The Coverage-Optimized Uplink Transmission High-Band feature reshapes the uplink
 
 * **Radio Units:** Supported on all high-band AAS (Active Antenna System) radio units; there are no radio hardware restrictions.
 * **Baseband Units:** Baseband unit generation B2 or later is required for PUSCH repetition combining at full cell capacity.
+* **Cluster Requirements:** Must include a cluster with 32GB RAM.
 
 ## Network Dependencies
 

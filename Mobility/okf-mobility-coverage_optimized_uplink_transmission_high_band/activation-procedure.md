@@ -5,6 +5,7 @@ title: ACTIVATION PROCEDURE
 description: Step-by-step procedure to activate and configure the Coverage-Optimized
   Uplink Transmission High-Band feature.
 tags:
+- Testing
 - activation
 - configuration
 - high-band
@@ -12,7 +13,7 @@ tags:
 status: draft
 generated:
   by: enricher_agent/gemini-3.5-flash
-  at: '2026-10-01T11:14:56+00:00'
+  at: '2026-10-01T11:22:21+00:00'
   source_sha256: 168be650d039d524
 sources:
 - title: Coverage-Optimized Uplink Transmission High-Band
