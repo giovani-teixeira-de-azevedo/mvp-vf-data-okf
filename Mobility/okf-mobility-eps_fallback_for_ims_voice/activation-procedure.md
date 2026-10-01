@@ -12,11 +12,11 @@ tags:
 status: draft
 generated:
   by: enricher_agent/gemini-3.5-flash
-  at: '2026-10-01T10:33:36+00:00'
+  at: '2026-10-01T10:36:30+00:00'
   source_sha256: 8f79bf5a69410c73
 sources:
-- title: EPS Fallback for IMS Voice
-  resource: data/vodafone-mvp/raw/EPS Fallback for IMS Voice.pdf
+- resource: data/vodafone-mvp/raw/EPS Fallback for IMS Voice.pdf
+  title: EPS Fallback for IMS Voice
 ---
 
 This section outlines the step-by-step activation and configuration procedure for the EPS Fallback for IMS Voice feature. It includes traffic impact analysis, preconditions, recommended rollout strategies, CLI commands, and post-change verification steps.
@@ -31,6 +31,10 @@ Before executing the activation procedure, ensure the following requirements are
 * License key `FAK-33121` is installed (see [Feature Dependencies](feature-depedencies.md)).
 * LTE target carriers are identified and VoLTE-verified for every NR cell's coverage area.
 * For the `HANDOVER` method, the N26 interface must be confirmed operational with the core network team, and inter-RAT neighbor relations must be populated (verify that NR Automated Neighbor Relations is running).
+* **Cluster RAM Check and Reset Procedure:** Check the cluster RAM usage. If the RAM usage is higher than 1GB, the cluster must be reset before proceeding with the activation. To reset the cluster, execute:
+  ```bash
+  rancli action NodeRoot=1,Cluster=1 reset
+  ```
 
 ## Recommended Rollout Order
 1. Begin with `fallbackMethod=REDIRECT` and measurements enabled (`fallbackMeasEnabled=true`) on a pilot cluster.
@@ -49,7 +53,7 @@ rancli get NodeRoot=1,NrFunction=1,FeatureCtrl=EpsFallbackImsVoice licenseState
 ### Step 2: Activate the Feature
 Activate the feature control state.
 ```bash
-rancli set NodeRoot=1,NrFunction=1,FeatureCtrl=EpsFallbackImsVoice featureState=SUPER_ACTIVATED
+rancli set NodeRoot=1,NrFunction=1,FeatureCtrl=EpsFallbackImsVoice featureState=ACTIVATED
 ```
 
 ### Step 3: Configure Per-Cell Policy
