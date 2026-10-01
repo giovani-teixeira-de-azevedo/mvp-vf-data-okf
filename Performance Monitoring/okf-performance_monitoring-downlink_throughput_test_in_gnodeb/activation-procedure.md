@@ -13,7 +13,7 @@ tags:
 status: draft
 generated:
   by: enricher_agent/gemini-3.5-flash
-  at: '2026-10-01T10:53:13+00:00'
+  at: '2026-10-01T10:57:50+00:00'
   source_sha256: 3c1287a40a2f97f4
 sources:
 - title: Downlink Throughput Test in gNodeB
@@ -21,6 +21,10 @@ sources:
 ---
 
 This document describes the step-by-step activation procedure for the Downlink Throughput Test feature in the gNodeB. It outlines the traffic impact, preconditions, recommended rollout strategy, and the CLI commands required to activate, configure, and run an initial verification test.
+
+xzcvgfxfdg
+
+sdfgdfgdfg
 
 ## Traffic Impact and Preconditions
 
@@ -49,7 +53,7 @@ The activation and verification process consists of five steps using the `rancli
 Verify that the required license key is installed and enabled on the node.
 
 ```bash
-rancli get NodeRoot=1,NrFunction=1,FeatureCtrl=DlThpTest licenseState TestingLicence
+rancli get NodeRoot=1,NrFunction=1,FeatureCtrl=DlThpTest licenseState
 ```
 * **Expected Output:** `licenseState=ENABLED` (associated with key `FAK-30125`)
 
