@@ -1,0 +1,135 @@
+{
+  "okf_version": "0.2",
+  "generated_at": "2026-10-01T11:15:03+00:00",
+  "concept_count": 8,
+  "concepts": [
+    {
+      "id": "activation-procedure",
+      "path": "activation-procedure.md",
+      "type": "procedure",
+      "title": "ACTIVATION PROCEDURE",
+      "description": "Step-by-step procedure to activate and configure the Coverage-Optimized Uplink Transmission High-Band feature.",
+      "tags": [
+        "activation",
+        "configuration",
+        "high-band",
+        "uplink-coverage"
+      ],
+      "resource": "data/vodafone-mvp/raw/Coverage-Optimized Uplink Transmission High-Band.pdf#activation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "deactivation-procedure",
+      "path": "deactivation-procedure.md",
+      "type": "procedure",
+      "title": "DEACTIVATION PROCEDURE",
+      "description": "Step-by-step procedure to disable and deactivate the Coverage-Optimized Uplink Transmission High-Band feature.",
+      "tags": [
+        "deactivation",
+        "rancli",
+        "configuration",
+        "coverage-optimization"
+      ],
+      "resource": "data/vodafone-mvp/raw/Coverage-Optimized Uplink Transmission High-Band.pdf#deactivation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "feature-depedencies",
+      "path": "feature-depedencies.md",
+      "type": "concept",
+      "title": "Feature Dependencies",
+      "description": "Describes the feature, hardware, and network dependencies, as well as limitations for Coverage-Optimized Uplink Transmission High-Band.",
+      "tags": [
+        "dependencies",
+        "hardware-requirements",
+        "limitations",
+        "high-band",
+        "coverage-optimization"
+      ],
+      "resource": "data/vodafone-mvp/raw/Coverage-Optimized Uplink Transmission High-Band.pdf#feature-depedencies",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "feature-operation",
+      "path": "feature-operation.md",
+      "type": "concept",
+      "title": "Feature Operation",
+      "description": "Describes the operational mechanisms, thresholds, and state transitions of the Coverage-Optimized Uplink Transmission High-Band feature.",
+      "tags": [
+        "uplink-coverage",
+        "high-band",
+        "gNodeB",
+        "RRC-reconfiguration",
+        "PUSCH-repetition"
+      ],
+      "resource": "data/vodafone-mvp/raw/Coverage-Optimized Uplink Transmission High-Band.pdf#feature-operation",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "feature-overview",
+      "path": "feature-overview.md",
+      "type": "concept",
+      "title": "Feature Overview",
+      "description": "Overview of the Coverage-Optimized Uplink Transmission High-Band feature, which extends the uplink range of high-band (FR2, mmWave) NR cells.",
+      "tags": [
+        "uplink-coverage",
+        "high-band",
+        "mmwave",
+        "mobility",
+        "dfts-ofdm",
+        "pusch-repetition"
+      ],
+      "resource": "data/vodafone-mvp/raw/Coverage-Optimized Uplink Transmission High-Band.pdf#feature-overview",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "network-impact",
+      "path": "network-impact.md",
+      "type": "concept",
+      "title": "Network Impact",
+      "description": "Details the network impact of the Coverage-Optimized Uplink Transmission High-Band feature across coverage, retainability, capacity, latency, and KPIs.",
+      "tags": [
+        "coverage",
+        "retainability",
+        "capacity",
+        "latency",
+        "kpis",
+        "uplink"
+      ],
+      "resource": "data/vodafone-mvp/raw/Coverage-Optimized Uplink Transmission High-Band.pdf#network-impact",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "parameters",
+      "path": "parameters.md",
+      "type": "reference-table",
+      "title": "Parameters",
+      "description": "Cell-level configuration parameters for Coverage-Optimized Uplink Transmission High-Band, including SINR thresholds, repetition factors, and resource limits.",
+      "tags": [
+        "Parameters",
+        "Configuration",
+        "Uplink Optimization",
+        "SINR Thresholds",
+        "NR Cell"
+      ],
+      "resource": "data/vodafone-mvp/raw/Coverage-Optimized Uplink Transmission High-Band.pdf#parameters",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "performance-management",
+      "path": "performance-management.md",
+      "type": "concept",
+      "title": "Performance Management",
+      "description": "Performance management guidelines, KPIs, and counters for evaluating the Coverage-Optimized Uplink Transmission High-Band feature.",
+      "tags": [
+        "performance-management",
+        "KPIs",
+        "counters",
+        "telecom",
+        "uplink-coverage"
+      ],
+      "resource": "data/vodafone-mvp/raw/Coverage-Optimized Uplink Transmission High-Band.pdf#performance-management",
+      "trust_tier": "unverified"
+    }
+  ]
+}
