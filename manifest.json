@@ -1,0 +1,133 @@
+{
+  "okf_version": "0.2",
+  "generated_at": "2026-10-01T10:04:13+00:00",
+  "concept_count": 8,
+  "concepts": [
+    {
+      "id": "Mobility/okf-mobility-nr_data_aware_mobility/activation-procedure",
+      "path": "Mobility/okf-mobility-nr_data_aware_mobility/activation-procedure.md",
+      "type": "procedure",
+      "title": "ACTIVATION PROCEDURE",
+      "description": "Step-by-step procedure to activate and configure the NR Data-Aware Mobility feature.",
+      "tags": [
+        "activation",
+        "configuration",
+        "rancli",
+        "deployment"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Data-Aware Mobility.pdf#activation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Mobility/okf-mobility-nr_data_aware_mobility/deactivation-procedure",
+      "path": "Mobility/okf-mobility-nr_data_aware_mobility/deactivation-procedure.md",
+      "type": "procedure",
+      "title": "DEACTIVATION PROCEDURE",
+      "description": "Step-by-step procedure to deactivate the NR Data-Aware Mobility feature and restore baseline mobility behavior.",
+      "tags": [
+        "deactivation",
+        "rancli",
+        "configuration",
+        "nr-mobility"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Data-Aware Mobility.pdf#deactivation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Mobility/okf-mobility-nr_data_aware_mobility/feature-depedencies",
+      "path": "Mobility/okf-mobility-nr_data_aware_mobility/feature-depedencies.md",
+      "type": "concept",
+      "title": "Feature Dependencies",
+      "description": "Outlines the feature, hardware, and network dependencies, as well as the operational limitations of the NR Data-Aware Mobility feature.",
+      "tags": [
+        "dependencies",
+        "limitations",
+        "hardware-dependencies",
+        "network-dependencies",
+        "nr-data-aware-mobility"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Data-Aware Mobility.pdf#feature-depedencies",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Mobility/okf-mobility-nr_data_aware_mobility/feature-operation",
+      "path": "Mobility/okf-mobility-nr_data_aware_mobility/feature-operation.md",
+      "type": "concept",
+      "title": "Feature Operation",
+      "description": "Describes the operational mechanisms of NR Data-Aware Mobility, including activity classification, handover deferral, gap-seeking, and safety enforcement.",
+      "tags": [
+        "mobility",
+        "handover",
+        "gap-seeker",
+        "activity-classifier",
+        "RRC-connected"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Data-Aware Mobility.pdf#feature-operation",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Mobility/okf-mobility-nr_data_aware_mobility/feature-overview",
+      "path": "Mobility/okf-mobility-nr_data_aware_mobility/feature-overview.md",
+      "type": "concept",
+      "title": "Feature Overview",
+      "description": "Overview of the NR Data-Aware Mobility feature, which optimizes handover timing and target selection based on UE data activity.",
+      "tags": [
+        "NR",
+        "Mobility",
+        "Handover",
+        "Data-Aware",
+        "Optimization"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Data-Aware Mobility.pdf#feature-overview",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Mobility/okf-mobility-nr_data_aware_mobility/network-impact",
+      "path": "Mobility/okf-mobility-nr_data_aware_mobility/network-impact.md",
+      "type": "concept",
+      "title": "NETWORK IMPACT",
+      "description": "Analysis of the network-level impacts, KPI changes, risk profile, load distribution, and signaling overhead of NR Data-Aware Mobility.",
+      "tags": [
+        "mobility",
+        "kpi",
+        "handover",
+        "signaling",
+        "load-balancing"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Data-Aware Mobility.pdf#network-impact",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Mobility/okf-mobility-nr_data_aware_mobility/parameters",
+      "path": "Mobility/okf-mobility-nr_data_aware_mobility/parameters.md",
+      "type": "reference-table",
+      "title": "Parameters",
+      "description": "Configuration parameters per NR cell for the NR Data-Aware Mobility feature.",
+      "tags": [
+        "NR",
+        "Data-Aware Mobility",
+        "Parameters",
+        "Configuration",
+        "RSRP"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Data-Aware Mobility.pdf#parameters",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Mobility/okf-mobility-nr_data_aware_mobility/performance-management",
+      "path": "Mobility/okf-mobility-nr_data_aware_mobility/performance-management.md",
+      "type": "concept",
+      "title": "Performance Management",
+      "description": "Performance management guidelines, KPIs, and counters for monitoring NR Data-Aware Mobility.",
+      "tags": [
+        "NR Data-Aware Mobility",
+        "Performance Management",
+        "KPIs",
+        "Counters",
+        "RAN"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Data-Aware Mobility.pdf#performance-management",
+      "trust_tier": "unverified"
+    }
+  ]
+}
