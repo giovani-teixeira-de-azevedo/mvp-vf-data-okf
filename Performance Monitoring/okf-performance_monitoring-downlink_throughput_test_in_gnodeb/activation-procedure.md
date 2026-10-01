@@ -13,11 +13,11 @@ tags:
 status: draft
 generated:
   by: enricher_agent/gemini-3.5-flash
-  at: '2026-10-01T10:45:51+00:00'
+  at: '2026-10-01T10:53:13+00:00'
   source_sha256: 3c1287a40a2f97f4
 sources:
-- resource: data/vodafone-mvp/raw/Downlink Throughput Test in gNodeB.pdf
-  title: Downlink Throughput Test in gNodeB
+- title: Downlink Throughput Test in gNodeB
+  resource: data/vodafone-mvp/raw/Downlink Throughput Test in gNodeB.pdf
 ---
 
 This document describes the step-by-step activation procedure for the Downlink Throughput Test feature in the gNodeB. It outlines the traffic impact, preconditions, recommended rollout strategy, and the CLI commands required to activate, configure, and run an initial verification test.
@@ -49,7 +49,7 @@ The activation and verification process consists of five steps using the `rancli
 Verify that the required license key is installed and enabled on the node.
 
 ```bash
-rancli get NodeRoot=1,NrFunction=1,FeatureCtrl=DlThpTest licenseState
+rancli get NodeRoot=1,NrFunction=1,FeatureCtrl=DlThpTest licenseState TestingLicence
 ```
 * **Expected Output:** `licenseState=ENABLED` (associated with key `FAK-30125`)
 
