@@ -5,7 +5,3 @@
 # concept
 
 * [Title](title.md) - A test document for demo purposes.
-
-# reference-table
-
-* [Parameters](parameters.md) - Configuration parameters for the NR Downlink Beam Optimizer, located under the BeamOptimizer MO.

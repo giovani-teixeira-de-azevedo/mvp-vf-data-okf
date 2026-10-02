@@ -1,7 +1,7 @@
 {
   "okf_version": "0.2",
-  "generated_at": "2026-10-01T14:22:08+00:00",
-  "concept_count": 18,
+  "generated_at": "2026-10-02T14:07:28+00:00",
+  "concept_count": 33,
   "concepts": [
     {
       "id": "Mobility/okf-mobility-coverage_optimized_uplink_transmission_high_band/activation-procedure",
@@ -134,16 +134,264 @@
       "trust_tier": "unverified"
     },
     {
+      "id": "Mobility/okf-mobility-nr_automated_neighbor_relations/activation-procedure",
+      "path": "Mobility/okf-mobility-nr_automated_neighbor_relations/activation-procedure.md",
+      "type": "procedure",
+      "title": "ACTIVATION PROCEDURE",
+      "description": "Step-by-step procedure to activate and configure the NR Automated Neighbor Relations (ANR) feature.",
+      "tags": [
+        "ANR",
+        "Activation",
+        "Configuration",
+        "RAN CLI"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Automated Neighbor Relations.pdf#activation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Mobility/okf-mobility-nr_automated_neighbor_relations/deactivation-procedure",
+      "path": "Mobility/okf-mobility-nr_automated_neighbor_relations/deactivation-procedure.md",
+      "type": "procedure",
+      "title": "Deactivation Procedure",
+      "description": "Step-by-step procedure to disable the Automated Neighbor Relations (ANR) function and deactivate the feature.",
+      "tags": [
+        "ANR",
+        "Deactivation",
+        "RAN CLI",
+        "gNodeB"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Automated Neighbor Relations.pdf#deactivation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Mobility/okf-mobility-nr_automated_neighbor_relations/feature-depedencies",
+      "path": "Mobility/okf-mobility-nr_automated_neighbor_relations/feature-depedencies.md",
+      "type": "concept",
+      "title": "Feature Dependencies",
+      "description": "Describes the feature, hardware, and network dependencies, as well as limitations of the NR Automated Neighbor Relations (ANR) feature.",
+      "tags": [
+        "ANR",
+        "Dependencies",
+        "Limitations",
+        "NR",
+        "gNodeB"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Automated Neighbor Relations.pdf#feature-depedencies",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Mobility/okf-mobility-nr_automated_neighbor_relations/feature-operation",
+      "path": "Mobility/okf-mobility-nr_automated_neighbor_relations/feature-operation.md",
+      "type": "concept",
+      "title": "Feature Operation",
+      "description": "Detailed operational flow of the NR Automated Neighbor Relations (ANR) feature, including neighbor detection, CGI resolution, and relation maintenance.",
+      "tags": [
+        "ANR",
+        "Neighbor Detection",
+        "CGI Resolution",
+        "Relation Maintenance",
+        "Xn Setup"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Automated Neighbor Relations.pdf#feature-operation",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Mobility/okf-mobility-nr_automated_neighbor_relations/feature-overview",
+      "path": "Mobility/okf-mobility-nr_automated_neighbor_relations/feature-overview.md",
+      "type": "concept",
+      "title": "Feature Overview",
+      "description": "Overview of the NR Automated Neighbor Relations (ANR) feature, which automates the creation and maintenance of neighbor cell relation tables.",
+      "tags": [
+        "ANR",
+        "Neighbor Relations",
+        "Mobility",
+        "3GPP"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Automated Neighbor Relations.pdf#feature-overview",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Mobility/okf-mobility-nr_automated_neighbor_relations/network-impact",
+      "path": "Mobility/okf-mobility-nr_automated_neighbor_relations/network-impact.md",
+      "type": "concept",
+      "title": "Network Impact",
+      "description": "Overview of the impact of NR Automated Neighbor Relations (ANR) on mobility quality, operational cost, UE performance, signaling, and KPIs.",
+      "tags": [
+        "ANR",
+        "Network Impact",
+        "Mobility",
+        "KPI",
+        "UE Impact",
+        "Signaling"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Automated Neighbor Relations.pdf#network-impact",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Mobility/okf-mobility-nr_automated_neighbor_relations/parameters",
+      "path": "Mobility/okf-mobility-nr_automated_neighbor_relations/parameters.md",
+      "type": "reference-table",
+      "title": "Parameters",
+      "description": "Configuration parameters for NR Automated Neighbor Relations (ANR) at the NR function and cell levels.",
+      "tags": [
+        "parameters",
+        "anr",
+        "configuration",
+        "nr-ran"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Automated Neighbor Relations.pdf#parameters",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Mobility/okf-mobility-nr_automated_neighbor_relations/performance-management",
+      "path": "Mobility/okf-mobility-nr_automated_neighbor_relations/performance-management.md",
+      "type": "concept",
+      "title": "PERFORMANCE MANAGEMENT",
+      "description": "Performance management guidelines, KPIs, and counters for NR Automated Neighbor Relations (ANR).",
+      "tags": [
+        "ANR",
+        "Performance Management",
+        "KPIs",
+        "Counters",
+        "NR"
+      ],
+      "resource": "data/vodafone-mvp/raw/NR Automated Neighbor Relations.pdf#performance-management",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Performance Monitoring/okf-performance_monitoring-aggregated_pm_events/activation-procedure",
+      "path": "Performance Monitoring/okf-performance_monitoring-aggregated_pm_events/activation-procedure.md",
+      "type": "procedure",
+      "title": "ACTIVATION PROCEDURE",
+      "description": "Step-by-step procedure to activate and configure the Aggregated PM Events feature.",
+      "tags": [
+        "activation",
+        "procedure",
+        "configuration",
+        "pm-events",
+        "rancli"
+      ],
+      "resource": "data/vodafone-mvp/raw/Aggregated PM Events.pdf#activation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Performance Monitoring/okf-performance_monitoring-aggregated_pm_events/deactivation-procedure",
+      "path": "Performance Monitoring/okf-performance_monitoring-aggregated_pm_events/deactivation-procedure.md",
+      "type": "procedure",
+      "title": "DEACTIVATION PROCEDURE",
+      "description": "Step-by-step procedure to deactivate the Aggregated PM Events feature and revert the node to raw event emission.",
+      "tags": [
+        "deactivation",
+        "pm-events",
+        "rancli",
+        "configuration"
+      ],
+      "resource": "data/vodafone-mvp/raw/Aggregated PM Events.pdf#deactivation-procedure",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Performance Monitoring/okf-performance_monitoring-aggregated_pm_events/feature-depedencies",
+      "path": "Performance Monitoring/okf-performance_monitoring-aggregated_pm_events/feature-depedencies.md",
+      "type": "concept",
+      "title": "Feature Dependencies",
+      "description": "Outlines the feature, hardware, and network dependencies, as well as operational limitations for the Aggregated PM Events feature.",
+      "tags": [
+        "dependencies",
+        "limitations",
+        "licensing",
+        "hardware",
+        "network"
+      ],
+      "resource": "data/vodafone-mvp/raw/Aggregated PM Events.pdf#feature-depedencies",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Performance Monitoring/okf-performance_monitoring-aggregated_pm_events/feature-operation",
+      "path": "Performance Monitoring/okf-performance_monitoring-aggregated_pm_events/feature-operation.md",
+      "type": "concept",
+      "title": "FEATURE OPERATION",
+      "description": "Describes the operational flow of the Aggregated PM Events feature, including event routing, aggregation, and record emission.",
+      "tags": [
+        "pm-events",
+        "aggregation-engine",
+        "load-shedding",
+        "telecom-ran"
+      ],
+      "resource": "data/vodafone-mvp/raw/Aggregated PM Events.pdf#feature-operation",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Performance Monitoring/okf-performance_monitoring-aggregated_pm_events/feature-overview",
+      "path": "Performance Monitoring/okf-performance_monitoring-aggregated_pm_events/feature-overview.md",
+      "type": "concept",
+      "title": "Feature Overview",
+      "description": "Aggregated PM Events reduces the volume of performance management (PM) event data produced by the gNodeB by consolidating high-frequency per-UE and per-procedure events into aggregated event records.",
+      "tags": [
+        "PM",
+        "Aggregated PM Events",
+        "gNodeB",
+        "Performance Management",
+        "Event Aggregation"
+      ],
+      "resource": "data/vodafone-mvp/raw/Aggregated PM Events.pdf#feature-overview",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Performance Monitoring/okf-performance_monitoring-aggregated_pm_events/network-impact",
+      "path": "Performance Monitoring/okf-performance_monitoring-aggregated_pm_events/network-impact.md",
+      "type": "concept",
+      "title": "Network Impact",
+      "description": "Describes the impact of the Aggregated PM Events feature on the air interface, O&M transport, node processing, and analytics.",
+      "tags": [
+        "network-impact",
+        "pm-events",
+        "o-and-m",
+        "performance-management"
+      ],
+      "resource": "data/vodafone-mvp/raw/Aggregated PM Events.pdf#network-impact",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Performance Monitoring/okf-performance_monitoring-aggregated_pm_events/parameters",
+      "path": "Performance Monitoring/okf-performance_monitoring-aggregated_pm_events/parameters.md",
+      "type": "reference-table",
+      "title": "Parameters",
+      "description": "Configuration parameters controlling PM event aggregation behavior under NodeRoot=1,NrFunction=1,PmEventAggregation=<group>.",
+      "tags": [
+        "parameters",
+        "configuration",
+        "pm-events",
+        "aggregation"
+      ],
+      "resource": "data/vodafone-mvp/raw/Aggregated PM Events.pdf#parameters",
+      "trust_tier": "unverified"
+    },
+    {
+      "id": "Performance Monitoring/okf-performance_monitoring-aggregated_pm_events/performance-management",
+      "path": "Performance Monitoring/okf-performance_monitoring-aggregated_pm_events/performance-management.md",
+      "type": "concept",
+      "title": "Performance Management",
+      "description": "Performance management KPIs and counters for monitoring event aggregation volume reduction and data integrity.",
+      "tags": [
+        "performance-management",
+        "kpi",
+        "counters",
+        "aggregation"
+      ],
+      "resource": "data/vodafone-mvp/raw/Aggregated PM Events.pdf#performance-management",
+      "trust_tier": "unverified"
+    },
+    {
       "id": "Performance Monitoring/okf-performance_monitoring-nr_downlink_beam_optimizer/activation-procedure",
       "path": "Performance Monitoring/okf-performance_monitoring-nr_downlink_beam_optimizer/activation-procedure.md",
       "type": "procedure",
       "title": "ACTIVATION PROCEDURE",
-      "description": "Step-by-step procedure to activate and verify the NR Downlink Beam Optimizer feature.",
+      "description": "Step-by-step procedure to activate and configure the NR Downlink Beam Optimizer feature.",
       "tags": [
         "activation",
         "configuration",
         "open-loop",
-        "rancli"
+        "cli"
       ],
       "resource": "data/vodafone-mvp/raw/NR Downlink Beam Optimizer.pdf#activation-procedure",
       "trust_tier": "unverified"
@@ -153,12 +401,12 @@
       "path": "Performance Monitoring/okf-performance_monitoring-nr_downlink_beam_optimizer/deactivation-procedure.md",
       "type": "procedure",
       "title": "DEACTIVATION PROCEDURE",
-      "description": "Step-by-step procedure to disable and deactivate the NR Downlink Beam Optimizer feature and optionally restore the default grid.",
+      "description": "Step-by-step procedure to deactivate the NR Downlink Beam Optimizer and optionally restore the default grid.",
       "tags": [
-        "deactivation",
-        "beam-optimizer",
-        "rancli",
-        "configuration"
+        "NR Downlink Beam Optimizer",
+        "Deactivation",
+        "CLI",
+        "RAN Configuration"
       ],
       "resource": "data/vodafone-mvp/raw/NR Downlink Beam Optimizer.pdf#deactivation-procedure",
       "trust_tier": "unverified"
@@ -168,12 +416,13 @@
       "path": "Performance Monitoring/okf-performance_monitoring-nr_downlink_beam_optimizer/feature-depedencies.md",
       "type": "concept",
       "title": "Feature Dependencies",
-      "description": "Describes the feature, hardware, and network dependencies, as well as limitations of the NR Downlink Beam Optimizer.",
+      "description": "Details the feature, hardware, and network dependencies, as well as limitations of the NR Downlink Beam Optimizer.",
       "tags": [
-        "nr",
-        "downlink-beam-optimizer",
         "dependencies",
-        "limitations"
+        "limitations",
+        "hardware-requirements",
+        "licensing",
+        "nr-downlink-beam-optimizer"
       ],
       "resource": "data/vodafone-mvp/raw/NR Downlink Beam Optimizer.pdf#feature-depedencies",
       "trust_tier": "unverified"
@@ -183,14 +432,13 @@
       "path": "Performance Monitoring/okf-performance_monitoring-nr_downlink_beam_optimizer/feature-operation.md",
       "type": "concept",
       "title": "Feature Operation",
-      "description": "Describes the evaluation cycle, scoring mechanism, open-loop and closed-loop modes, and rollback behavior of the NR Downlink Beam Optimizer.",
+      "description": "Describes the evaluation cycle, scoring mechanism, open/closed-loop modes, and rollback behavior of the NR Downlink Beam Optimizer.",
       "tags": [
-        "NR",
-        "Downlink Beam Optimizer",
-        "Open Loop",
-        "Closed Loop",
-        "Beam Optimization",
-        "Rollback"
+        "beam-optimization",
+        "open-loop",
+        "closed-loop",
+        "rollback",
+        "evaluation-cycle"
       ],
       "resource": "data/vodafone-mvp/raw/NR Downlink Beam Optimizer.pdf#feature-operation",
       "trust_tier": "unverified"
@@ -200,15 +448,12 @@
       "path": "Performance Monitoring/okf-performance_monitoring-nr_downlink_beam_optimizer/feature-overview.md",
       "type": "concept",
       "title": "Feature Overview",
-      "description": "Overview of the NR Downlink Beam Optimizer feature, which continuously adapts SSB beam configurations based on per-beam performance measurements.",
+      "description": "NR Downlink Beam Optimizer continuously observes per-beam performance measurements in Massive MIMO cells and adapts the SSB beam configuration to match the actual spatial distribution of traffic.",
       "tags": [
-        "NR",
-        "Downlink",
-        "Beam Optimizer",
+        "NR Downlink Beam Optimizer",
+        "SSB Beam Configuration",
         "Massive MIMO",
-        "SSB",
-        "Beam Grid",
-        "AAS"
+        "Spatial Traffic Map"
       ],
       "resource": "data/vodafone-mvp/raw/NR Downlink Beam Optimizer.pdf#feature-overview",
       "trust_tier": "unverified"
@@ -218,14 +463,12 @@
       "path": "Performance Monitoring/okf-performance_monitoring-nr_downlink_beam_optimizer/network-impact.md",
       "type": "concept",
       "title": "Network Impact",
-      "description": "Overview of the impact of the NR Downlink Beam Optimizer on coverage, mobility, end users, and KPIs.",
+      "description": "Outlines the network impacts across coverage, mobility, end-user experience, and key performance indicators (KPIs).",
       "tags": [
-        "nr",
-        "downlink-beam-optimizer",
-        "network-impact",
-        "coverage",
-        "mobility",
-        "kpi"
+        "Network Impact",
+        "Coverage",
+        "Mobility",
+        "KPIs"
       ],
       "resource": "data/vodafone-mvp/raw/NR Downlink Beam Optimizer.pdf#network-impact",
       "trust_tier": "unverified"
@@ -235,12 +478,12 @@
       "path": "Performance Monitoring/okf-performance_monitoring-nr_downlink_beam_optimizer/parameters.md",
       "type": "reference-table",
       "title": "Parameters",
-      "description": "Configuration parameters for the NR Downlink Beam Optimizer, located per cell under the BeamOptimizer MO.",
+      "description": "Configuration parameters for the NR Downlink Beam Optimizer, including operating modes, evaluation periods, and rollback thresholds.",
       "tags": [
         "parameters",
         "configuration",
-        "beam-optimizer",
-        "nr"
+        "nr-downlink-beam-optimizer",
+        "beamforming"
       ],
       "resource": "data/vodafone-mvp/raw/NR Downlink Beam Optimizer.pdf#parameters",
       "trust_tier": "unverified"
@@ -250,30 +493,14 @@
       "path": "Performance Monitoring/okf-performance_monitoring-nr_downlink_beam_optimizer/performance-management.md",
       "type": "concept",
       "title": "Performance Management",
-      "description": "Performance management, KPIs, and counters for the NR Downlink Beam Optimizer feature.",
+      "description": "Performance management, KPIs, and counters for monitoring and supervising the NR Downlink Beam Optimizer.",
       "tags": [
         "performance-management",
-        "KPIs",
+        "kpi",
         "counters",
-        "NR",
         "beam-optimization"
       ],
       "resource": "data/vodafone-mvp/raw/NR Downlink Beam Optimizer.pdf#performance-management",
-      "trust_tier": "unverified"
-    },
-    {
-      "id": "okf-test_demo_document/parameters",
-      "path": "okf-test_demo_document/parameters.md",
-      "type": "reference-table",
-      "title": "Parameters",
-      "description": "Configuration parameters for the NR Downlink Beam Optimizer, located under the BeamOptimizer MO.",
-      "tags": [
-        "parameters",
-        "configuration",
-        "beam-optimizer",
-        "gnodeb"
-      ],
-      "resource": "data/vodafone-mvp/raw/NR Downlink Beam Optimizer.pdf#parameters",
       "trust_tier": "unverified"
     },
     {
