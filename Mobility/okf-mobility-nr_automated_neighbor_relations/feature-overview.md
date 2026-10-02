@@ -12,11 +12,11 @@ tags:
 status: draft
 generated:
   by: enricher_agent/gemini-3.5-flash
-  at: '2026-10-01T16:54:00+00:00'
+  at: '2026-10-02T14:17:51+00:00'
   source_sha256: 49f64753adb1f72e
 sources:
-- resource: data/vodafone-mvp/raw/NR Automated Neighbor Relations.pdf
-  title: NR Automated Neighbor Relations
+- title: NR Automated Neighbor Relations
+  resource: data/vodafone-mvp/raw/NR Automated Neighbor Relations.pdf
 ---
 
 NR Automated Neighbor Relations (ANR) automatically builds and maintains the neighbor cell relation tables that every mobility procedure in the network depends on. This automation removes the need for manual neighbor planning and eliminates handover failures caused by missing or stale neighbor data.
@@ -35,7 +35,7 @@ Additionally, ANR drives the automatic establishment of the Xn interfaces needed
 The ANR mechanism is UE-assisted and operates as follows:
 
 1.  **Measurement and Reporting**: When a connected UE measures and reports a cell whose Physical Cell Identity (PCI) is not associated with any known neighbor relation, the serving gNodeB orders the UE to decode and report the target's Cell Global Identity (CGI).
-2.  **CGI Decoding**: The UE reads the target's SIB1 during autonomous gaps and reports the NR CGI (or E-UTRAN CGI for inter-RAT) using the `reportCGI` procedure defined in **TS 38.331**.
+2.  **CGI Decoding**: The UE reads the target's SIB1 during autonomous gaps and reports the NR CGI (or E-UTRAN CGI for inter-RAT) using the `reportCGI` procedure defined in **TS 38.67**.
 3.  **Relation Creation and Address Resolution**: Upon receiving the CGI report, the serving gNodeB:
     *   Creates the neighbor cell relation in its local database.
     *   Resolves the target's gNodeB and transport address via the core network using NG-based configuration transfer through the AMF (**TS 38.413**).

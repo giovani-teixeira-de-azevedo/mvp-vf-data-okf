@@ -12,7 +12,7 @@ tags:
 status: draft
 generated:
   by: enricher_agent/gemini-3.5-flash
-  at: '2026-10-01T17:09:04+00:00'
+  at: '2026-10-02T14:20:03+00:00'
   source_sha256: 2573c6caa73a50b7
 sources:
 - title: NR Automated Neighbor Relations
@@ -29,7 +29,7 @@ This section outlines the step-by-step procedure for activating and configuring 
 ## Preconditions
 
 Before initiating the activation procedure, ensure the following requirements are met:
-1. **License Key:** License key `FAK-33130` must be installed.
+1. **License Key:** License key `AK-33785` must be installed.
 2. **Core Network Support:** AMF support for NG Configuration Transfer must be confirmed with the core network team.
 3. **Security/Firewall:** Firewall and IPsec policies for Xn SCTP must be verified if `autoXnSetup` is used.
 4. **Relation Review:** Existing manually created relations must be reviewed, and critical relations must be marked as `noRemove=true` before enabling automatic removal.
@@ -49,13 +49,13 @@ Verify that the required license key is installed and enabled on the node.
 ```bash
 rancli get NodeRoot=1,NrFunction=1,FeatureCtrl=NrAnr licenseState
 ```
-* **Expected Output:** `licenseState=ENABLED` (associated with key `FAK-33130`)
+* **Expected Output:** `licenseState=ENABLED` (associated with key `AK-33785`)
 
 ### Step 2: Activate the Feature Control
 Enable the feature state for NR ANR.
 
 ```bash
-rancli set NodeRoot=1,NrFunction=1,FeatureCtrl=NrAnr featureState=SUPER_ACTIVATED
+rancli set NodeRoot=1,NrFunction=1,FeatureCtrl=NrAnr featureState=ACTIVATED
 ```
 
 ### Step 3: Configure the ANR Function
